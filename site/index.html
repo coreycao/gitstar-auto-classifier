@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>⭐ GitHub Star Classifier</title>
 <style>
-  :root {
+  /* ===== Dark theme (default) ===== */
+  :root, [data-theme="dark"] {
     --bg-primary: #0a0a0f;
     --bg-secondary: #12121a;
     --bg-card: #1a1a28;
@@ -17,13 +18,33 @@
     --accent: #6c5ce7;
     --accent-light: #a29bfe;
     --accent-glow: rgba(108, 92, 231, 0.15);
-    --gradient-1: #6c5ce7;
-    --gradient-2: #fd79a8;
-    --gradient-3: #00cec9;
-    --success: #00b894;
-    --warning: #fdcb6e;
-    --radius: 12px;
-    --radius-sm: 8px;
+    --tag-bg: rgba(108, 92, 231, 0.12);
+    --tag-border: rgba(108, 92, 231, 0.2);
+    --header-bg: rgba(18, 18, 26, 0.92);
+    --card-shadow: rgba(0, 0, 0, 0.3);
+    --fork-bg: #5a5a78;
+    --fork-color: #0a0a0f;
+  }
+
+  /* ===== Light theme ===== */
+  [data-theme="light"] {
+    --bg-primary: #f5f5fa;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f0f0f8;
+    --border: #e0e0ec;
+    --text-primary: #1a1a2e;
+    --text-secondary: #55557a;
+    --text-muted: #8888a0;
+    --accent: #6c5ce7;
+    --accent-light: #5a4bd6;
+    --accent-glow: rgba(108, 92, 231, 0.1);
+    --tag-bg: rgba(108, 92, 231, 0.08);
+    --tag-border: rgba(108, 92, 231, 0.15);
+    --header-bg: rgba(255, 255, 255, 0.92);
+    --card-shadow: rgba(0, 0, 0, 0.06);
+    --fork-bg: #aaa;
+    --fork-color: #fff;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -34,59 +55,71 @@
     color: var(--text-primary);
     line-height: 1.6;
     min-height: 100vh;
+    transition: background 0.3s, color 0.3s;
   }
 
   /* Header */
   .header {
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+    background: var(--header-bg);
     border-bottom: 1px solid var(--border);
-    padding: 2.5rem 1.5rem 2rem;
+    padding: 0.75rem 1.5rem;
     position: sticky;
     top: 0;
     z-index: 100;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    transition: padding 0.3s, background 0.3s;
   }
 
   .header-inner {
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-shrink: 0;
   }
 
   .header h1 {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+    background: linear-gradient(135deg, #6c5ce7, #fd79a8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 0.3rem;
+    white-space: nowrap;
   }
 
   .header .subtitle {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-    margin-bottom: 1.2rem;
+    color: var(--text-muted);
+    font-size: 0.72rem;
+    white-space: nowrap;
   }
 
   /* Stats bar */
   .stats-bar {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    transition: all 0.3s;
   }
 
   .stat-pill {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 20px;
-    padding: 0.35rem 0.9rem;
-    font-size: 0.82rem;
+    padding: 0.2rem 0.65rem;
+    font-size: 0.75rem;
     color: var(--text-secondary);
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.3rem;
   }
 
   .stat-pill strong {
@@ -97,19 +130,21 @@
   /* Search */
   .search-box {
     position: relative;
-    max-width: 400px;
+    flex: 1;
+    max-width: 340px;
+    min-width: 160px;
   }
 
   .search-box input {
     width: 100%;
-    padding: 0.6rem 1rem 0.6rem 2.4rem;
+    padding: 0.45rem 0.9rem 0.45rem 2.2rem;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
     color: var(--text-primary);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     outline: none;
-    transition: border-color 0.2s, box-shadow 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.3s;
   }
 
   .search-box input:focus {
@@ -122,11 +157,28 @@
   .search-box::before {
     content: '🔍';
     position: absolute;
-    left: 0.8rem;
+    left: 0.7rem;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     pointer-events: none;
+  }
+
+  /* Theme toggle */
+  .theme-toggle {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 0.35rem 0.6rem;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    transition: background 0.2s, border-color 0.2s;
+    flex-shrink: 0;
+  }
+
+  .theme-toggle:hover {
+    border-color: var(--accent);
   }
 
   /* Main layout */
@@ -136,10 +188,9 @@
     padding: 1.5rem;
   }
 
-  /* Category sidebar + content grid */
   .layout {
     display: grid;
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 220px 1fr;
     gap: 1.5rem;
     align-items: start;
   }
@@ -150,7 +201,7 @@
     }
     .sidebar { order: -1; }
     .sidebar-inner {
-      display: flex;
+      display: flex !important;
       overflow-x: auto;
       gap: 0.5rem;
       padding-bottom: 0.5rem;
@@ -159,27 +210,28 @@
     .sidebar-inner::-webkit-scrollbar { height: 4px; }
     .sidebar-inner::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
     .cat-btn { white-space: nowrap; }
+    .stats-bar { display: none; }
   }
 
   /* Sidebar categories */
   .sidebar-inner {
     position: sticky;
-    top: 140px;
+    top: 70px;
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.15rem;
   }
 
   .cat-btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 0.75rem;
+    padding: 0.4rem 0.65rem;
     background: transparent;
     border: 1px solid transparent;
     border-radius: var(--radius-sm);
     color: var(--text-secondary);
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     cursor: pointer;
     transition: all 0.15s;
     text-align: left;
@@ -198,11 +250,11 @@
   }
 
   .cat-btn .count {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     background: var(--bg-card);
-    padding: 0.1rem 0.5rem;
+    padding: 0.05rem 0.45rem;
     border-radius: 10px;
-    min-width: 24px;
+    min-width: 22px;
     text-align: center;
   }
 
@@ -214,7 +266,7 @@
   /* Repo grid */
   .repo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 0.75rem;
   }
 
@@ -222,24 +274,24 @@
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 1rem 1.1rem;
+    padding: 0.9rem 1rem;
     transition: all 0.2s;
     cursor: default;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
 
   .repo-card:hover {
     background: var(--bg-card-hover);
     border-color: var(--accent);
     transform: translateY(-2px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px var(--card-shadow);
   }
 
   .repo-card .repo-name {
     font-weight: 600;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     text-decoration: none;
     color: var(--text-primary);
     display: flex;
@@ -253,17 +305,17 @@
   }
 
   .repo-card .repo-name .fork-badge {
-    font-size: 0.65rem;
-    background: var(--text-muted);
-    color: var(--bg-primary);
-    padding: 0.1rem 0.4rem;
+    font-size: 0.6rem;
+    background: var(--fork-bg);
+    color: var(--fork-color);
+    padding: 0.05rem 0.35rem;
     border-radius: 4px;
     font-weight: 600;
     text-transform: uppercase;
   }
 
   .repo-card .summary {
-    font-size: 0.83rem;
+    font-size: 0.8rem;
     color: var(--text-secondary);
     line-height: 1.5;
     display: -webkit-box;
@@ -275,8 +327,8 @@
   .repo-card .meta {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    font-size: 0.78rem;
+    gap: 0.65rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
     flex-wrap: wrap;
   }
@@ -289,20 +341,19 @@
 
   .repo-card .tags {
     display: flex;
-    gap: 0.3rem;
+    gap: 0.25rem;
     flex-wrap: wrap;
   }
 
   .repo-card .tag {
-    font-size: 0.7rem;
-    padding: 0.15rem 0.5rem;
+    font-size: 0.68rem;
+    padding: 0.1rem 0.45rem;
     border-radius: 10px;
-    background: rgba(108, 92, 231, 0.12);
+    background: var(--tag-bg);
     color: var(--accent-light);
-    border: 1px solid rgba(108, 92, 231, 0.2);
+    border: 1px solid var(--tag-border);
   }
 
-  /* Language colors */
   .lang-dot {
     width: 10px;
     height: 10px;
@@ -325,7 +376,7 @@
     text-align: center;
     padding: 2rem 1rem;
     color: var(--text-muted);
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     border-top: 1px solid var(--border);
     margin-top: 3rem;
   }
@@ -335,17 +386,14 @@
     text-decoration: none;
   }
 
-  /* Fade-in animation */
+  /* Animations */
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(8px); }
     to { opacity: 1; transform: translateY(0); }
   }
 
-  .repo-card {
-    animation: fadeIn 0.3s ease-out both;
-  }
+  .repo-card { animation: fadeIn 0.3s ease-out both; }
 
-  /* Loading */
   .loading {
     display: flex;
     justify-content: center;
@@ -372,12 +420,15 @@
 
 <div class="header">
   <div class="header-inner">
-    <h1>⭐ GitHub Star Classifier</h1>
-    <div class="subtitle" id="subtitle">Loading...</div>
+    <div class="header-left">
+      <h1>⭐ GitHub Star Classifier</h1>
+      <span class="subtitle" id="subtitle">Loading...</span>
+    </div>
     <div class="stats-bar" id="stats-bar"></div>
     <div class="search-box">
       <input type="text" id="search" placeholder="Search repos, languages, categories..." autocomplete="off" />
     </div>
+    <button class="theme-toggle" id="theme-toggle" title="Toggle theme">🌙</button>
   </div>
 </div>
 
@@ -422,6 +473,27 @@ let DATA = null;
 let activeCategory = 'All';
 let searchQuery = '';
 
+// Theme
+function getPreferredTheme() {
+  const saved = localStorage.getItem('theme');
+  if (saved) return saved;
+  return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+}
+
+function setTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('theme', theme);
+  document.getElementById('theme-toggle').textContent = theme === 'dark' ? '🌙' : '☀️';
+}
+
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  setTheme(current === 'dark' ? 'light' : 'dark');
+});
+
+setTheme(getPreferredTheme());
+
+// Init
 async function init() {
   try {
     const res = await fetch('data/classifications.json');
@@ -432,7 +504,7 @@ async function init() {
     render();
   } catch (e) {
     document.getElementById('loading').innerHTML =
-      `<div style="color:var(--gradient-2)">Failed to load data: ${e.message}</div>`;
+      `<div style="color:#fd79a8">Failed to load data: ${e.message}</div>`;
   }
 }
 
@@ -477,26 +549,29 @@ function formatStars(n) {
   return String(n);
 }
 
+function esc(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 function render() {
   const { counts, total } = getCategories();
 
   // Subtitle
   const date = DATA.last_run ? new Date(DATA.last_run).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : 'N/A';
-  document.getElementById('subtitle').textContent = `Last updated ${date}`;
+  document.getElementById('subtitle').textContent = `Updated ${date}`;
 
-  // Stats bar
+  // Stats
   const catCount = Object.keys(counts).length;
   document.getElementById('stats-bar').innerHTML = `
     <span class="stat-pill">⭐ <strong>${total}</strong> repos</span>
     <span class="stat-pill">📂 <strong>${catCount}</strong> categories</span>
-    <span class="stat-pill">🤖 Classified by DeepSeek</span>
   `;
 
   // Categories
   const catsHtml = [`<button class="cat-btn ${activeCategory === 'All' ? 'active' : ''}" onclick="selectCategory('All')">All <span class="count">${total}</span></button>`];
   const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
   for (const [cat, count] of sorted) {
-    catsHtml.push(`<button class="cat-btn ${activeCategory === cat ? 'active' : ''}" onclick="selectCategory('${cat.replace(/'/g, "\\'")}')">${cat} <span class="count">${count}</span></button>`);
+    catsHtml.push(`<button class="cat-btn ${activeCategory === cat ? 'active' : ''}" onclick="selectCategory('${cat.replace(/'/g, "\\'")}')">${esc(cat)} <span class="count">${count}</span></button>`);
   }
   document.getElementById('categories').innerHTML = catsHtml.join('');
 
@@ -512,16 +587,16 @@ function render() {
     empty.style.display = 'none';
     grid.innerHTML = repos.map((r, i) => {
       const langColor = LANG_COLORS[r.language] || '#8b8b8b';
-      const tags = (r.categories || []).map(c => `<span class="tag">${c}</span>`).join('');
+      const tags = (r.categories || []).map(c => `<span class="tag">${esc(c)}</span>`).join('');
       const fork = r.fork ? '<span class="fork-badge">fork</span>' : '';
       return `
-        <div class="repo-card" style="animation-delay: ${Math.min(i * 0.03, 0.5)}s">
+        <div class="repo-card" style="animation-delay:${Math.min(i*0.02,0.4)}s">
           <a class="repo-name" href="${r.html_url}" target="_blank" rel="noopener">
-            ${r.fullName} ${fork}
+            ${esc(r.fullName)} ${fork}
           </a>
-          <div class="summary">${r.summary || r.description || ''}</div>
+          <div class="summary">${esc(r.summary || r.description || '')}</div>
           <div class="meta">
-            ${r.language ? `<span><span class="lang-dot" style="background:${langColor}"></span> ${r.language}</span>` : ''}
+            ${r.language ? `<span><span class="lang-dot" style="background:${langColor}"></span> ${esc(r.language)}</span>` : ''}
             <span>⭐ ${formatStars(r.stargazers_count)}</span>
           </div>
           <div class="tags">${tags}</div>
@@ -534,13 +609,12 @@ function render() {
 function selectCategory(cat) {
   activeCategory = cat;
   render();
-  // Scroll to top of repo grid on mobile
   if (window.innerWidth <= 768) {
     document.getElementById('repos').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
 
-// Debounced search
+// Search
 let searchTimeout;
 document.getElementById('search').addEventListener('input', (e) => {
   clearTimeout(searchTimeout);
@@ -550,7 +624,6 @@ document.getElementById('search').addEventListener('input', (e) => {
   }, 200);
 });
 
-// Init
 init();
 </script>
 
