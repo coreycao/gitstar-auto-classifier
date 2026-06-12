@@ -14,6 +14,12 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   classify:
@@ -43,3 +49,20 @@ jobs:
         with:
           commit_message: 'chore: update starred repo classifications [skip ci]'
           file_pattern: 'data/classifications.json README.md'
+
+      - name: Prepare Pages site
+        run: |
+          mkdir -p site/data
+          cp data/classifications.json site/data/classifications.json
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
