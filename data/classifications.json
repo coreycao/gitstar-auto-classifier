@@ -1,0 +1,3783 @@
+{
+  "last_run": "2026-06-12T10:02:30.318Z",
+  "total_classified": 155,
+  "repos": {
+    "pewdiepie-archdaemon/odysseus": {
+      "categories": [
+        "AI/ML",
+        "Cloud/DevOps"
+      ],
+      "summary": "A self-hosted AI workspace for running AI models locally.",
+      "description": "Self-hosted AI workspace. ",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "homepage": "https://pewdiepie-archdaemon.github.io/odysseus/",
+      "stargazers_count": 68773,
+      "starred_at": "2026-06-02T05:15:52Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Arindam200/awesome-ai-apps": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "A curated collection of AI application examples including RAG, agents, and workflows.",
+      "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "hacktoberfest",
+        "llm",
+        "mcp"
+      ],
+      "html_url": "https://github.com/Arindam200/awesome-ai-apps",
+      "homepage": "https://raah.dev",
+      "stargazers_count": 12776,
+      "starred_at": "2026-05-30T07:29:29Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "ashishpatel26/500-AI-Agents-Projects": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "A curated collection of 500 AI agent projects across various industries.",
+      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "genai"
+      ],
+      "html_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "homepage": "https://ashishpatel26.github.io/500-AI-Agents-Projects/",
+      "stargazers_count": 32300,
+      "starred_at": "2026-05-30T07:29:24Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "karpathy/jobs": {
+      "categories": [
+        "Analytics",
+        "Developer Tool"
+      ],
+      "summary": "A research tool for visually exploring Bureau of Labor Statistics occupational data.",
+      "description": "A research tool for visually exploring Bureau of Labor Statistics Occupational Outlook Handbook data. This is not a report, a paper, or a serious economic publication — it is a development tool for exploring BLS data visually.",
+      "language": "HTML",
+      "topics": [],
+      "html_url": "https://github.com/karpathy/jobs",
+      "homepage": null,
+      "stargazers_count": 1834,
+      "starred_at": "2026-05-30T07:28:45Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "tw93/Waza": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "Turns engineering habits into skills that Claude can execute.",
+      "description": "🥷 Engineering habits you already know, turned into skills Claude can run.",
+      "language": "Python",
+      "topics": [
+        "claude",
+        "claude-code",
+        "des",
+        "design",
+        "engineer",
+        "lear",
+        "skil",
+        "skills",
+        "superpowers"
+      ],
+      "html_url": "https://github.com/tw93/Waza",
+      "homepage": "https://x.com/HiTw93/status/2041312649510822103",
+      "stargazers_count": 5678,
+      "starred_at": "2026-05-30T07:26:56Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "yetone/native-feel-skill": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "An agent skill for designing cross-platform desktop apps with native feel.",
+      "description": "An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.",
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/yetone/native-feel-skill",
+      "homepage": null,
+      "stargazers_count": 1777,
+      "starred_at": "2026-05-15T05:22:50Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "marsmay/UsageBoard": {
+      "categories": [
+        "Developer Tool",
+        "Monitoring/Observability"
+      ],
+      "summary": "A macOS menu bar app for aggregating API usage quotas via plugins.",
+      "description": "macOS menu bar app for aggregating API usage quotas via plugin scripts",
+      "language": "Swift",
+      "topics": [],
+      "html_url": "https://github.com/marsmay/UsageBoard",
+      "homepage": null,
+      "stargazers_count": 126,
+      "starred_at": "2026-05-09T01:36:30Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "QuantumNous/new-api": {
+      "categories": [
+        "AI/ML",
+        "Cloud/DevOps",
+        "Developer Tool"
+      ],
+      "summary": "A unified AI model hub for aggregating and distributing LLMs with format conversion.",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "language": "Go",
+      "topics": [
+        "ai-gateway",
+        "claude",
+        "deepseek",
+        "gemini",
+        "newapi",
+        "openai",
+        "rerank"
+      ],
+      "html_url": "https://github.com/QuantumNous/new-api",
+      "homepage": "https://www.newapi.ai",
+      "stargazers_count": 38480,
+      "starred_at": "2026-05-01T11:29:59Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "hanshuaikang/nezha": {
+      "categories": [
+        "Editor/IDE",
+        "AI/ML"
+      ],
+      "summary": "A code editor for the AI agents era, running multiple Claude Code and Codex agents.",
+      "description": "Code Editor for the AI Agents Era. Run multiple Claude Code and Codex agents across projects on your machine.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "cursor",
+        "ide",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "html_url": "https://github.com/hanshuaikang/nezha",
+      "homepage": "https://nezha.hanshutx.com/",
+      "stargazers_count": 1512,
+      "starred_at": "2026-04-24T07:08:02Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "foru17/neko-master": {
+      "categories": [
+        "Analytics",
+        "Monitoring/Observability"
+      ],
+      "summary": "A modern dashboard for network traffic visualization and analysis.",
+      "description": "A modern and elegant dashboard for network traffic visualization and analysis.",
+      "language": "TypeScript",
+      "topics": [
+        "clash",
+        "dashboard",
+        "openclash",
+        "surge",
+        "traffic-monitor",
+        "visualization"
+      ],
+      "html_url": "https://github.com/foru17/neko-master",
+      "homepage": null,
+      "stargazers_count": 1896,
+      "starred_at": "2026-04-13T18:09:12Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "HKUDS/RAG-Anything": {
+      "categories": [
+        "AI/ML",
+        "Library/Utility"
+      ],
+      "summary": "An all-in-one framework for retrieval-augmented generation (RAG) supporting multi-modal RAG.",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "language": "Python",
+      "topics": [
+        "multi-modal-rag",
+        "retrieval-augmented-generation"
+      ],
+      "html_url": "https://github.com/HKUDS/RAG-Anything",
+      "homepage": "http://arxiv.org/abs/2510.12323",
+      "stargazers_count": 21229,
+      "starred_at": "2026-04-07T08:11:56Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "HKUDS/CLI-Anything": {
+      "categories": [
+        "CLI Tool",
+        "Developer Tool"
+      ],
+      "summary": "A tool that makes all software agent-native via a CLI interface.",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/HKUDS/CLI-Anything",
+      "homepage": "https://clianything.cc/",
+      "stargazers_count": 42810,
+      "starred_at": "2026-04-07T08:11:39Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "jackwener/OpenCLI": {
+      "categories": [
+        "CLI Tool",
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "Converts any website into a CLI and enables browser automation using AI agents.",
+      "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "ai-agents",
+        "ai-tools",
+        "browser-automation",
+        "browser-use",
+        "cli",
+        "playwright"
+      ],
+      "html_url": "https://github.com/jackwener/OpenCLI",
+      "homepage": "https://opencli.info/",
+      "stargazers_count": 24152,
+      "starred_at": "2026-04-03T11:01:54Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "HKUDS/OpenHarness": {
+      "categories": [
+        "Developer Tool",
+        "AI/ML"
+      ],
+      "summary": "An open agent harness with a built-in personal agent called Ohmo.",
+      "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/HKUDS/OpenHarness",
+      "homepage": null,
+      "stargazers_count": 13780,
+      "starred_at": "2026-04-03T02:58:31Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "netease-youdao/LobsterAI": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "A 24/7 all-scenario AI agent that automates tasks for users.",
+      "description": "Your 24/7 all-scenario AI agent that gets work done for you.",
+      "language": "TypeScript",
+      "topics": [],
+      "html_url": "https://github.com/netease-youdao/LobsterAI",
+      "homepage": "https://lobsterai.youdao.com",
+      "stargazers_count": 5265,
+      "starred_at": "2026-03-29T03:44:21Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Crosstalk-Solutions/project-nomad": {
+      "categories": [
+        "Other",
+        "AI/ML",
+        "Embedded/IoT"
+      ],
+      "summary": "A self-contained offline survival computer with critical tools, knowledge, and AI for use anywhere.",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "topics": [],
+      "html_url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "homepage": null,
+      "stargazers_count": 30592,
+      "starred_at": "2026-03-28T05:13:16Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "RichardAtCT/claude-code-telegram": {
+      "categories": [
+        "Messaging/Chat",
+        "Developer Tool",
+        "AI/ML"
+      ],
+      "summary": "A Telegram bot providing remote access to Claude Code for AI-assisted project interaction.",
+      "description": "A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/RichardAtCT/claude-code-telegram",
+      "homepage": null,
+      "stargazers_count": 2681,
+      "starred_at": "2026-03-24T11:16:44Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "fastclaw-ai/weclaw": {
+      "categories": [
+        "Messaging/Chat",
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "Connects to AI agents via WeChat using ClawBot.",
+      "description": "Connect to any agents with WeChat ClawBot.",
+      "language": "Go",
+      "topics": [
+        "clawbot",
+        "openclaw",
+        "openclaw-weixin",
+        "wechat-clawbot",
+        "weclaw",
+        "weixin-agent-sdk"
+      ],
+      "html_url": "https://github.com/fastclaw-ai/weclaw",
+      "homepage": "https://weclaw.im",
+      "stargazers_count": 1500,
+      "starred_at": "2026-03-24T06:55:05Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "iOfficeAI/AionUi": {
+      "categories": [
+        "Developer Tool",
+        "AI/ML",
+        "Editor/IDE"
+      ],
+      "summary": "A free, local, open-source cowork app for multiple CLI AI agents with customizable assistants.",
+      "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+      "language": "TypeScript",
+      "topics": [
+        "acp",
+        "agent-team",
+        "ai",
+        "ai-agent",
+        "chat",
+        "chatbot",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "cowork",
+        "gemini",
+        "gemini-cli",
+        "hermes",
+        "llm",
+        "nano-banana",
+        "office",
+        "openclaw",
+        "opencode",
+        "skills",
+        "webui"
+      ],
+      "html_url": "https://github.com/iOfficeAI/AionUi",
+      "homepage": "https://www.aionui.com",
+      "stargazers_count": 28120,
+      "starred_at": "2026-03-21T02:56:33Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "alibaba/page-agent": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool",
+        "Web Framework"
+      ],
+      "summary": "A JavaScript in-page GUI agent that controls web interfaces using natural language.",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "browser-automation",
+        "javascript",
+        "mcp",
+        "typescript",
+        "web"
+      ],
+      "html_url": "https://github.com/alibaba/page-agent",
+      "homepage": "https://alibaba.github.io/page-agent/",
+      "stargazers_count": 18508,
+      "starred_at": "2026-03-13T13:08:38Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "tw93/Mole": {
+      "categories": [
+        "CLI Tool",
+        "Monitoring/Observability",
+        "Developer Tool"
+      ],
+      "summary": "A terminal-based tool to clean, analyze, and monitor your Mac.",
+      "description": "🐹 Clean, uninstall, analyze, optimize, and monitor your Mac from the terminal.",
+      "language": "Shell",
+      "topics": [
+        "analyzer",
+        "appcleaner",
+        "clean",
+        "cleaner",
+        "cleaner-cli",
+        "cleaner-script",
+        "command-line",
+        "daisydisk",
+        "istat",
+        "mac",
+        "macos",
+        "optimize",
+        "sensei",
+        "shell",
+        "uninstall"
+      ],
+      "html_url": "https://github.com/tw93/Mole",
+      "homepage": "https://mole.fit",
+      "stargazers_count": 55679,
+      "starred_at": "2026-03-13T13:05:04Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Fission-AI/OpenSpec": {
+      "categories": [
+        "Developer Tool",
+        "AI/ML"
+      ],
+      "summary": "Spec-driven development framework for AI coding assistants.",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "context-engineering",
+        "engineering",
+        "planning",
+        "prd",
+        "sdd",
+        "sdlc",
+        "spec",
+        "spec-driven-development",
+        "specification"
+      ],
+      "html_url": "https://github.com/Fission-AI/OpenSpec",
+      "homepage": "https://openspec.dev/",
+      "stargazers_count": 54448,
+      "starred_at": "2026-03-13T02:22:11Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "moeru-ai/airi": {
+      "categories": [
+        "AI/ML",
+        "Messaging/Chat",
+        "Game Development"
+      ],
+      "summary": "Self-hosted AI companion with realtime voice chat and game-playing capabilities.",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-companion",
+        "ai-vtuber",
+        "airi",
+        "digital-life",
+        "grok-companion",
+        "live2d",
+        "neuro-sama",
+        "neurosama",
+        "openclaw",
+        "vrm",
+        "vtuber"
+      ],
+      "html_url": "https://github.com/moeru-ai/airi",
+      "homepage": "https://airi.moeru.ai/docs/",
+      "stargazers_count": 40952,
+      "starred_at": "2026-03-10T08:56:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "koala73/worldmonitor": {
+      "categories": [
+        "Monitoring/Observability",
+        "AI/ML",
+        "Analytics"
+      ],
+      "summary": "Real-time global intelligence dashboard with AI-powered news and geopolitical monitoring.",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "dashboard",
+        "geopolitics",
+        "monitoring",
+        "news",
+        "opensource",
+        "osint",
+        "palantir",
+        "situation"
+      ],
+      "html_url": "https://github.com/koala73/worldmonitor",
+      "homepage": "https://worldmonitor.app",
+      "stargazers_count": 56343,
+      "starred_at": "2026-03-10T03:34:39Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "HKUDS/nanobot": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool",
+        "CLI Tool"
+      ],
+      "summary": "Lightweight open-source AI agent for tools, chats, and workflows.",
+      "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "llm",
+        "nanobot",
+        "openai",
+        "openclaw"
+      ],
+      "html_url": "https://github.com/HKUDS/nanobot",
+      "homepage": "https://nanobot.wiki",
+      "stargazers_count": 44100,
+      "starred_at": "2026-03-04T23:56:56Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "HKUDS/ClawWork": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "AI coworker tool that earned $15K in 11 hours using OpenClaw.",
+      "description": "\"ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours\"",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/HKUDS/ClawWork",
+      "homepage": null,
+      "stargazers_count": 8202,
+      "starred_at": "2026-03-04T07:12:30Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "microfeed/microfeed": {
+      "categories": [
+        "Other",
+        "Cloud/DevOps",
+        "Web Framework"
+      ],
+      "summary": "Lightweight CMS self-hosted on Cloudflare for podcasts, blogs, and more.",
+      "description": "a lightweight cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.",
+      "language": "JavaScript",
+      "topics": [
+        "cloudflare",
+        "cloudflare-d1",
+        "cloudflare-pages",
+        "cloudflare-r2",
+        "cloudflare-zero-trust",
+        "cms",
+        "podcast-host",
+        "serverless"
+      ],
+      "html_url": "https://github.com/microfeed/microfeed",
+      "homepage": "https://www.microfeed.org/",
+      "stargazers_count": 3993,
+      "starred_at": "2026-01-10T04:42:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "android/androidify": {
+      "categories": [
+        "Mobile Development",
+        "Template/Boilerplate"
+      ],
+      "summary": "Sample Android app demonstrating Jetpack Compose and Firebase integration.",
+      "description": "Sample app for Androidify",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "compose",
+        "firebase",
+        "gemini",
+        "jetpack"
+      ],
+      "html_url": "https://github.com/android/androidify",
+      "homepage": "https://play.google.com/store/apps/details?id=com.android.developers.androidify",
+      "stargazers_count": 1950,
+      "starred_at": "2026-01-08T03:04:19Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "farion1231/cc-switch": {
+      "categories": [
+        "Developer Tool",
+        "CLI Tool",
+        "AI/ML"
+      ],
+      "summary": "Cross-platform desktop assistant for managing multiple AI coding agents.",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "minimax",
+        "omo",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "typescript",
+        "wsl-support"
+      ],
+      "html_url": "https://github.com/farion1231/cc-switch",
+      "homepage": "https://ccswitch.io",
+      "stargazers_count": 99061,
+      "starred_at": "2026-01-07T12:28:24Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "adityatelange/hugo-PaperMod": {
+      "categories": [
+        "Static Site Generator",
+        "Template/Boilerplate"
+      ],
+      "summary": "Fast, clean, responsive Hugo theme for blogs and portfolios.",
+      "description": " A fast, clean, responsive Hugo theme.",
+      "language": "HTML",
+      "topics": [
+        "blog",
+        "blog-theme",
+        "clean",
+        "fast",
+        "feature-rich",
+        "grayscale",
+        "high-performance",
+        "hugo",
+        "hugo-blog-theme",
+        "hugo-theme",
+        "mit-license",
+        "multilingual",
+        "papermod",
+        "portfolio",
+        "theme",
+        "well-documented"
+      ],
+      "html_url": "https://github.com/adityatelange/hugo-PaperMod",
+      "homepage": "https://adityatelange.github.io/hugo-PaperMod/",
+      "stargazers_count": 13650,
+      "starred_at": "2025-12-30T01:22:17Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "TangSY/edge-next-starter": {
+      "categories": [
+        "Template/Boilerplate",
+        "Cloud/DevOps",
+        "Web Framework"
+      ],
+      "summary": "A full-stack starter template for Next.js with Cloudflare Edge Runtime, D1, R2, KV, Analytics, and CI/CD.",
+      "description": "An out‑of‑the‑box Next.js + Cloudflare full‑stack starter integrating Edge Runtime, D1 database, R2 storage, KV cache, Analytics Engine hooks, and a complete CI/CD pipeline.一个开箱即用的 Next.js + Cloudflare 全栈项目模板，集成 Edge Runtime、D1 数据库、R2 存储和完整的 CI/CD 流程。",
+      "language": "TypeScript",
+      "topics": [],
+      "html_url": "https://github.com/TangSY/edge-next-starter",
+      "homepage": "https://cloudflare-worker-template-prod.t-ac5.workers.dev",
+      "stargazers_count": 470,
+      "starred_at": "2025-12-27T08:50:30Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "idootop/MigicCube": {
+      "categories": [
+        "AI/ML",
+        "Image Processing",
+        "Other"
+      ],
+      "summary": "Solves a Rubik's Cube in 20 moves using Xiaomi AI Glasses.",
+      "description": "👓 Solve Rubik's Cube in 20 moves using Xiaomi AI Glasses. 用小米 AI 眼镜在 20 步内还原魔方。",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/idootop/MigicCube",
+      "homepage": "https://idootop.github.io/MigicCube",
+      "stargazers_count": 81,
+      "starred_at": "2025-12-13T08:30:07Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education",
+        "Library/Utility"
+      ],
+      "summary": "A curated library of over 10,000 prompts for Google Gemini AI image generation with preview images and multilingual support.",
+      "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-image-generation",
+        "ai-prompts",
+        "awesome",
+        "awesome-list",
+        "gemini",
+        "gemini-ai",
+        "google-gemini",
+        "image-generation",
+        "multilingual",
+        "nano-banana",
+        "nano-banana-2",
+        "nano-banana-pro",
+        "nanobanana",
+        "nanobanana-pro",
+        "prompt-engineering",
+        "prompts"
+      ],
+      "html_url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "homepage": "https://youmind.com/nano-banana-pro-prompts",
+      "stargazers_count": 12474,
+      "starred_at": "2025-11-30T00:54:02Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "modelscope/FunASR": {
+      "categories": [
+        "AI/ML",
+        "Library/Utility",
+        "Developer Tool"
+      ],
+      "summary": "An industrial-grade speech recognition toolkit supporting 50+ languages, speaker diarization, emotion detection, and streaming.",
+      "description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
+      "language": "Python",
+      "topics": [
+        "asr",
+        "audio",
+        "chinese",
+        "emotion-recognition",
+        "mcp-server",
+        "multilingual-asr",
+        "openai-compatible-api",
+        "paraformer",
+        "punctuation",
+        "pytorch",
+        "real-time",
+        "speaker-diarization",
+        "speech-recognition",
+        "speech-to-text",
+        "streaming-asr",
+        "transcription",
+        "vad",
+        "vllm",
+        "voice-activity-detection",
+        "whisper-alternative"
+      ],
+      "html_url": "https://github.com/modelscope/FunASR",
+      "homepage": "https://modelscope.github.io/FunASR",
+      "stargazers_count": 17879,
+      "starred_at": "2025-11-29T02:59:45Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "volcengine/MineContext": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool",
+        "Library/Utility"
+      ],
+      "summary": "A proactive context-aware AI partner that integrates context engineering with ChatGPT Pulse.",
+      "description": "MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "context-engineering",
+        "electron",
+        "embedding-models",
+        "javascript",
+        "memory",
+        "proactive-ai",
+        "python",
+        "python3",
+        "rag",
+        "react",
+        "typescript",
+        "vector-database",
+        "vision-language-model"
+      ],
+      "html_url": "https://github.com/volcengine/MineContext",
+      "homepage": null,
+      "stargazers_count": 5380,
+      "starred_at": "2025-11-18T07:04:30Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "reorx/Share-to-ChatGPT-Shortcut": {
+      "categories": [
+        "AI/ML",
+        "CLI Tool",
+        "Other"
+      ],
+      "summary": "An Apple Shortcut for sharing text to ChatGPT using personalized prompts.",
+      "description": "An Apple Shortcut for sharing text to ChatGPT using personalized prompts",
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/reorx/Share-to-ChatGPT-Shortcut",
+      "homepage": null,
+      "stargazers_count": 335,
+      "starred_at": "2025-11-11T07:32:47Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "glink25/Cent": {
+      "categories": [
+        "Web Framework",
+        "Other"
+      ],
+      "summary": "A free, open-source collaborative accounting web app with PWA support.",
+      "description": "完全免费、开源的多人协作记账 Web App | Completely free, open-source, collaborative accounting Web App",
+      "language": "TypeScript",
+      "topics": [
+        "accounting",
+        "pwa"
+      ],
+      "html_url": "https://github.com/glink25/Cent",
+      "homepage": "https://cent.linkai.work/",
+      "stargazers_count": 1096,
+      "starred_at": "2025-10-24T09:46:45Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "PicoTrex/Awesome-Nano-Banana-images": {
+      "categories": [
+        "AI/ML",
+        "Image Processing",
+        "Learning/Education"
+      ],
+      "summary": "A curated collection of creative images generated with Nano Banana models, including a released dataset for community development.",
+      "description": "A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro🍌, Gemini-2.5-flash-image based model. We also release Nano-consistent-150K openly to support the community's development of image generation and unified models(click to website to see our blog)",
+      "language": null,
+      "topics": [
+        "awesome",
+        "gemini-2-5-flash-image",
+        "nano-banana"
+      ],
+      "html_url": "https://github.com/PicoTrex/Awesome-Nano-Banana-images",
+      "homepage": "https://picotrex.github.io/Awesome-Nano-Banana-images/",
+      "stargazers_count": 22979,
+      "starred_at": "2025-09-29T11:20:05Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Gar-b-age/CookLikeHOC": {
+      "categories": [
+        "Documentation",
+        "Other"
+      ],
+      "summary": "A curated collection of recipes from a Chinese restaurant chain's food safety report, organized and edited for home cooking.",
+      "description": "🥢像老乡鸡🐔那样做饭。已添加2026年发布的《老乡鸡菜品溯源报告 2.0中新出现的菜品。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLikeHOC.",
+      "language": "Dockerfile",
+      "topics": [],
+      "html_url": "https://github.com/Gar-b-age/CookLikeHOC",
+      "homepage": "https://cooklikehoc.soilzhu.su",
+      "stargazers_count": 23602,
+      "starred_at": "2025-09-21T01:30:12Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "ghuntley/how-to-build-a-coding-agent": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool",
+        "Learning/Education"
+      ],
+      "summary": "A workshop that teaches how to build a coding agent similar to popular AI coding tools.",
+      "description": "A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "ai",
+        "cursor",
+        "tutorial",
+        "workshop"
+      ],
+      "html_url": "https://github.com/ghuntley/how-to-build-a-coding-agent",
+      "homepage": "https://ghuntley.com/agent/",
+      "stargazers_count": 5663,
+      "starred_at": "2025-08-26T14:22:17Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "plait-board/drawnix": {
+      "categories": [
+        "Developer Tool",
+        "Other"
+      ],
+      "summary": "An open-source whiteboard tool with mind maps, flowcharts, and freehand drawing.",
+      "description": "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.",
+      "language": "TypeScript",
+      "topics": [
+        "collaboration",
+        "drawing",
+        "flowchart",
+        "localfirst",
+        "mind-map",
+        "mindmap",
+        "productivity",
+        "whiteboard"
+      ],
+      "html_url": "https://github.com/plait-board/drawnix",
+      "homepage": "https://drawnix.com",
+      "stargazers_count": 14013,
+      "starred_at": "2025-08-25T10:45:56Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "tinyauthapp/tinyauth": {
+      "categories": [
+        "Security",
+        "Cloud/DevOps"
+      ],
+      "summary": "A minimal authentication and authorization server supporting OIDC, SSO, and 2FA.",
+      "description": "The tiniest authentication and authorization server you have ever seen.",
+      "language": "Go",
+      "topics": [
+        "2fa",
+        "authentication",
+        "caddy",
+        "golang",
+        "middleware",
+        "nginx",
+        "oidc",
+        "selfhosted",
+        "sso",
+        "tinyauth",
+        "totp",
+        "typescipt"
+      ],
+      "html_url": "https://github.com/tinyauthapp/tinyauth",
+      "homepage": "https://tinyauth.app",
+      "stargazers_count": 7479,
+      "starred_at": "2025-08-11T08:03:16Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Tencent/WeKnora": {
+      "categories": [
+        "AI/ML",
+        "Library/Utility"
+      ],
+      "summary": "An open-source LLM knowledge platform that turns documents into a queryable RAG and autonomous agent.",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agentic",
+        "ai",
+        "chatbot",
+        "embeddings",
+        "evaluation",
+        "generative-ai",
+        "golang",
+        "knowledge-base",
+        "llm",
+        "multi-tenant",
+        "multimodel",
+        "ollama",
+        "openai",
+        "question-answering",
+        "rag",
+        "reranking",
+        "semantic-search",
+        "vector-search",
+        "wiki"
+      ],
+      "html_url": "https://github.com/Tencent/WeKnora",
+      "homepage": "https://weknora.weixin.qq.com",
+      "stargazers_count": 16224,
+      "starred_at": "2025-08-10T03:59:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "dyad-sh/dyad": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "A local, open-source AI app builder for power users, similar to v0 or Lovable.",
+      "description": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!",
+      "language": "TypeScript",
+      "topics": [
+        "ai-app-builder",
+        "anthropic",
+        "artificial-intelligence",
+        "bolt",
+        "deepseek",
+        "gemini",
+        "generative-ai",
+        "github",
+        "llm",
+        "llms",
+        "lovable",
+        "nextjs",
+        "ollama",
+        "openai",
+        "qwen",
+        "react",
+        "typescript",
+        "v0",
+        "vercel"
+      ],
+      "html_url": "https://github.com/dyad-sh/dyad",
+      "homepage": "https://dyad.sh",
+      "stargazers_count": 20598,
+      "starred_at": "2025-08-04T11:18:48Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "dengyin2000/dynamic_widget": {
+      "categories": [
+        "Mobile Development",
+        "Library/Utility"
+      ],
+      "summary": "A Backend-Driven UI toolkit for Flutter that builds dynamic UI from JSON.",
+      "description": "A Backend-Driven UI toolkit, build your dynamic UI with json, and the json format is very similar with flutter widget code.",
+      "language": "Dart",
+      "topics": [
+        "dynamic",
+        "dynamicwidget",
+        "flutter",
+        "widget"
+      ],
+      "html_url": "https://github.com/dengyin2000/dynamic_widget",
+      "homepage": null,
+      "stargazers_count": 1655,
+      "starred_at": "2025-08-03T13:44:20Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "cortinico/kotlin-android-template": {
+      "categories": [
+        "Template/Boilerplate",
+        "Mobile Development"
+      ],
+      "summary": "A Kotlin Android template with GitHub Actions, ktlint, Detekt, and Gradle Kotlin DSL.",
+      "description": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = ❤️",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-app",
+        "android-library",
+        "android-template",
+        "detekt",
+        "github-actions",
+        "github-template",
+        "github-templates",
+        "gradle",
+        "gradle-android-plugin",
+        "gradle-kotlin-dsl",
+        "hacktoberfest",
+        "kotlin-android-template",
+        "kotlin-dsl",
+        "kotlin-template",
+        "ktlint",
+        "maven-central",
+        "template",
+        "template-repository"
+      ],
+      "html_url": "https://github.com/cortinico/kotlin-android-template",
+      "homepage": null,
+      "stargazers_count": 1897,
+      "starred_at": "2025-08-03T12:13:10Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "wshobson/agents": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "A multi-harness agentic plugin marketplace for AI coding assistants like Claude Code and Cursor.",
+      "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Gemini CLI",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "agentic-ai",
+        "agents",
+        "ai-agents",
+        "anthropic",
+        "automation",
+        "claude-code",
+        "claude-code-plugins",
+        "codex-cli",
+        "copilot",
+        "cursor",
+        "cursor-rules",
+        "developer-tools",
+        "gemini-cli",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "orchestration",
+        "prompt-engineering",
+        "workflows"
+      ],
+      "html_url": "https://github.com/wshobson/agents",
+      "homepage": "https://sethhobson.com",
+      "stargazers_count": 36650,
+      "starred_at": "2025-08-01T01:47:48Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "KrishKrosh/TrackWeight": {
+      "categories": [
+        "Other"
+      ],
+      "summary": "An app that uses the Mac trackpad as a weighing scale.",
+      "description": "Use your Mac trackpad as a weighing scale",
+      "language": "Swift",
+      "topics": [],
+      "html_url": "https://github.com/KrishKrosh/TrackWeight",
+      "homepage": null,
+      "stargazers_count": 9024,
+      "starred_at": "2025-07-26T09:31:48Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "shanleiguang/vRain": {
+      "categories": [
+        "Library/Utility",
+        "Documentation"
+      ],
+      "summary": "A tool for generating traditional Chinese ancient-style eBooks in vertical layout.",
+      "description": "中文古籍刻本風格直排電子書製作工具 Chinese Ancient eBooks Generator",
+      "language": "Perl",
+      "topics": [
+        "ancient-books",
+        "chinese",
+        "chinese-characters",
+        "chinese-traditional",
+        "design-tools",
+        "ebook-generator",
+        "imagemagick",
+        "pdf",
+        "pdf-builder"
+      ],
+      "html_url": "https://github.com/shanleiguang/vRain",
+      "homepage": null,
+      "stargazers_count": 1611,
+      "starred_at": "2025-07-26T09:27:27Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "cursor-project/prompt-manager": {
+      "categories": [
+        "Developer Tool",
+        "AI/ML"
+      ],
+      "summary": "A prompt template manager for efficient access in Cursor/VSCode.",
+      "description": "Efficient management and quick access to AI Prompt templates for Cursor/VSCode",
+      "language": "TypeScript",
+      "topics": [],
+      "html_url": "https://github.com/cursor-project/prompt-manager",
+      "homepage": null,
+      "stargazers_count": 243,
+      "starred_at": "2025-07-26T09:26:37Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "littlebyteorg/appledb": {
+      "categories": [
+        "Database"
+      ],
+      "summary": "A database of Apple-related information.",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/littlebyteorg/appledb",
+      "homepage": null,
+      "stargazers_count": 551,
+      "starred_at": "2025-07-13T09:09:11Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "hanshuaikang/AI-Media2Doc": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "Converts audio/video into various document formats like social media posts, notes, mind maps, and subtitles using AI.",
+      "description": "一键将音视频转化为小红书/公众号/知识笔记/思维导图/视频字幕等各种风格的文档。",
+      "language": "Vue",
+      "topics": [
+        "ai",
+        "bilibili",
+        "chatgpt",
+        "openai",
+        "python",
+        "subtitles-generator",
+        "vue",
+        "xiaohongshu",
+        "youtube"
+      ],
+      "html_url": "https://github.com/hanshuaikang/AI-Media2Doc",
+      "homepage": null,
+      "stargazers_count": 3837,
+      "starred_at": "2025-07-10T13:39:03Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "JetBrains/koog": {
+      "categories": [
+        "AI/ML",
+        "Web Framework",
+        "Mobile Development"
+      ],
+      "summary": "A JVM framework for building enterprise-ready AI agents across platforms including backend, Android, iOS, and browser.",
+      "description": "Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems",
+      "language": "Kotlin",
+      "topics": [
+        "agentframework",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents-framework",
+        "aiagentframework",
+        "android-ai",
+        "anthropic",
+        "genai",
+        "generative-ai",
+        "java",
+        "jvm",
+        "kotlin",
+        "ktor",
+        "llm",
+        "mcp",
+        "multi-agent-systems",
+        "ollama",
+        "openai",
+        "spring"
+      ],
+      "html_url": "https://github.com/JetBrains/koog",
+      "homepage": "https://docs.koog.ai",
+      "stargazers_count": 4340,
+      "starred_at": "2025-07-10T02:16:03Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "elizaOS/eliza": {
+      "categories": [
+        "AI/ML",
+        "Operating System",
+        "Messaging/Chat"
+      ],
+      "summary": "An open source agentic operating system for creating autonomous AI agents with multi-platform chat integration.",
+      "description": "Open source agentic operating system",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agentic",
+        "ai",
+        "autonomous",
+        "chatbot",
+        "crypto",
+        "discord",
+        "eliza",
+        "elizaos",
+        "framework",
+        "plugins",
+        "rag",
+        "slack",
+        "swarm",
+        "telegram"
+      ],
+      "html_url": "https://github.com/elizaOS/eliza",
+      "homepage": "https://elizaos.ai/",
+      "stargazers_count": 18560,
+      "starred_at": "2025-07-09T13:22:32Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "vladimirlogachov/MoviesPot": {
+      "categories": [
+        "Mobile Development",
+        "Frontend Framework"
+      ],
+      "summary": "A Kotlin Multiplatform movie explorer app with Compose UI, Jetpack Navigation, and Material3 design.",
+      "description": "Movie Explorer: Kotlin and Compose multiplatform project for discovering movies with ease. Features Jetpack Navigation, Paging library integration, adaptive icons and a Material3-based UI that supports dynamic theme.",
+      "language": "Kotlin",
+      "topics": [
+        "android-app",
+        "compose-multiplatform",
+        "compose-multiplatform-sample",
+        "ios-app",
+        "kotlin-multiplatform",
+        "kotlin-multiplatform-sample",
+        "material3"
+      ],
+      "html_url": "https://github.com/vladimirlogachov/MoviesPot",
+      "homepage": null,
+      "stargazers_count": 177,
+      "starred_at": "2025-07-07T03:52:58Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "bytedance/trae-agent": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "An LLM-based agent for general purpose software engineering tasks.",
+      "description": "Trae Agent is an LLM-based agent for general purpose software engineering tasks.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "llm",
+        "software-engineering"
+      ],
+      "html_url": "https://github.com/bytedance/trae-agent",
+      "homepage": "https://www.trae.ai/",
+      "stargazers_count": 11655,
+      "starred_at": "2025-07-07T02:50:30Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "langchain-ai/agents-from-scratch": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "A tutorial project for building an email assistant with human-in-the-loop and memory using agents.",
+      "description": "Build an email assistant with human-in-the-loop and memory",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "agents",
+        "memory"
+      ],
+      "html_url": "https://github.com/langchain-ai/agents-from-scratch",
+      "homepage": "https://academy.langchain.com/courses/ambient-agents",
+      "stargazers_count": 1797,
+      "starred_at": "2025-07-06T10:05:02Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "openai/openai-cs-agents-demo": {
+      "categories": [
+        "AI/ML",
+        "Messaging/Chat"
+      ],
+      "summary": "A demo of a customer service use case implemented with the OpenAI Agents SDK.",
+      "description": "Demo of a customer service use case implemented with the OpenAI Agents SDK",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/openai/openai-cs-agents-demo",
+      "homepage": null,
+      "stargazers_count": 6401,
+      "starred_at": "2025-06-24T01:37:04Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "chaitin/PandaWiki": {
+      "categories": [
+        "AI/ML",
+        "Documentation",
+        "Web Framework"
+      ],
+      "summary": "An AI-powered open-source knowledge base system for building intelligent documentation, FAQs, and blogs.",
+      "description": "PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "docs",
+        "document",
+        "documentation",
+        "kb",
+        "knownledge",
+        "llm",
+        "self-hosted",
+        "wiki"
+      ],
+      "html_url": "https://github.com/chaitin/PandaWiki",
+      "homepage": "https://pandawiki.docs.baizhi.cloud/",
+      "stargazers_count": 9771,
+      "starred_at": "2025-06-13T08:24:51Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "jamez-bondos/awesome-gpt4o-images": {
+      "categories": [
+        "AI/ML",
+        "Image Processing",
+        "Learning/Education"
+      ],
+      "summary": "A curated collection of images and prompts generated by GPT-4o, showcasing AI image generation capabilities.",
+      "description": "Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-art",
+        "ai-image-examples",
+        "anime-ai-art",
+        "awesome-list",
+        "cartoon-style",
+        "curated-collection",
+        "generative-art",
+        "ghibli-style",
+        "gpt-4o",
+        "gpt-image-1",
+        "image-generation",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "text-to-image"
+      ],
+      "html_url": "https://github.com/jamez-bondos/awesome-gpt4o-images",
+      "homepage": "https://animeai.online/gallery",
+      "stargazers_count": 8070,
+      "starred_at": "2025-06-12T07:34:33Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "google-gemini/gemini-fullstack-langgraph-quickstart": {
+      "categories": [
+        "AI/ML",
+        "Web Framework",
+        "Developer Tool"
+      ],
+      "summary": "A quickstart project for building fullstack agents using Gemini 2.5 and LangGraph.",
+      "description": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "gemini",
+        "gemini-api"
+      ],
+      "html_url": "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart",
+      "homepage": "https://ai.google.dev/gemini-api/docs/google-search",
+      "stargazers_count": 18215,
+      "starred_at": "2025-06-10T06:13:24Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "google-ai-edge/gallery": {
+      "categories": [
+        "AI/ML",
+        "Mobile Development",
+        "Image Processing"
+      ],
+      "summary": "A gallery showcasing on-device ML/GenAI use cases for local model experimentation.",
+      "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "language": "Kotlin",
+      "topics": [],
+      "html_url": "https://github.com/google-ai-edge/gallery",
+      "homepage": null,
+      "stargazers_count": 23708,
+      "starred_at": "2025-05-31T03:30:15Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "alexstyl/compose-tinder-card": {
+      "categories": [
+        "Mobile Development",
+        "Library/Utility"
+      ],
+      "summary": "A Jetpack Compose modifier for implementing Tinder-like card swipe gestures.",
+      "description": "A Jetpack Compose Modifier that enables Tinder-like card gestures.",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "jetpack-android",
+        "jetpack-compose",
+        "tinder",
+        "tinder-clone"
+      ],
+      "html_url": "https://github.com/alexstyl/compose-tinder-card",
+      "homepage": null,
+      "stargazers_count": 190,
+      "starred_at": "2025-05-29T05:28:51Z",
+      "fork": false,
+      "archived": true,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "labring/FastGPT": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool",
+        "Web Framework"
+      ],
+      "summary": "A knowledge-based platform built on LLMs for data processing, RAG retrieval, and visual AI workflow orchestration.",
+      "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "claude",
+        "deepseek",
+        "llm",
+        "mcp",
+        "nextjs",
+        "openai",
+        "qwen",
+        "rag",
+        "workflow"
+      ],
+      "html_url": "https://github.com/labring/FastGPT",
+      "homepage": "https://fastgpt.io",
+      "stargazers_count": 28371,
+      "starred_at": "2025-05-26T00:54:07Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "hushenghao/AndroidEasterEggs": {
+      "categories": [
+        "Mobile Development",
+        "Library/Utility"
+      ],
+      "summary": "A collection of Android Easter eggs with dynamic color and Material You support.",
+      "description": "Android Easter Egg Collections",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "dynamic-color",
+        "easter-egg",
+        "hilt-android",
+        "jetpack",
+        "jetpack-compose",
+        "kotlin-android",
+        "material-you",
+        "room-database"
+      ],
+      "html_url": "https://github.com/hushenghao/AndroidEasterEggs",
+      "homepage": null,
+      "stargazers_count": 1210,
+      "starred_at": "2025-05-23T07:22:50Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "kivy/python-for-android": {
+      "categories": [
+        "Mobile Development",
+        "Package Manager",
+        "CLI Tool"
+      ],
+      "summary": "A tool to package Python applications into Android APKs.",
+      "description": "Turn your Python application into an Android APK",
+      "language": "Python",
+      "topics": [
+        "android",
+        "apk",
+        "kivy",
+        "packaging",
+        "python"
+      ],
+      "html_url": "https://github.com/kivy/python-for-android",
+      "homepage": "https://python-for-android.readthedocs.io",
+      "stargazers_count": 8890,
+      "starred_at": "2025-05-22T16:45:15Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "jihe520/MathModelAgent": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education",
+        "Developer Tool"
+      ],
+      "summary": "An agent designed for mathematical modeling that automatically generates complete papers.",
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "llm",
+        "mathmodel",
+        "skills"
+      ],
+      "html_url": "https://github.com/jihe520/MathModelAgent",
+      "homepage": "https://mathmodel.top/home",
+      "stargazers_count": 2306,
+      "starred_at": "2025-05-16T10:36:28Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "droidrun/mobilerun": {
+      "categories": [
+        "Mobile Development",
+        "AI/ML",
+        "Testing"
+      ],
+      "summary": "An LLM-agnostic mobile agent that automates mobile devices using natural language commands.",
+      "description": "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "android",
+        "android-automation",
+        "hacktoberfest",
+        "mobile-automation"
+      ],
+      "html_url": "https://github.com/droidrun/mobilerun",
+      "homepage": "https://mobilerun.ai/framework",
+      "stargazers_count": 8537,
+      "starred_at": "2025-05-16T10:35:43Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "huggingface/agents-course": {
+      "categories": [
+        "Learning/Education",
+        "AI/ML",
+        "Documentation"
+      ],
+      "summary": "A course repository covering agentic AI with Hugging Face, LangChain, and LlamaIndex.",
+      "description": "This repository contains the Hugging Face Agents Course. ",
+      "language": "MDX",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "course",
+        "huggingface",
+        "langchain",
+        "llamaindex",
+        "smolagents"
+      ],
+      "html_url": "https://github.com/huggingface/agents-course",
+      "homepage": null,
+      "stargazers_count": 29295,
+      "starred_at": "2025-05-15T01:07:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "categories": [
+        "AI/ML",
+        "Image Processing",
+        "CLI Tool"
+      ],
+      "summary": "A tool that uses AI to generate short videos with one click.",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "homepage": null,
+      "stargazers_count": 86489,
+      "starred_at": "2025-05-11T07:24:16Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "fethij/Rijksmuseum": {
+      "categories": [
+        "Mobile Development",
+        "Frontend Framework"
+      ],
+      "summary": "A Kotlin Multiplatform app exploring the Rijksmuseum collection with Compose UI across Android, iOS, Desktop, and Web.",
+      "description": "Delve into the rich collection of masterpieces.",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "cmp",
+        "compose",
+        "compose-desktop",
+        "compose-ios",
+        "compose-multiplatform",
+        "compose-web",
+        "desktop",
+        "ios",
+        "kmm",
+        "kmp",
+        "kotlin-multiplatform",
+        "kotlin-multiplatform-mobile",
+        "kotlin-multiplatform-sample",
+        "wasm",
+        "web"
+      ],
+      "html_url": "https://github.com/fethij/Rijksmuseum",
+      "homepage": "https://fethij.github.io/Rijksmuseum/",
+      "stargazers_count": 433,
+      "starred_at": "2025-04-30T03:25:00Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "web-infra-dev/midscene": {
+      "categories": [
+        "AI/ML",
+        "Testing",
+        "Developer Tool"
+      ],
+      "summary": "AI-powered vision-driven UI automation tool for testing across platforms.",
+      "description": "AI-powered, vision-driven UI automation for every platform.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-test",
+        "browser-use",
+        "computer-use",
+        "gpt-operator",
+        "javascript",
+        "phone-use",
+        "testing"
+      ],
+      "html_url": "https://github.com/web-infra-dev/midscene",
+      "homepage": "https://midscenejs.com",
+      "stargazers_count": 13681,
+      "starred_at": "2025-04-25T09:16:14Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "dontriskit/awesome-ai-system-prompts": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education",
+        "Documentation"
+      ],
+      "summary": "Curated collection of system prompts for top AI tools, useful for AI agent builders and prompt engineers.",
+      "description": "🧠 Curated collection of system prompts for top AI tools. Perfect for AI agent builders and prompt engineers. Incuding: ChatGPT, Claude, Perplexity, Manus, Claude-Code, Loveable, v0, Grok, same new, windsurf, notion, and MetaAI. ",
+      "language": "TypeScript",
+      "topics": [],
+      "html_url": "https://github.com/dontriskit/awesome-ai-system-prompts",
+      "homepage": null,
+      "stargazers_count": 5966,
+      "starred_at": "2025-04-22T15:05:45Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "x1xhlol/system-prompts-and-models-of-ai-tools": {
+      "categories": [
+        "AI/ML",
+        "Documentation"
+      ],
+      "summary": "Comprehensive collection of system prompts, internal tools, and AI models for various AI coding assistants.",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": null,
+      "topics": [
+        "ai",
+        "bolt",
+        "cluely",
+        "copilot",
+        "cursor",
+        "cursorai",
+        "devin",
+        "github-copilot",
+        "lovable",
+        "open-source",
+        "perplexity",
+        "replit",
+        "system-prompts",
+        "trae",
+        "trae-ai",
+        "trae-ide",
+        "v0",
+        "vscode",
+        "windsurf",
+        "windsurf-ai"
+      ],
+      "html_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "homepage": null,
+      "stargazers_count": 140045,
+      "starred_at": "2025-04-21T04:53:21Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "terrakok/kmp-awesome": {
+      "categories": [
+        "Library/Utility",
+        "Learning/Education"
+      ],
+      "summary": "Curated list of Kotlin Multiplatform libraries, tools, and resources.",
+      "description": "An awesome list that curates the best Kotlin Multiplatform libraries, tools and more. ",
+      "language": null,
+      "topics": [
+        "android",
+        "awesome",
+        "compose",
+        "compose-multiplatform",
+        "ios",
+        "jetbrains",
+        "kmm",
+        "kmp",
+        "kotlin",
+        "kotlin-multiplatform",
+        "libraries",
+        "tools"
+      ],
+      "html_url": "https://github.com/terrakok/kmp-awesome",
+      "homepage": null,
+      "stargazers_count": 5770,
+      "starred_at": "2025-04-19T07:57:15Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "joreilly/PeopleInSpace": {
+      "categories": [
+        "Mobile Development",
+        "Web Framework",
+        "Frontend Framework"
+      ],
+      "summary": "Kotlin Multiplatform sample app showing people in space with clients for iOS, Android, Wear, Desktop, and Web.",
+      "description": "Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend.",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "compose-desktop",
+        "compose-ios",
+        "compose-multiplatform",
+        "compose-web",
+        "ios",
+        "jetpack-compose",
+        "kmp",
+        "kmp-sample",
+        "koin",
+        "kotlin",
+        "kotlin-coroutines",
+        "kotlin-multiplatform",
+        "kotlin-native",
+        "ktor",
+        "mcp",
+        "swift",
+        "swiftui",
+        "wasm"
+      ],
+      "html_url": "https://github.com/joreilly/PeopleInSpace",
+      "homepage": null,
+      "stargazers_count": 3347,
+      "starred_at": "2025-04-15T06:26:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Kotlin/Kotlin-AI-Examples": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "Collection of Kotlin examples using AI frameworks like Spring AI and LangChain4j with notebooks.",
+      "description": "A collection of Kotlin-based examples featuring AI frameworks such as Spring AI, LangChain4j, and more — complete with Kotlin notebooks for hands-on learning.",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "agents",
+        "ai",
+        "awesome",
+        "inference",
+        "kotlin",
+        "langchain",
+        "openai",
+        "spring"
+      ],
+      "html_url": "https://github.com/Kotlin/Kotlin-AI-Examples",
+      "homepage": null,
+      "stargazers_count": 264,
+      "starred_at": "2025-04-14T15:09:53Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "joreilly/StarWars": {
+      "categories": [
+        "Mobile Development",
+        "Frontend Framework"
+      ],
+      "summary": "Minimal GraphQL-based Kotlin Multiplatform sample using Star Wars API with Compose and SwiftUI.",
+      "description": "Minimal GraphQL based Jetpack Compose, Wear Compose and SwiftUI Kotlin Multiplatform sample (using StarWars endpoint - https://graphql.org/swapi-graphql)",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "apollographql",
+        "graphql",
+        "graphql-client",
+        "ios",
+        "jetpack-compose",
+        "kmm",
+        "kotlin",
+        "kotlin-multiplatform",
+        "kotlin-multiplatform-mobile",
+        "kotlin-native",
+        "swift",
+        "swiftui",
+        "wearos"
+      ],
+      "html_url": "https://github.com/joreilly/StarWars",
+      "homepage": null,
+      "stargazers_count": 240,
+      "starred_at": "2025-04-07T01:14:08Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "jdepoix/youtube-transcript-api": {
+      "categories": [
+        "Other",
+        "CLI Tool",
+        "Library/Utility"
+      ],
+      "summary": "Python API to fetch YouTube video transcripts/subtitles without API key or headless browser.",
+      "description": "This is a python API which allows you to get the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles and it does not require an API key nor a headless browser, like other selenium based solutions do!",
+      "language": "Python",
+      "topics": [
+        "asr",
+        "captions",
+        "cli",
+        "python",
+        "subtitle",
+        "subtitles",
+        "transcript",
+        "transcripts",
+        "translating-transcripts",
+        "youtube",
+        "youtube-api",
+        "youtube-asr",
+        "youtube-captions",
+        "youtube-subtitles",
+        "youtube-transcript",
+        "youtube-transcripts",
+        "youtube-video"
+      ],
+      "html_url": "https://github.com/jdepoix/youtube-transcript-api",
+      "homepage": null,
+      "stargazers_count": 7724,
+      "starred_at": "2025-04-06T15:02:44Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "public-apis/public-apis": {
+      "categories": [
+        "Other",
+        "Documentation",
+        "Developer Tool"
+      ],
+      "summary": "Collective list of free APIs for development and learning.",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "topics": [
+        "api",
+        "apis",
+        "dataset",
+        "development",
+        "free",
+        "list",
+        "lists",
+        "open-source",
+        "public",
+        "public-api",
+        "public-apis",
+        "resources",
+        "software"
+      ],
+      "html_url": "https://github.com/public-apis/public-apis",
+      "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
+      "stargazers_count": 440955,
+      "starred_at": "2025-03-30T05:10:58Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "microsoft/ai-agents-for-beginners": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "A 12-lesson tutorial series for beginners to learn building AI agents using frameworks like AutoGen and Semantic Kernel.",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-rag",
+        "ai-agents",
+        "ai-agents-framework",
+        "autogen",
+        "generative-ai",
+        "semantic-kernel"
+      ],
+      "html_url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "homepage": "https://aka.ms/ai-agents-beginners",
+      "stargazers_count": 67065,
+      "starred_at": "2025-03-27T01:20:25Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "sangatdesai/release-apk": {
+      "categories": [
+        "Cloud/DevOps",
+        "Mobile Development"
+      ],
+      "summary": "A GitHub Actions workflow to build and release Android APKs automatically.",
+      "description": "Build & Release APK via Github Actions",
+      "language": "Dockerfile",
+      "topics": [],
+      "html_url": "https://github.com/sangatdesai/release-apk",
+      "homepage": null,
+      "stargazers_count": 45,
+      "starred_at": "2025-03-25T07:50:37Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "f/prompts.chat": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "An open-source platform to share, discover, and collect AI prompts for ChatGPT and other LLMs.",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ],
+      "html_url": "https://github.com/f/prompts.chat",
+      "homepage": "https://prompts.chat",
+      "stargazers_count": 163611,
+      "starred_at": "2025-03-25T05:56:13Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "mindverse/Second-Me": {
+      "categories": [
+        "AI/ML"
+      ],
+      "summary": "A tool to train a personalized AI model that amplifies your own knowledge and interactions.",
+      "description": "Train your AI self, amplify you, bridge the world",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/mindverse/Second-Me",
+      "homepage": "https://home.second.me/",
+      "stargazers_count": 15583,
+      "starred_at": "2025-03-24T10:03:26Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "square/workflow-kotlin": {
+      "categories": [
+        "Library/Utility",
+        "Mobile Development"
+      ],
+      "summary": "A Kotlin library for building composable state machines and UI driven by those state machines.",
+      "description": "A Swift and Kotlin library for making composable state machines, and UIs driven by those state machines.",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "kotlin",
+        "reactive",
+        "state-machine",
+        "ui",
+        "workflow"
+      ],
+      "html_url": "https://github.com/square/workflow-kotlin",
+      "homepage": "https://square.github.io/workflow",
+      "stargazers_count": 1120,
+      "starred_at": "2025-03-22T14:17:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "langchain-ai/local-deep-researcher": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "A fully local web research and report writing assistant powered by AI.",
+      "description": "Fully local web research and report writing assistant",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/langchain-ai/local-deep-researcher",
+      "homepage": null,
+      "stargazers_count": 9212,
+      "starred_at": "2025-03-18T05:33:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "TianxingChen/Embodied-AI-Guide": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education",
+        "Other"
+      ],
+      "summary": "A comprehensive guide and tutorial for embodied AI and robotics.",
+      "description": "[Lumina具身智能社区] 具身智能技术指南 Embodied-AI-Guide",
+      "language": null,
+      "topics": [
+        "embodied",
+        "embodied-ai",
+        "guide",
+        "robot",
+        "robotic",
+        "robotics",
+        "tutorial"
+      ],
+      "html_url": "https://github.com/TianxingChen/Embodied-AI-Guide",
+      "homepage": "https://github.com/TianxingChen/Embodied-AI-Guide",
+      "stargazers_count": 14216,
+      "starred_at": "2025-03-18T05:31:08Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "michaelbull/kotlin-result": {
+      "categories": [
+        "Library/Utility"
+      ],
+      "summary": "A multiplatform Result monad for Kotlin to model success or failure operations functionally.",
+      "description": "A multiplatform Result monad for modelling success or failure operations.",
+      "language": "Kotlin",
+      "topics": [
+        "browser",
+        "class",
+        "either",
+        "fp",
+        "functional",
+        "functional-programming",
+        "ios",
+        "js",
+        "jvm",
+        "kotlin",
+        "kotlin-multiplatform",
+        "monad",
+        "result",
+        "type"
+      ],
+      "html_url": "https://github.com/michaelbull/kotlin-result",
+      "homepage": null,
+      "stargazers_count": 1254,
+      "starred_at": "2025-03-17T09:27:31Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "linexjlin/GPTs": {
+      "categories": [
+        "AI/ML",
+        "Documentation"
+      ],
+      "summary": "A collection of leaked prompts for custom GPTs.",
+      "description": "leaked prompts of GPTs",
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/linexjlin/GPTs",
+      "homepage": null,
+      "stargazers_count": 31985,
+      "starred_at": "2025-03-17T09:19:29Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "CherryHQ/cherry-studio": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "An AI productivity studio with smart chat, autonomous agents, and unified access to frontier LLMs.",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "awesome-skills",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "hermes-agent",
+        "openclaw",
+        "skills",
+        "vibe-coding"
+      ],
+      "html_url": "https://github.com/CherryHQ/cherry-studio",
+      "homepage": "https://cherryai.com",
+      "stargazers_count": 47236,
+      "starred_at": "2025-03-14T06:07:44Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "d2l-ai/d2l-zh": {
+      "categories": [
+        "Learning/Education",
+        "AI/ML"
+      ],
+      "summary": "An interactive deep learning textbook with code, targeting Chinese readers, used by over 500 universities worldwide.",
+      "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+      "language": "Python",
+      "topics": [
+        "book",
+        "chinese",
+        "computer-vision",
+        "deep-learning",
+        "machine-learning",
+        "natural-language-processing",
+        "notebook",
+        "python"
+      ],
+      "html_url": "https://github.com/d2l-ai/d2l-zh",
+      "homepage": "http://zh.d2l.ai",
+      "stargazers_count": 78296,
+      "starred_at": "2025-03-13T08:07:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "krahets/hello-algo": {
+      "categories": [
+        "Learning/Education",
+        "Library/Utility"
+      ],
+      "summary": "An animated, interactive data structures and algorithms tutorial with multi-language code implementations.",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "topics": [
+        "algo",
+        "algorithm",
+        "algorithms",
+        "book",
+        "data-structure",
+        "data-structures",
+        "data-structures-and-algorithms",
+        "dsa",
+        "education",
+        "leetcode",
+        "programming"
+      ],
+      "html_url": "https://github.com/krahets/hello-algo",
+      "homepage": "https://www.hello-algo.com",
+      "stargazers_count": 126656,
+      "starred_at": "2025-03-13T07:13:32Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "LLMBook-zh/LLMBook-zh.github.io": {
+      "categories": [
+        "Learning/Education",
+        "AI/ML"
+      ],
+      "summary": "A comprehensive book on large language models covering deep learning, NLP, and fine-tuning.",
+      "description": "《大语言模型》作者：赵鑫，李军毅，周昆，唐天一，文继荣",
+      "language": "Python",
+      "topics": [
+        "artificial-intelligence",
+        "deep-learning",
+        "deep-neural-networks",
+        "deep-reinforcement-learning",
+        "fine-tuning",
+        "language-model",
+        "large-language-models",
+        "natural-language-processing",
+        "nlp",
+        "pretrained-models"
+      ],
+      "html_url": "https://github.com/LLMBook-zh/LLMBook-zh.github.io",
+      "homepage": "https://llmbook-zh.github.io/",
+      "stargazers_count": 4495,
+      "starred_at": "2025-03-12T09:07:24Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "andersrex/notesollama": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "Integrates Ollama local LLMs into Apple Notes for conversational AI within notes.",
+      "description": "Use Ollama to talk to local LLMs in Apple Notes",
+      "language": "Swift",
+      "topics": [],
+      "html_url": "https://github.com/andersrex/notesollama",
+      "homepage": "https://smallest.app/notesollama",
+      "stargazers_count": 711,
+      "starred_at": "2025-03-08T05:20:31Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Admol/SystemDesign": {
+      "categories": [
+        "Learning/Education",
+        "Other"
+      ],
+      "summary": "A guide to system design interviews based on the book 'System Design Interview: An Insider's Guide'.",
+      "description": "系统设计面试：内幕指南（System Design Interview: An Insider’s Guide）",
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/Admol/SystemDesign",
+      "homepage": "https://learning-guide.gitbook.io/system-design-interview",
+      "stargazers_count": 2866,
+      "starred_at": "2025-03-07T02:45:49Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "IsaacGemal/wikitok": {
+      "categories": [
+        "Other"
+      ],
+      "summary": "A project with no description, likely a web or mobile app related to Wikipedia and TikTok.",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "html_url": "https://github.com/IsaacGemal/wikitok",
+      "homepage": "https://wikitok.vercel.app",
+      "stargazers_count": 1313,
+      "starred_at": "2025-02-19T05:44:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "liriliri/aya": {
+      "categories": [
+        "Developer Tool",
+        "Mobile Development"
+      ],
+      "summary": "An Android ADB desktop app built with Electron for managing Android devices.",
+      "description": "Android ADB desktop app",
+      "language": "TypeScript",
+      "topics": [
+        "adb",
+        "android",
+        "electron",
+        "electron-app"
+      ],
+      "html_url": "https://github.com/liriliri/aya",
+      "homepage": "https://aya.liriliri.io",
+      "stargazers_count": 5146,
+      "starred_at": "2025-02-09T10:19:20Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "idootop/MagicMirror": {
+      "categories": [
+        "AI/ML",
+        "Image Processing"
+      ],
+      "summary": "An instant AI face swap tool for discovering a more beautiful you.",
+      "description": "🪞 Instant AI Face Swap 一键 AI 换脸，发现更美的你",
+      "language": "TypeScript",
+      "topics": [],
+      "html_url": "https://github.com/idootop/MagicMirror",
+      "homepage": null,
+      "stargazers_count": 2863,
+      "starred_at": "2024-11-29T08:37:06Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "cooderl/wewe-rss": {
+      "categories": [
+        "Messaging/Chat",
+        "Web Framework"
+      ],
+      "summary": "An elegant WeChat public account subscription service with RSS generation via WeChat Reading, supporting private deployment.",
+      "description": "🤗更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成（基于微信读书）",
+      "language": "TypeScript",
+      "topics": [
+        "mysql",
+        "nestjs",
+        "rss",
+        "rsshub",
+        "sqlite",
+        "trpc",
+        "wechat",
+        "wechat-rss",
+        "weread"
+      ],
+      "html_url": "https://github.com/cooderl/wewe-rss",
+      "homepage": null,
+      "stargazers_count": 9548,
+      "starred_at": "2024-11-19T10:06:36Z",
+      "fork": false,
+      "archived": true,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "ByteByteGoHq/system-design-101": {
+      "categories": [
+        "Learning/Education",
+        "Cloud/DevOps"
+      ],
+      "summary": "Explains complex systems using visuals and simple terms to help prepare for system design interviews.",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "language": null,
+      "topics": [
+        "aws",
+        "cloud-computing",
+        "coding-interviews",
+        "computer-science",
+        "interview-questions",
+        "software-architecture",
+        "software-development",
+        "software-engineering",
+        "system-design",
+        "system-design-interview"
+      ],
+      "html_url": "https://github.com/ByteByteGoHq/system-design-101",
+      "homepage": "https://bytebytego.com/guides",
+      "stargazers_count": 83421,
+      "starred_at": "2024-11-18T08:33:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Cinnamon/kotaemon": {
+      "categories": [
+        "AI/ML",
+        "Other",
+        "Developer Tool"
+      ],
+      "summary": "An open-source RAG-based tool for chatting with your documents.",
+      "description": "An open-source RAG-based tool for chatting with your documents.",
+      "language": "Python",
+      "topics": [
+        "chatbot",
+        "llms",
+        "open-source",
+        "rag"
+      ],
+      "html_url": "https://github.com/Cinnamon/kotaemon",
+      "homepage": "https://cinnamon.github.io/kotaemon/",
+      "stargazers_count": 25461,
+      "starred_at": "2024-11-16T08:03:49Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "JianXiao2021/ancient_text_generation_LLM": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "Generates classical Chinese text from modern Chinese sentences using a fine-tuned LLM.",
+      "description": "输入现代汉语句子，生成古汉语风格的句子。基于荀子基座大模型，采用“文言文（古文）- 现代文平行语料”中的部分数据进行LoRA微调训练而得。",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/JianXiao2021/ancient_text_generation_LLM",
+      "homepage": null,
+      "stargazers_count": 282,
+      "starred_at": "2024-11-16T08:03:28Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "pangxiaobin/image-matting": {
+      "categories": [
+        "Image Processing",
+        "AI/ML"
+      ],
+      "summary": "AI-powered image matting, format conversion, compression, and ID photo generation.",
+      "description": "AI抠图、格式转换、图片压缩、AI证件照",
+      "language": "Vue",
+      "topics": [],
+      "html_url": "https://github.com/pangxiaobin/image-matting",
+      "homepage": "https://matting.20133075.xyz/",
+      "stargazers_count": 1391,
+      "starred_at": "2024-11-13T14:26:43Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "tisfeng/Easydict": {
+      "categories": [
+        "Developer Tool",
+        "Editor/IDE"
+      ],
+      "summary": "A macOS dictionary and translation app with offline OCR and multiple translation services.",
+      "description": "一个简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，🍎 苹果系统词典，🍎 苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。A concise and elegant Dictionary and Translator macOS App for looking up words and translating text. ",
+      "language": "Swift",
+      "topics": [
+        "app",
+        "baidu",
+        "bing",
+        "deepl",
+        "dictionary",
+        "gemini",
+        "google",
+        "macos",
+        "ocr",
+        "openai",
+        "shortcuts",
+        "tencent",
+        "translate",
+        "translator",
+        "youdao"
+      ],
+      "html_url": "https://github.com/tisfeng/Easydict",
+      "homepage": null,
+      "stargazers_count": 13503,
+      "starred_at": "2024-02-03T00:48:27Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "AwesomeVisa/awesome-immigration": {
+      "categories": [
+        "Documentation",
+        "Other"
+      ],
+      "summary": "An awesome list of long-term visas and immigration resources.",
+      "description": "An Awesome list of long-term visas",
+      "language": null,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "immigration",
+        "remote-work",
+        "visa"
+      ],
+      "html_url": "https://github.com/AwesomeVisa/awesome-immigration",
+      "homepage": "https://awesomevisa.com",
+      "stargazers_count": 1480,
+      "starred_at": "2023-07-19T08:44:04Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "easychen/one-person-businesses-methodology": {
+      "categories": [
+        "Documentation",
+        "Learning/Education"
+      ],
+      "summary": "A methodology guide for one-person businesses.",
+      "description": "一人公司方法论",
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/easychen/one-person-businesses-methodology",
+      "homepage": null,
+      "stargazers_count": 8301,
+      "starred_at": "2023-07-13T15:23:32Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "AntonOsika/gpt-engineer": {
+      "categories": [
+        "AI/ML",
+        "CLI Tool",
+        "Developer Tool"
+      ],
+      "summary": "A CLI platform for code generation using AI, precursor to Lovable.dev.",
+      "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "autonomous-agent",
+        "code-generation",
+        "codebase-generation",
+        "codegen",
+        "coding-assistant",
+        "gpt-4",
+        "gpt-engineer",
+        "openai",
+        "python"
+      ],
+      "html_url": "https://github.com/AntonOsika/gpt-engineer",
+      "homepage": null,
+      "stargazers_count": 55204,
+      "starred_at": "2023-06-23T04:08:58Z",
+      "fork": false,
+      "archived": true,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "SeedV/generative-ai-roadmap": {
+      "categories": [
+        "AI/ML",
+        "Documentation",
+        "Learning/Education"
+      ],
+      "summary": "A roadmap of generative AI use cases and applications.",
+      "description": "The roadmap of generative AI: use cases and applications | 生成式AI的应用路线图",
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/SeedV/generative-ai-roadmap",
+      "homepage": null,
+      "stargazers_count": 615,
+      "starred_at": "2023-06-14T14:54:10Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "JushBJJ/Mr.-Ranedeer-AI-Tutor": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "A GPT-4 AI tutor prompt for customizable personalized learning experiences.",
+      "description": "A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.",
+      "language": null,
+      "topics": [
+        "ai",
+        "education",
+        "gpt-4",
+        "llm"
+      ],
+      "html_url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "homepage": "https://Mr-Ranedeer.com",
+      "stargazers_count": 29603,
+      "starred_at": "2023-06-12T14:00:33Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "guidance-ai/guidance": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool",
+        "Library/Utility"
+      ],
+      "summary": "A guidance language for controlling large language models.",
+      "description": "A guidance language for controlling large language models.",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "html_url": "https://github.com/guidance-ai/guidance",
+      "homepage": null,
+      "stargazers_count": 21498,
+      "starred_at": "2023-06-01T09:45:40Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "liaokongVFX/LangChain-Chinese-Getting-Started-Guide": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "A Chinese tutorial for getting started with LangChain, covering AIGC and OpenAI API.",
+      "description": "LangChain 的中文入门教程",
+      "language": null,
+      "topics": [
+        "aigc",
+        "chatgpt",
+        "langchain",
+        "openai",
+        "openai-api"
+      ],
+      "html_url": "https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide",
+      "homepage": null,
+      "stargazers_count": 9033,
+      "starred_at": "2023-05-08T09:24:23Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "open-guides/og-aws": {
+      "categories": [
+        "Cloud/DevOps",
+        "Documentation"
+      ],
+      "summary": "A practical guide to Amazon Web Services.",
+      "description": "📙 Amazon Web Services — a practical guide",
+      "language": "Shell",
+      "topics": [],
+      "html_url": "https://github.com/open-guides/og-aws",
+      "homepage": null,
+      "stargazers_count": 36423,
+      "starred_at": "2023-05-08T09:22:55Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "labuladong/fucking-algorithm": {
+      "categories": [
+        "Learning/Education",
+        "Library/Utility"
+      ],
+      "summary": "A guide to cracking LeetCode problems with explanations of algorithms and data structures.",
+      "description": "Crack LeetCode, not only how, but also why. ",
+      "language": "Markdown",
+      "topics": [
+        "algorithms",
+        "computer-science",
+        "data-structures",
+        "dynamic-programming",
+        "dynamic-programming-algorithm",
+        "interview-questions",
+        "kmp",
+        "leetcode"
+      ],
+      "html_url": "https://github.com/labuladong/fucking-algorithm",
+      "homepage": "https://labuladong.online/",
+      "stargazers_count": 133591,
+      "starred_at": "2023-03-17T03:45:02Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "android/compose-samples": {
+      "categories": [
+        "Mobile Development",
+        "Template/Boilerplate"
+      ],
+      "summary": "Official Jetpack Compose samples for Android development.",
+      "description": "Official Jetpack Compose samples.",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "jetpack-compose"
+      ],
+      "html_url": "https://github.com/android/compose-samples",
+      "homepage": "https://developer.android.com/jetpack/compose",
+      "stargazers_count": 23227,
+      "starred_at": "2023-02-10T04:12:20Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "JakeWharton/picnic": {
+      "categories": [
+        "Library/Utility"
+      ],
+      "summary": "A Kotlin DSL and Java/Kotlin builder API for constructing HTML-like tables rendered to text.",
+      "description": "A Kotlin DSL and Java/Kotlin builder API for constructing HTML-like tables which can be rendered to text",
+      "language": "Kotlin",
+      "topics": [],
+      "html_url": "https://github.com/JakeWharton/picnic",
+      "homepage": null,
+      "stargazers_count": 974,
+      "starred_at": "2022-02-26T08:34:50Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "mobile-dev-inc/dadb": {
+      "categories": [
+        "Mobile Development",
+        "Library/Utility"
+      ],
+      "summary": "A Kotlin/Java library to connect directly to an Android device without ADB binary or server.",
+      "description": "A Kotlin/Java library to connect directly to an Android device without an adb binary or an ADB server",
+      "language": "Kotlin",
+      "topics": [],
+      "html_url": "https://github.com/mobile-dev-inc/dadb",
+      "homepage": null,
+      "stargazers_count": 1201,
+      "starred_at": "2021-12-09T03:27:15Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "githubhaohao/LearnFFmpeg": {
+      "categories": [
+        "Learning/Education",
+        "Image Processing"
+      ],
+      "summary": "Android FFmpeg tutorial for audio/video development.",
+      "description": "Android FFmpeg 音视频开发教程",
+      "language": "C++",
+      "topics": [
+        "android-ffmpeg",
+        "ffmpeg",
+        "ffmpeg-opengles",
+        "ffmpeg-player",
+        "ffmpeg-recorder",
+        "ffmpeg-render",
+        "ffplayer",
+        "learn-ffmpeg"
+      ],
+      "html_url": "https://github.com/githubhaohao/LearnFFmpeg",
+      "homepage": null,
+      "stargazers_count": 1615,
+      "starred_at": "2021-12-07T04:13:58Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "microsoft/AI-System": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "Educational resources for AI system design.",
+      "description": "System for AI Education Resource.",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/microsoft/AI-System",
+      "homepage": "https://microsoft.github.io/AI-System/",
+      "stargazers_count": 4296,
+      "starred_at": "2021-12-02T06:16:46Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "izackwu/TeachYourselfCS-CN": {
+      "categories": [
+        "Learning/Education",
+        "Documentation"
+      ],
+      "summary": "Chinese translation of TeachYourselfCS, a self-taught computer science curriculum.",
+      "description": "TeachYourselfCS 的中文翻译 |  A Chinese translation of TeachYourselfCS",
+      "language": null,
+      "topics": [
+        "chinese-translation",
+        "teachyourselfcs",
+        "translation",
+        "tutorial"
+      ],
+      "html_url": "https://github.com/izackwu/TeachYourselfCS-CN",
+      "homepage": "https://teachyourselfcs.com/",
+      "stargazers_count": 22077,
+      "starred_at": "2021-11-16T03:18:18Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "ossu/computer-science": {
+      "categories": [
+        "Learning/Education",
+        "Other"
+      ],
+      "summary": "A path to a free self-taught education in Computer Science.",
+      "description": "🎓 Path to a free self-taught education in Computer Science!",
+      "language": "HTML",
+      "topics": [
+        "awesome-list",
+        "computer-science",
+        "courses",
+        "curriculum"
+      ],
+      "html_url": "https://github.com/ossu/computer-science",
+      "homepage": "https://cs.ossu.dev",
+      "stargazers_count": 204831,
+      "starred_at": "2021-11-16T03:18:13Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "spring2go/cs_study_plan": {
+      "categories": [
+        "Learning/Education"
+      ],
+      "summary": "A hardcore computer science self-study plan focusing on software engineering and system architecture.",
+      "description": "一份硬核(hardcore)计算机科学CS自学计划，偏向软件工程和系统架构方向",
+      "language": null,
+      "topics": [
+        "computer-science",
+        "cs",
+        "csapp",
+        "self-taught",
+        "software-engineering",
+        "system-architecture"
+      ],
+      "html_url": "https://github.com/spring2go/cs_study_plan",
+      "homepage": null,
+      "stargazers_count": 4378,
+      "starred_at": "2021-11-15T04:22:56Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "jackfrued/Python-100-Days": {
+      "categories": [
+        "Learning/Education"
+      ],
+      "summary": "A 100-day Python learning path from beginner to master.",
+      "description": "Python - 100天从新手到大师",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "html_url": "https://github.com/jackfrued/Python-100-Days",
+      "homepage": null,
+      "stargazers_count": 183293,
+      "starred_at": "2021-11-02T06:43:53Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Tencent/secguide": {
+      "categories": [
+        "Security",
+        "Documentation"
+      ],
+      "summary": "A code security guide for developers.",
+      "description": "面向开发人员梳理的代码安全指南",
+      "language": null,
+      "topics": [
+        "guide",
+        "security"
+      ],
+      "html_url": "https://github.com/Tencent/secguide",
+      "homepage": null,
+      "stargazers_count": 13496,
+      "starred_at": "2021-10-15T09:01:14Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "wolverinn/Waking-Up": {
+      "categories": [
+        "Learning/Education"
+      ],
+      "summary": "Comprehensive interview questions and answers for computer science fundamentals.",
+      "description": "计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的follow-up question以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试；可用于模拟面试、面试前复习、短期内快速备战面试...",
+      "language": null,
+      "topics": [
+        "computer-network",
+        "computer-science",
+        "database",
+        "git",
+        "interview",
+        "interview-questions",
+        "operating-system",
+        "python"
+      ],
+      "html_url": "https://github.com/wolverinn/Waking-Up",
+      "homepage": null,
+      "stargazers_count": 10273,
+      "starred_at": "2021-09-23T09:33:12Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "skylot/jadx": {
+      "categories": [
+        "Developer Tool",
+        "Security"
+      ],
+      "summary": "A Dex to Java decompiler for Android applications.",
+      "description": "Dex to Java decompiler",
+      "language": "Java",
+      "topics": [
+        "android",
+        "decompiler",
+        "dex",
+        "java"
+      ],
+      "html_url": "https://github.com/skylot/jadx",
+      "homepage": null,
+      "stargazers_count": 49019,
+      "starred_at": "2021-09-10T09:24:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "dunwu/javacore": {
+      "categories": [
+        "Learning/Education",
+        "Library/Utility"
+      ],
+      "summary": "A summary of Java core technologies including concurrency, IO, and JVM.",
+      "description": "☕ JavaCore 是对 Java 核心技术的经验总结。",
+      "language": "Java",
+      "topics": [
+        "concurrent",
+        "io",
+        "java",
+        "javacore",
+        "jdk",
+        "jre",
+        "jvm",
+        "nio"
+      ],
+      "html_url": "https://github.com/dunwu/javacore",
+      "homepage": "https://dunwu.github.io/javacore/",
+      "stargazers_count": 3327,
+      "starred_at": "2021-08-13T08:52:42Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "jwasham/coding-interview-university": {
+      "categories": [
+        "Learning/Education"
+      ],
+      "summary": "A complete computer science study plan to prepare for software engineering interviews.",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": null,
+      "topics": [
+        "algorithm",
+        "algorithms",
+        "coding-interview",
+        "coding-interviews",
+        "computer-science",
+        "data-structures",
+        "interview",
+        "interview-prep",
+        "interview-preparation",
+        "programming-interviews",
+        "software-engineering",
+        "study-plan"
+      ],
+      "html_url": "https://github.com/jwasham/coding-interview-university",
+      "homepage": null,
+      "stargazers_count": 351188,
+      "starred_at": "2021-05-10T08:48:20Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Tencent/Shadow": {
+      "categories": [
+        "Mobile Development",
+        "Library/Utility"
+      ],
+      "summary": "A zero-reflection, fully dynamic Android plugin framework.",
+      "description": "零反射全动态Android插件框架",
+      "language": "Java",
+      "topics": [
+        "android"
+      ],
+      "html_url": "https://github.com/Tencent/Shadow",
+      "homepage": null,
+      "stargazers_count": 7769,
+      "starred_at": "2021-03-18T08:16:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Moosphan/Android-Daily-Interview": {
+      "categories": [
+        "Learning/Education",
+        "Mobile Development"
+      ],
+      "summary": "Daily Android interview questions to help prepare for job interviews.",
+      "description": ":pushpin:每工作日更新一道 Android 面试题，小聚成河，大聚成江，共勉之～",
+      "language": null,
+      "topics": [
+        "android",
+        "android-interview-questions",
+        "daily-tasks",
+        "interview"
+      ],
+      "html_url": "https://github.com/Moosphan/Android-Daily-Interview",
+      "homepage": null,
+      "stargazers_count": 5596,
+      "starred_at": "2021-03-11T09:03:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "easychen/howto-make-more-money": {
+      "categories": [
+        "Other"
+      ],
+      "summary": "A guide for programmers on how to earn extra money, primarily for a Chinese audience.",
+      "description": "程序员如何优雅的挣零花钱，2.0版，升级为小书了。Most of this not work outside China , so no English translate",
+      "language": "PHP",
+      "topics": [],
+      "html_url": "https://github.com/easychen/howto-make-more-money",
+      "homepage": "https://howto-make-more-money.easychen.vercel.app/",
+      "stargazers_count": 18580,
+      "starred_at": "2020-12-11T03:27:21Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "nianticlabs/monodepth2": {
+      "categories": [
+        "AI/ML",
+        "Image Processing"
+      ],
+      "summary": "Monocular depth estimation from a single image using deep learning.",
+      "description": "[ICCV 2019] Monocular depth estimation from a single image",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "computer-vision",
+        "deep-learning",
+        "depth-estimation",
+        "monodepth",
+        "neural-network",
+        "pytorch",
+        "self-supervision"
+      ],
+      "html_url": "https://github.com/nianticlabs/monodepth2",
+      "homepage": null,
+      "stargazers_count": 4493,
+      "starred_at": "2020-09-01T02:03:59Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "android/gradle-recipes": {
+      "categories": [
+        "Developer Tool",
+        "Template/Boilerplate"
+      ],
+      "summary": "Ready-to-use recipes for common Android Gradle plugin customizations.",
+      "description": "Ready-to-use recipes for common build customizations that showcase the Android Gradle plugin's public APIs and DSL.",
+      "language": "Kotlin",
+      "topics": [],
+      "html_url": "https://github.com/android/gradle-recipes",
+      "homepage": null,
+      "stargazers_count": 2351,
+      "starred_at": "2020-07-13T02:41:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "greyireland/algorithm-pattern": {
+      "categories": [
+        "Learning/Education",
+        "Library/Utility"
+      ],
+      "summary": "Algorithm patterns and templates for practicing coding interviews.",
+      "description": "Algorithm Patterns — the most scientific way to practice, the fastest path to an offer. You deserve it~ 算法模板，最科学的刷题方式，最快速的刷题路径，你值得拥有~",
+      "language": "Go",
+      "topics": [
+        "algo",
+        "algorithm",
+        "leetcode",
+        "leetcode-go",
+        "pattern"
+      ],
+      "html_url": "https://github.com/greyireland/algorithm-pattern",
+      "homepage": "https://greyireland.gitbook.io/algorithm-pattern",
+      "stargazers_count": 15462,
+      "starred_at": "2020-07-07T23:53:00Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "codecrafters-io/build-your-own-x": {
+      "categories": [
+        "Learning/Education",
+        "Documentation"
+      ],
+      "summary": "A collection of tutorials for recreating technologies from scratch.",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "homepage": "https://codecrafters.io",
+      "stargazers_count": 514579,
+      "starred_at": "2020-06-20T05:17:21Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "apachecn/ailearning": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "Comprehensive AI learning resources covering data analysis, machine learning, and deep learning.",
+      "description": "AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2",
+      "language": "Python",
+      "topics": [
+        "adaboost",
+        "apriori",
+        "deeplearning",
+        "dnn",
+        "fp-growth",
+        "kmeans",
+        "logistic",
+        "lstm",
+        "mahchine-leaning",
+        "naivebayes",
+        "nlp",
+        "pca",
+        "python",
+        "recommendedsystem",
+        "regression",
+        "rnn",
+        "scikit-learn",
+        "sklearn",
+        "svd",
+        "svm"
+      ],
+      "html_url": "https://github.com/apachecn/ailearning",
+      "homepage": "http://ailearning.apachecn.org/",
+      "stargazers_count": 42316,
+      "starred_at": "2020-02-24T14:31:25Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "igorwojda/android-showcase": {
+      "categories": [
+        "Mobile Development",
+        "Template/Boilerplate"
+      ],
+      "summary": "Android app demonstrating best practices with modern architecture and tools.",
+      "description": "💎 Android application following best practices:  Kotlin, Coroutines, JetPack, Clean Architecture, Feature Modules, Tests, MVVM, DI, Static Analysis...",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "android-application",
+        "architecture",
+        "best-practices",
+        "clean-architecture",
+        "gradle",
+        "jetpack",
+        "kotlin",
+        "kotlin-coroutines",
+        "mvvm"
+      ],
+      "html_url": "https://github.com/igorwojda/android-showcase",
+      "homepage": null,
+      "stargazers_count": 6760,
+      "starred_at": "2019-08-26T01:33:00Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "scutan90/DeepLearning-500-questions": {
+      "categories": [
+        "AI/ML",
+        "Learning/Education"
+      ],
+      "summary": "A Q&A book covering 500 deep learning questions across various topics.",
+      "description": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为18个章节，50余万字。由于水平有限，书中不妥之处恳请广大读者批评指正。   未完待续............ 如有意合作，联系scutjy2015@163.com                     版权所有，违权必究       Tan 2018.06",
+      "language": "JavaScript",
+      "topics": [],
+      "html_url": "https://github.com/scutan90/DeepLearning-500-questions",
+      "homepage": "https://github.com/scutan90/DeepLearning-500-questions",
+      "stargazers_count": 57428,
+      "starred_at": "2019-03-20T03:15:53Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "KeepSafe/dexcount-gradle-plugin": {
+      "categories": [
+        "Developer Tool",
+        "CLI Tool"
+      ],
+      "summary": "Gradle plugin to report method reference counts in APKs.",
+      "description": "A Gradle plugin to report the number of method references in your APK on every build.",
+      "language": "Java",
+      "topics": [
+        "android",
+        "gradle",
+        "gradle-plugin"
+      ],
+      "html_url": "https://github.com/KeepSafe/dexcount-gradle-plugin",
+      "homepage": "https://keepsafe.github.io/dexcount-gradle-plugin/",
+      "stargazers_count": 3078,
+      "starred_at": "2018-10-10T08:06:14Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "JakeWharton/diffuse": {
+      "categories": [
+        "Developer Tool",
+        "CLI Tool"
+      ],
+      "summary": "Tool for diffing APKs, AABs, AARs, and JARs.",
+      "description": "Diffuse is a tool for diffing APKs, AABs, AARs, and JARs",
+      "language": "Kotlin",
+      "topics": [],
+      "html_url": "https://github.com/JakeWharton/diffuse",
+      "homepage": null,
+      "stargazers_count": 2182,
+      "starred_at": "2018-10-09T07:45:01Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "sparanoid/chinese-copywriting-guidelines": {
+      "categories": [
+        "Documentation",
+        "Other"
+      ],
+      "summary": "Guidelines for Chinese copywriting and typography.",
+      "description": "Chinese copywriting guidelines for better written communication／中文文案排版指北",
+      "language": null,
+      "topics": [
+        "chinese",
+        "chinese-simplified",
+        "chinese-traditional",
+        "copywriting",
+        "css",
+        "documentation",
+        "guideline",
+        "leancloud",
+        "markdown"
+      ],
+      "html_url": "https://github.com/sparanoid/chinese-copywriting-guidelines",
+      "homepage": null,
+      "stargazers_count": 15493,
+      "starred_at": "2018-08-27T10:29:58Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "crossoverJie/JCSprout": {
+      "categories": [
+        "Learning/Education",
+        "Library/Utility"
+      ],
+      "summary": "A collection of Java core knowledge including basic, concurrent, and algorithm topics.",
+      "description": "👨‍🎓 Java Core Sprout : basic, concurrent, algorithm ",
+      "language": "Java",
+      "topics": [
+        "algorithm",
+        "basic-java",
+        "concurrent-programming",
+        "java",
+        "jvm",
+        "netty"
+      ],
+      "html_url": "https://github.com/crossoverJie/JCSprout",
+      "homepage": "https://crossoverjie.top/JCSprout",
+      "stargazers_count": 26913,
+      "starred_at": "2018-06-21T06:32:45Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "CaMnter/BasicExercises": {
+      "categories": [
+        "Learning/Education"
+      ],
+      "summary": "A personal playground for practicing basic programming concepts like algorithms, data structures, and design patterns.",
+      "description": "📘 Personal basic practice test playground.",
+      "language": "Java",
+      "topics": [
+        "algorithm",
+        "basic",
+        "binary",
+        "design-patterns",
+        "java",
+        "linklist",
+        "sort",
+        "stack",
+        "thread",
+        "tree"
+      ],
+      "html_url": "https://github.com/CaMnter/BasicExercises",
+      "homepage": null,
+      "stargazers_count": 80,
+      "starred_at": "2018-04-12T03:07:55Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "amitshekhariitbhu/android-interview-questions": {
+      "categories": [
+        "Learning/Education",
+        "Mobile Development"
+      ],
+      "summary": "A comprehensive cheat sheet for Android interview questions covering Kotlin, coroutines, and more.",
+      "description": "Your Cheat Sheet For Android Interview - Android Interview Questions and Answers",
+      "language": "Java",
+      "topics": [
+        "android",
+        "android-interview",
+        "android-interview-practice",
+        "android-interview-question",
+        "android-interview-questions",
+        "android-interviews",
+        "answers",
+        "cheat-sheets",
+        "cheatsheet",
+        "interview-practice",
+        "interview-prep",
+        "interview-questions",
+        "kotlin",
+        "kotlin-android",
+        "kotlin-coroutines",
+        "questions",
+        "questions-and-answers"
+      ],
+      "html_url": "https://github.com/amitshekhariitbhu/android-interview-questions",
+      "homepage": "https://outcomeschool.com/program/android",
+      "stargazers_count": 12334,
+      "starred_at": "2018-03-27T10:06:03Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "chinese-poetry/chinese-poetry": {
+      "categories": [
+        "Database",
+        "Documentation"
+      ],
+      "summary": "The most comprehensive database of Chinese poetry with over 50,000 poems and 14,000 poets.",
+      "description": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
+      "language": "JavaScript",
+      "topics": [
+        "chinese",
+        "chinese-poetry",
+        "ci",
+        "json",
+        "poetry",
+        "tangshi"
+      ],
+      "html_url": "https://github.com/chinese-poetry/chinese-poetry",
+      "homepage": "https://awesome-poetry.top/",
+      "stargazers_count": 51824,
+      "starred_at": "2018-02-04T02:28:07Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "pcottle/learnGitBranching": {
+      "categories": [
+        "Learning/Education",
+        "Developer Tool"
+      ],
+      "summary": "An interactive git visualization and tutorial app for mastering git branching.",
+      "description": "An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!",
+      "language": "JavaScript",
+      "topics": [],
+      "html_url": "https://github.com/pcottle/learnGitBranching",
+      "homepage": "https://pcottle.github.io/learnGitBranching/",
+      "stargazers_count": 33598,
+      "starred_at": "2017-12-25T01:57:35Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "tesseract-ocr/tesseract": {
+      "categories": [
+        "AI/ML",
+        "Image Processing"
+      ],
+      "summary": "An open-source OCR engine with LSTM-based machine learning for text recognition.",
+      "description": "Tesseract Open Source OCR Engine (main repository)",
+      "language": "C++",
+      "topics": [
+        "hacktoberfest",
+        "lstm",
+        "machine-learning",
+        "ocr",
+        "ocr-engine",
+        "tesseract",
+        "tesseract-ocr"
+      ],
+      "html_url": "https://github.com/tesseract-ocr/tesseract",
+      "homepage": "https://tesseract-ocr.github.io/",
+      "stargazers_count": 74638,
+      "starred_at": "2017-11-08T01:38:13Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "hankcs/HanLP": {
+      "categories": [
+        "AI/ML",
+        "Library/Utility"
+      ],
+      "summary": "A natural language processing toolkit for Chinese text including segmentation, parsing, and classification.",
+      "description": "中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理",
+      "language": "Python",
+      "topics": [
+        "dependency-parser",
+        "hanlp",
+        "named-entity-recognition",
+        "natural-language-processing",
+        "nlp",
+        "pos-tagging",
+        "semantic-parsing",
+        "text-classification"
+      ],
+      "html_url": "https://github.com/hankcs/HanLP",
+      "homepage": "https://www.hanlp.com/",
+      "stargazers_count": 36397,
+      "starred_at": "2017-11-06T01:23:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "freeCodeCamp/freeCodeCamp": {
+      "categories": [
+        "Learning/Education",
+        "Web Framework"
+      ],
+      "summary": "An open-source platform offering free coding curriculum and certifications in math, programming, and computer science.",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "topics": [
+        "careers",
+        "certification",
+        "community",
+        "curriculum",
+        "d3",
+        "education",
+        "freecodecamp",
+        "javascript",
+        "learn-to-code",
+        "math",
+        "nodejs",
+        "nonprofits",
+        "programming",
+        "react",
+        "teachers"
+      ],
+      "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "homepage": "https://contribute.freecodecamp.org",
+      "stargazers_count": 446657,
+      "starred_at": "2017-04-06T06:40:09Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "exacity/deeplearningbook-chinese": {
+      "categories": [
+        "Learning/Education",
+        "Documentation"
+      ],
+      "summary": "Chinese translation of the Deep Learning book by Goodfellow, Bengio, and Courville.",
+      "description": "Deep Learning Book Chinese Translation",
+      "language": "TeX",
+      "topics": [],
+      "html_url": "https://github.com/exacity/deeplearningbook-chinese",
+      "homepage": "https://exacity.github.io/deeplearningbook-chinese",
+      "stargazers_count": 37285,
+      "starred_at": "2017-03-20T09:44:37Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "shimohq/chinese-programmer-wrong-pronunciation": {
+      "categories": [
+        "Documentation",
+        "Learning/Education"
+      ],
+      "summary": "A list of commonly mispronounced English words by Chinese programmers.",
+      "description": "中国程序员容易发音错误的单词",
+      "language": "JavaScript",
+      "topics": [
+        "chinese-programmers",
+        "documentation",
+        "pronunciation",
+        "spelling"
+      ],
+      "html_url": "https://github.com/shimohq/chinese-programmer-wrong-pronunciation",
+      "homepage": null,
+      "stargazers_count": 23203,
+      "starred_at": "2017-03-10T08:16:39Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "skyline75489/what-happens-when-zh_CN": {
+      "categories": [
+        "Learning/Education",
+        "Documentation"
+      ],
+      "summary": "Chinese translation of the 'What happens when' guide explaining web browser internals.",
+      "description": "What-happens-when 的中文翻译，原仓库 https://github.com/alex/what-happens-when",
+      "language": null,
+      "topics": [],
+      "html_url": "https://github.com/skyline75489/what-happens-when-zh_CN",
+      "homepage": null,
+      "stargazers_count": 8067,
+      "starred_at": "2017-03-06T11:05:57Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "judasn/Linux-Tutorial": {
+      "categories": [
+        "Learning/Education",
+        "Documentation"
+      ],
+      "summary": "A Linux tutorial for Java programmers covering tools like Nginx, MySQL, and Jenkins.",
+      "description": "《Java 程序员眼中的 Linux》",
+      "language": "Shell",
+      "topics": [
+        "centos",
+        "elasticsearch",
+        "fastdfs",
+        "gitlab",
+        "jenkins",
+        "linux",
+        "mysql",
+        "nginx",
+        "nmon",
+        "ubuntu",
+        "vmware"
+      ],
+      "html_url": "https://github.com/judasn/Linux-Tutorial",
+      "homepage": "https://github.com/judasn/Linux-Tutorial",
+      "stargazers_count": 8729,
+      "starred_at": "2017-01-13T04:44:01Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "francistao/LearningNotes": {
+      "categories": [
+        "Learning/Education"
+      ],
+      "summary": "Personal learning notes on Android, Java, and JVM.",
+      "description": "Enjoy Learning.",
+      "language": null,
+      "topics": [
+        "android",
+        "java",
+        "jvm"
+      ],
+      "html_url": "https://github.com/francistao/LearningNotes",
+      "homepage": null,
+      "stargazers_count": 13146,
+      "starred_at": "2016-11-16T08:48:14Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "simple-android-framework/android_design_patterns_analysis": {
+      "categories": [
+        "Learning/Education",
+        "Library/Utility"
+      ],
+      "summary": "Analysis of Android design patterns with source code examples.",
+      "description": "Android源码设计模式分析项目",
+      "language": "Java",
+      "topics": [],
+      "html_url": "https://github.com/simple-android-framework/android_design_patterns_analysis",
+      "homepage": null,
+      "stargazers_count": 2672,
+      "starred_at": "2016-03-14T02:21:58Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "Yalantis/uCrop": {
+      "categories": [
+        "Image Processing",
+        "Mobile Development",
+        "Library/Utility"
+      ],
+      "summary": "An image cropping library for Android with support for rotation and scaling.",
+      "description": "Image Cropping Library for Android",
+      "language": "Java",
+      "topics": [
+        "android",
+        "animation",
+        "crop",
+        "image",
+        "java",
+        "photo",
+        "rotation",
+        "scale"
+      ],
+      "html_url": "https://github.com/Yalantis/uCrop",
+      "homepage": "https://yalantis.com/blog/introducing-ucrop-our-own-image-cropping-library-for-android/",
+      "stargazers_count": 12089,
+      "starred_at": "2016-01-24T13:23:23Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-06-12T10:02:30.318Z"
+    }
+  }
+}

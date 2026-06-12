@@ -1,0 +1,14 @@
+{
+  "name": "gitstar-auto-classifier",
+  "version": "1.0.0",
+  "description": "Automatically classify GitHub starred repositories using LLM",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
