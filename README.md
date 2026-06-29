@@ -1,7 +1,7 @@
 # ⭐ GitHub Star Classifier
 
 > Automatically classified GitHub starred repositories using LLM.
-> Last updated: 2026-06-22 | Total: **155** repos across **19** categories
+> Last updated: 2026-06-29 | Total: **155** repos across **19** categories
 
 ## 📊 Overview
 
