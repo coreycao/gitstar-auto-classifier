@@ -39,7 +39,7 @@ jobs:
           GH_USERNAME: ${{ vars.GH_USERNAME || github.repository_owner }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4o-mini' }}
           FORCE_REFRESH: ${{ inputs.force_refresh || 'false' }}
         run: node src/main.js

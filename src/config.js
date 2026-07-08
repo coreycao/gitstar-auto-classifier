@@ -42,6 +42,19 @@ export function loadConfig() {
     throw new Error('LLM_API_KEY environment variable is required');
   }
 
+  // LLM endpoint + model are required: there is no safe default, since the API
+  // key is provider-specific. Failing fast with a clear message beats silently
+  // hitting the wrong provider.
+  const llmBaseUrl = (process.env.LLM_BASE_URL || '').trim();
+  if (!llmBaseUrl) {
+    throw new Error('LLM_BASE_URL environment variable is required (e.g. https://api.deepseek.com)');
+  }
+
+  const llmModel = (process.env.LLM_MODEL || '').trim();
+  if (!llmModel) {
+    throw new Error('LLM_MODEL environment variable is required (e.g. deepseek-chat)');
+  }
+
   // Repository identity — auto-derived in GitHub Actions from GITHUB_REPOSITORY ("owner/repo").
   // Override REPO_URL / PAGES_URL for custom domains or a non-default setup.
   const ghRepository = process.env.GITHUB_REPOSITORY || '';
@@ -62,8 +75,8 @@ export function loadConfig() {
 
     // LLM
     llmApiKey: apiKey,
-    llmBaseUrl: (process.env.LLM_BASE_URL || 'https://api.openai.com/v1').replace(/\/+$/, ''),
-    llmModel: process.env.LLM_MODEL || 'gpt-4o-mini',
+    llmBaseUrl: llmBaseUrl.replace(/\/+$/, ''),
+    llmModel,
 
     // Paths
     stateFile: process.env.STATE_FILE || 'data/classifications.json',
