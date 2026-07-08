@@ -30,7 +30,7 @@ export async function generateReadme(state, outputPath) {
   const lines = [];
 
   // Header
-  lines.push('# ⭐ GitHub Star Classifier');
+  lines.push('# [⭐ GitHub Star Classifier](https://coreycao.github.io/gitstar-auto-classifier/)');
   lines.push('');
   lines.push(`> Automatically classified GitHub starred repositories using LLM.`);
   lines.push(`> Last updated: ${dateStr} | Total: **${total_classified}** repos across **${sortedCategories.length}** categories`);
