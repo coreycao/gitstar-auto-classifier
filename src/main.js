@@ -54,12 +54,14 @@ async function main() {
     state.total_classified = Object.keys(state.repos).length;
   }
 
-  // 7. Save state
+  // 7. Save state (include repo/LLM metadata so the Pages site footer self-links)
+  state.repo_url = config.repoUrl;
+  state.llm_model = config.llmModel;
   await saveState(config.stateFile, state);
   console.log(`State saved to ${config.stateFile}`);
 
   // 8. Generate README
-  await generateReadme(state, config.readmeFile);
+  await generateReadme(state, config.readmeFile, { repoUrl: config.repoUrl, pagesUrl: config.pagesUrl });
   console.log(`README generated at ${config.readmeFile}`);
 
   // 9. Summary

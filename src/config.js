@@ -42,10 +42,23 @@ export function loadConfig() {
     throw new Error('LLM_API_KEY environment variable is required');
   }
 
+  // Repository identity — auto-derived in GitHub Actions from GITHUB_REPOSITORY ("owner/repo").
+  // Override REPO_URL / PAGES_URL for custom domains or a non-default setup.
+  const ghRepository = process.env.GITHUB_REPOSITORY || '';
+  const [repoOwner, repoName] = ghRepository.split('/');
+  const hasRepoIdentity = Boolean(repoOwner && repoName);
+  const repoUrl = process.env.REPO_URL
+    || (hasRepoIdentity ? `https://github.com/${repoOwner}/${repoName}` : 'https://github.com/your-username/gitstar-auto-classifier');
+  const pagesUrl = process.env.PAGES_URL
+    || (hasRepoIdentity ? `https://${repoOwner}.github.io/${repoName}/` : '');
+
   return {
     // GitHub
     ghUsername: username,
     ghToken: process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '',
+    repoOwner: repoOwner || '',
+    repoUrl,
+    pagesUrl,
 
     // LLM
     llmApiKey: apiKey,
