@@ -9,7 +9,7 @@ This project auto-classifies **your** GitHub starred repos and publishes a searc
 
 1. **Fork** this repository.
 2. Enable Actions: *Settings → Actions → Allow all actions*.
-3. Add repository **Secret** `LLM_API_KEY` (your LLM API key). Optional: Secret `LLM_BASE_URL` (default OpenAI-compatible) and repo **Variable** `LLM_MODEL` (default `gpt-4o-mini`).
+3. Add repository **Secret** `LLM_API_KEY` (your LLM API key), and repo **Variables** `LLM_BASE_URL` (any OpenAI-compatible endpoint, e.g. `https://api.deepseek.com`) and `LLM_MODEL` (e.g. `deepseek-chat`).
 4. Enable Pages: *Settings → Pages → Source → GitHub Actions*.
 5. Run the workflow: *Actions → "Classify Starred Repos" → Run workflow*. The weekly schedule (Mon 03:00 UTC) activates after the first run.
 

@@ -48,7 +48,7 @@ export async function generateReadme(state, outputPath, options = {}) {
   lines.push('');
   lines.push('1. **Fork** this repository.');
   lines.push('2. Enable Actions: *Settings → Actions → Allow all actions*.');
-  lines.push('3. Add repository **Secret** `LLM_API_KEY` (your LLM API key). Optional: Secret `LLM_BASE_URL` (default OpenAI-compatible) and repo **Variable** `LLM_MODEL` (default `gpt-4o-mini`).');
+  lines.push('3. Add repository **Secret** `LLM_API_KEY` (your LLM API key), and repo **Variables** `LLM_BASE_URL` (any OpenAI-compatible endpoint, e.g. `https://api.deepseek.com`) and `LLM_MODEL` (e.g. `deepseek-chat`).');
   lines.push('4. Enable Pages: *Settings → Pages → Source → GitHub Actions*.');
   lines.push('5. Run the workflow: *Actions → "Classify Starred Repos" → Run workflow*. The weekly schedule (Mon 03:00 UTC) activates after the first run.');
   lines.push('');
