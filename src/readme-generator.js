@@ -40,6 +40,23 @@ export async function generateReadme(state, outputPath, options = {}) {
   lines.push(`> Last updated: ${dateStr} | Total: **${total_classified}** repos across **${sortedCategories.length}** categories`);
   lines.push('');
 
+  // Setup / fork instructions (owner-independent, so they survive regeneration).
+  // Placed at the top so they're the first thing readers see.
+  lines.push('## 🔧 Run It On Your Own Account');
+  lines.push('');
+  lines.push('This project auto-classifies **your** GitHub starred repos and publishes a searchable site via GitHub Pages.');
+  lines.push('');
+  lines.push('1. **Fork** this repository.');
+  lines.push('2. Enable Actions: *Settings → Actions → Allow all actions*.');
+  lines.push('3. Add repository **Secret** `LLM_API_KEY` (your LLM API key). Optional: Secret `LLM_BASE_URL` (default OpenAI-compatible) and repo **Variable** `LLM_MODEL` (default `gpt-4o-mini`).');
+  lines.push('4. Enable Pages: *Settings → Pages → Source → GitHub Actions*.');
+  lines.push('5. Run the workflow: *Actions → "Classify Starred Repos" → Run workflow*. The weekly schedule (Mon 03:00 UTC) activates after the first run.');
+  lines.push('');
+  lines.push('`GH_USERNAME` defaults to your account automatically; set it as a repo **Variable** to classify someone else\'s stars.');
+  lines.push('');
+  lines.push('---');
+  lines.push('');
+
   // Overview table
   lines.push('## 📊 Overview');
   lines.push('');
@@ -71,22 +88,6 @@ export async function generateReadme(state, outputPath, options = {}) {
 
     lines.push('');
   }
-
-  // Setup / fork instructions (owner-independent, so they survive regeneration)
-  lines.push('---');
-  lines.push('');
-  lines.push('## 🔧 Run It On Your Own Account');
-  lines.push('');
-  lines.push('This project auto-classifies **your** GitHub starred repos and publishes a searchable site via GitHub Pages.');
-  lines.push('');
-  lines.push('1. **Fork** this repository.');
-  lines.push('2. Enable Actions: *Settings → Actions → Allow all actions*.');
-  lines.push('3. Add repository **Secret** `LLM_API_KEY` (your LLM API key). Optional: Secret `LLM_BASE_URL` (default OpenAI-compatible) and repo **Variable** `LLM_MODEL` (default `gpt-4o-mini`).');
-  lines.push('4. Enable Pages: *Settings → Pages → Source → GitHub Actions*.');
-  lines.push('5. Run the workflow: *Actions → "Classify Starred Repos" → Run workflow*. The weekly schedule (Mon 03:00 UTC) activates after the first run.');
-  lines.push('');
-  lines.push('`GH_USERNAME` defaults to your account automatically; set it as a repo **Variable** to classify someone else\'s stars.');
-  lines.push('');
 
   // Footer
   lines.push('---');

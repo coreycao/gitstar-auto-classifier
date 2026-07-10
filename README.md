@@ -3,6 +3,20 @@
 > Automatically classified GitHub starred repositories using LLM.
 > Last updated: 2026-07-07 | Total: **155** repos across **19** categories
 
+## 🔧 Run It On Your Own Account
+
+This project auto-classifies **your** GitHub starred repos and publishes a searchable site via GitHub Pages.
+
+1. **Fork** this repository.
+2. Enable Actions: *Settings → Actions → Allow all actions*.
+3. Add repository **Secret** `LLM_API_KEY` (your LLM API key). Optional: Secret `LLM_BASE_URL` (default OpenAI-compatible) and repo **Variable** `LLM_MODEL` (default `gpt-4o-mini`).
+4. Enable Pages: *Settings → Pages → Source → GitHub Actions*.
+5. Run the workflow: *Actions → "Classify Starred Repos" → Run workflow*. The weekly schedule (Mon 03:00 UTC) activates after the first run.
+
+`GH_USERNAME` defaults to your account automatically; set it as a repo **Variable** to classify someone else's stars.
+
+---
+
 ## 📊 Overview
 
 | Category | Count |
@@ -278,20 +292,6 @@
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
 | [glink25/Cent](https://github.com/glink25/Cent) | A free, open-source collaborative accounting web app with PWA support. | TypeScript | 1.1k |
-
----
-
-## 🔧 Run It On Your Own Account
-
-This project auto-classifies **your** GitHub starred repos and publishes a searchable site via GitHub Pages.
-
-1. **Fork** this repository.
-2. Enable Actions: *Settings → Actions → Allow all actions*.
-3. Add repository **Secret** `LLM_API_KEY` (your LLM API key). Optional: Secret `LLM_BASE_URL` (default OpenAI-compatible) and repo **Variable** `LLM_MODEL` (default `gpt-4o-mini`).
-4. Enable Pages: *Settings → Pages → Source → GitHub Actions*.
-5. Run the workflow: *Actions → "Classify Starred Repos" → Run workflow*. The weekly schedule (Mon 03:00 UTC) activates after the first run.
-
-`GH_USERNAME` defaults to your account automatically; set it as a repo **Variable** to classify someone else's stars.
 
 ---
 
