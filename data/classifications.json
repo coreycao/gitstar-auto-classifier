@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-07-13T05:57:23.181Z",
-  "total_classified": 155,
+  "last_run": "2026-07-20T05:58:23.730Z",
+  "total_classified": 157,
   "repos": {
     "pewdiepie-archdaemon/odysseus": {
       "categories": [
@@ -3778,6 +3778,55 @@
       "fork": false,
       "archived": false,
       "classified_at": "2026-06-12T10:02:30.318Z"
+    },
+    "FlareStarter/flarestarter": {
+      "categories": [
+        "Template/Boilerplate",
+        "Web Framework",
+        "Cloud/DevOps"
+      ],
+      "summary": "A full-stack, edge-native SaaS starter template built with TanStack Start and Cloudflare Workers.",
+      "description": "A full-stack, edge-native SaaS starter built with TanStack Start + Cloudflare Workers  | 基于 TanStack Start + Cloudflare Workers 构建的全栈、边缘原生 SaaS 起步模板 ",
+      "language": "TypeScript",
+      "topics": [
+        "better-auth",
+        "cloudflare-d1",
+        "cloudflare-workers",
+        "drizzle-orm",
+        "edge",
+        "i18n",
+        "react",
+        "saas-boilerplate",
+        "saas-starter",
+        "stripe",
+        "tanstack-start",
+        "typescript"
+      ],
+      "html_url": "https://github.com/FlareStarter/flarestarter",
+      "homepage": "https://flarestarter.com",
+      "stargazers_count": 264,
+      "starred_at": "2026-07-18T10:27:45Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-07-20T05:58:23.730Z"
+    },
+    "odysseus-dev/odysseus": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool",
+        "Other"
+      ],
+      "summary": "A self-hosted AI workspace for various tasks.",
+      "description": "Self-hosted AI workspace. ",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/odysseus-dev/odysseus",
+      "homepage": "https://pewdiepie-archdaemon.github.io/odysseus/",
+      "stargazers_count": 83290,
+      "starred_at": "2026-06-02T05:15:52Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-07-20T05:58:23.730Z"
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
