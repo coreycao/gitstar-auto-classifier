@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-08-03T06:09:13.828Z",
-  "total_classified": 157,
+  "last_run": "2026-08-10T04:20:58.837Z",
+  "total_classified": 158,
   "repos": {
     "pewdiepie-archdaemon/odysseus": {
       "categories": [
@@ -3827,6 +3827,23 @@
       "fork": false,
       "archived": false,
       "classified_at": "2026-07-20T05:58:23.730Z"
+    },
+    "andrewyng/openworker": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "A Python-based tool for managing and deploying AI/ML workloads, likely providing a developer-friendly interface for orchestration.",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "html_url": "https://github.com/andrewyng/openworker",
+      "homepage": null,
+      "stargazers_count": 13995,
+      "starred_at": "2026-08-06T12:01:46Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-08-10T04:20:58.837Z"
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
