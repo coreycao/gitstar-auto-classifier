@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-08-17T03:39:14.629Z",
-  "total_classified": 159,
+  "last_run": "2026-08-24T03:43:08.335Z",
+  "total_classified": 160,
   "repos": {
     "pewdiepie-archdaemon/odysseus": {
       "categories": [
@@ -3867,6 +3867,22 @@
       "fork": false,
       "archived": false,
       "classified_at": "2026-08-17T03:39:14.629Z"
+    },
+    "tw93/Kami": {
+      "categories": [
+        "Other"
+      ],
+      "summary": "A project that emphasizes presenting good content on paper, likely a template or tool for creating documents or presentations.",
+      "description": "👩‍🚒 Good content deserves good paper.",
+      "language": "HTML",
+      "topics": [],
+      "html_url": "https://github.com/tw93/Kami",
+      "homepage": "https://kami.tw93.fun",
+      "stargazers_count": 10877,
+      "starred_at": "2026-08-17T10:29:36Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-08-24T03:43:08.335Z"
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
