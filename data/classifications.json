@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-10-12T09:56:09.708Z",
-  "total_classified": 161,
+  "last_run": "2026-10-19T08:13:06.403Z",
+  "total_classified": 162,
   "repos": {
     "pewdiepie-archdaemon/odysseus": {
       "categories": [
@@ -3901,6 +3901,29 @@
       "fork": false,
       "archived": false,
       "classified_at": "2026-09-14T08:13:11.518Z"
+    },
+    "PC2005-cloud/dsh-pet": {
+      "categories": [
+        "Other",
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "A one-command-install transparent animated desktop pet for DSH with multi-instance support, configurable size and position, and a built-in DIY asset pipeline for generating custom pets via AI video.",
+      "description": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物",
+      "language": "TypeScript",
+      "topics": [
+        "deepseek-harness",
+        "desktop-pet",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "html_url": "https://github.com/PC2005-cloud/dsh-pet",
+      "homepage": "https://www.npmjs.com/package/dsh-pet",
+      "stargazers_count": 2380,
+      "starred_at": "2026-10-19T02:44:37Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-10-19T08:13:06.403Z"
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
