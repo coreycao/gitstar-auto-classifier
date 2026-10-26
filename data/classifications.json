@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-10-19T08:13:06.403Z",
-  "total_classified": 162,
+  "last_run": "2026-10-26T08:13:43.190Z",
+  "total_classified": 163,
   "repos": {
     "pewdiepie-archdaemon/odysseus": {
       "categories": [
@@ -3924,6 +3924,45 @@
       "fork": false,
       "archived": false,
       "classified_at": "2026-10-19T08:13:06.403Z"
+    },
+    "Marvae/douban-cli": {
+      "categories": [
+        "CLI Tool",
+        "AI/ML",
+        "Library/Utility"
+      ],
+      "summary": "A TypeScript command-line tool for querying Douban movies, TV shows, books, and Top250 lists, exporting watch/read records, and integrating with AI agents for safe rating.",
+      "description": "豆瓣命令行工具 + AI Agent Skill：查电影、剧集、图书和 Top250，导出备份豆瓣观影/读书记录，让 AI 放心地标记评分 | Douban CLI for movies, books & your ratings",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "ai-tools",
+        "backup",
+        "books",
+        "chinese",
+        "cli",
+        "command-line-tool",
+        "douban",
+        "douban-api",
+        "douban-book",
+        "douban-cli",
+        "douban-movie",
+        "export",
+        "llm",
+        "movies",
+        "nodejs",
+        "terminal",
+        "top250",
+        "typescript"
+      ],
+      "html_url": "https://github.com/Marvae/douban-cli",
+      "homepage": "https://www.npmjs.com/package/@marvae24/douban-cli",
+      "stargazers_count": 150,
+      "starred_at": "2026-10-25T14:42:40Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-10-26T08:13:43.190Z"
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
