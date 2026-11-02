@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-10-26T08:13:43.190Z",
-  "total_classified": 163,
+  "last_run": "2026-11-02T10:12:53.867Z",
+  "total_classified": 166,
   "repos": {
     "pewdiepie-archdaemon/odysseus": {
       "categories": [
@@ -3963,6 +3963,84 @@
       "fork": false,
       "archived": false,
       "classified_at": "2026-10-26T08:13:43.190Z"
+    },
+    "pbakaus/impeccable": {
+      "categories": [
+        "AI/ML",
+        "Developer Tool"
+      ],
+      "summary": "A design vocabulary and skill set that guides coding agents to polish, critique, and audit UI work before shipping.",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "homepage": "https://impeccable.style",
+      "stargazers_count": 99872,
+      "starred_at": "2026-10-29T08:03:49Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-11-02T10:12:53.867Z"
+    },
+    "guokaigdg/naive-icons": {
+      "categories": [
+        "Library/Utility",
+        "Frontend Framework"
+      ],
+      "summary": "A TypeScript library of hand-drawn SVG icons in a naive folk art style for use in React and web projects.",
+      "description": "A library of hand-drawn SVG icons in a naive folk art style  手绘 naive folk art 风格的 SVG 图标库",
+      "language": "TypeScript",
+      "topics": [
+        "icons",
+        "naive",
+        "react"
+      ],
+      "html_url": "https://github.com/guokaigdg/naive-icons",
+      "homepage": "https://guokaigdg.github.io/naive-icons/",
+      "stargazers_count": 283,
+      "starred_at": "2026-10-29T06:37:38Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-11-02T10:12:53.867Z"
+    },
+    "leemysw/yovoice": {
+      "categories": [
+        "AI/ML",
+        "Other"
+      ],
+      "summary": "An open-source offline desktop studio for macOS and Windows offering TTS, voice cloning, and AI music generation.",
+      "description": "Open-source local AI audio & music studio for macOS & Windows. TTS, voice cloning, songs with lyrics, and multi-track scores — 100% offline, zero API fees.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-music",
+        "audio",
+        "desktop-app",
+        "local-ai",
+        "macos",
+        "mcp",
+        "midi",
+        "music-generation",
+        "offline-ai",
+        "skill",
+        "text-to-speech",
+        "tts",
+        "voice",
+        "voice-cloning",
+        "voice-cloning-app",
+        "windows"
+      ],
+      "html_url": "https://github.com/leemysw/yovoice",
+      "homepage": "https://yovoice.leemysw.com",
+      "stargazers_count": 2026,
+      "starred_at": "2026-10-29T06:36:27Z",
+      "fork": false,
+      "archived": false,
+      "classified_at": "2026-11-02T10:12:53.867Z"
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
