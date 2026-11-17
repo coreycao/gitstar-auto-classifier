@@ -1,6 +1,6 @@
 import { loadConfig } from './config.js';
 import { fetchAllStarredRepos } from './github-client.js';
-import { loadState, saveState, computeNewRepos, mergeClassifications } from './state.js';
+import { loadState, saveState, computeNewRepos, mergeClassifications, pruneUnstarredRepos } from './state.js';
 import { classifyRepos } from './classifier.js';
 import { generateReadme } from './readme-generator.js';
 
@@ -31,9 +31,15 @@ async function main() {
   if (config.forceRefresh) {
     console.log('Force refresh enabled — re-classifying all repos.');
     reposToClassify = allRepos;
-    // Clear existing state for full re-classification
-    state.repos = {};
   } else {
+    // Sync state with reality: drop entries whose repos are no longer starred.
+    const pruned = pruneUnstarredRepos(allRepos, state);
+    if (pruned.length > 0) {
+      console.log(`Pruned ${pruned.length} unstarred repo(s) from state:`);
+      for (const name of pruned) {
+        console.log(`  - ${name}`);
+      }
+    }
     reposToClassify = computeNewRepos(allRepos, state);
     console.log(`New repos to classify: ${reposToClassify.length}.`);
   }
@@ -46,8 +52,14 @@ async function main() {
     console.log(`Successfully classified ${classifications.length} repos.`);
     console.log('');
 
-    // 6. Merge into state
+    // 6. Merge into state. Overwrites entries of re-classified repos; a repo
+    // whose batch failed keeps its previous classification instead of being lost.
     mergeClassifications(state, classifications);
+
+    // In force-refresh mode, still drop entries whose repos are no longer starred.
+    if (config.forceRefresh) {
+      pruneUnstarredRepos(allRepos, state);
+    }
   } else {
     console.log('No new repos to classify.');
     state.last_run = new Date().toISOString();

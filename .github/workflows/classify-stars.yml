@@ -34,6 +34,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Run tests
+        run: npm test
+
       - name: Run classifier
         env:
           GH_USERNAME: ${{ vars.GH_USERNAME || github.repository_owner }}

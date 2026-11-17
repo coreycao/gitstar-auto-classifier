@@ -56,6 +56,26 @@ export function computeNewRepos(allRepos, state) {
 }
 
 /**
+ * Remove state entries for repos that are no longer starred.
+ * Only call with a complete starred list: fetchAllStarredRepos either returns
+ * every page or throws, so a successful fetch is safe to prune against.
+ * @param {Array} allRepos - current starred repos from GitHub API
+ * @param {object} state - current state (mutated)
+ * @returns {string[]} full_names of the removed entries
+ */
+export function pruneUnstarredRepos(allRepos, state) {
+  const currentNames = new Set(allRepos.map((repo) => repo.full_name));
+  const removed = Object.keys(state.repos).filter((name) => !currentNames.has(name));
+
+  for (const name of removed) {
+    delete state.repos[name];
+  }
+  state.total_classified = Object.keys(state.repos).length;
+
+  return removed;
+}
+
+/**
  * Merge newly classified repos into the state.
  * @param {object} state - current state (mutated)
  * @param {Array<{full_name: string, categories: string[], summary: string, description: string, language: string|null, topics: string[], html_url: string, homepage: string|null, stargazers_count: number, starred_at: string, fork: boolean, archived: boolean, classified_at: string}>} classifications
