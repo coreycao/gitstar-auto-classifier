@@ -10,6 +10,7 @@ const CATEGORIES = [
   'Blockchain/Web3',
   'CLI Tool',
   'Cloud/DevOps',
+  'Content/CMS',
   'Database',
   'Developer Tool',
   'Documentation',
@@ -27,6 +28,7 @@ const CATEGORIES = [
   'Networking',
   'Operating System',
   'Package Manager',
+  'Productivity',
   'Security',
   'Static Site Generator',
   'Template/Boilerplate',
@@ -36,30 +38,79 @@ const CATEGORIES = [
 ];
 
 /**
- * Build the classification prompt for a batch of repos.
+ * One-line definition per category. Definitions live next to the taxonomy in
+ * the prompt: without them the model invents its own boundaries, which showed
+ * up as "Developer Tool" used as filler (40 of 53 uses were secondary tags on
+ * AI/ML repos) and "Other" on 13% of repos.
  */
-function buildPrompt(repos) {
-  const taxonomy = CATEGORIES.join(', ');
-  const repoList = repos
-    .map(
-      (r, i) =>
-        `${i + 1}. Name: ${r.full_name}, Description: ${r.description || 'N/A'}, Language: ${r.language || 'N/A'}, Topics: ${r.topics.length > 0 ? r.topics.join(', ') : 'N/A'}, Stars: ${r.stargazers_count}, Fork: ${r.fork}`
-    )
-    .join('\n');
+const TAXONOMY_DEFINITIONS = {
+  'AI/ML': 'ML/LLM frameworks, AI agents and apps, model hubs, inference and fine-tuning',
+  'Analytics': 'data analysis, dashboards, metrics and BI',
+  'Blockchain/Web3': 'blockchains, smart contracts, wallets and dApps',
+  'CLI Tool': 'the primary interface is the terminal',
+  'Cloud/DevOps': 'cloud infrastructure, containers, Kubernetes, CI/CD and deployment',
+  'Content/CMS': 'content management, blogging, podcast and media publishing',
+  'Database': 'database engines, ORMs, clients and migration tools',
+  'Developer Tool': 'tools you run while building software: build systems, linters, scaffolding, code quality, AI coding assistants',
+  'Documentation': 'reference docs, guides, awesome-lists and technical handbooks',
+  'Editor/IDE': 'text editors, IDEs and their plugins',
+  'Embedded/IoT': 'firmware, microcontrollers, robotics and connected devices',
+  'Frontend Framework': 'UI frameworks and component libraries for browser interfaces',
+  'Game Development': 'game engines and code for making games',
+  'GIS/Mapping': 'maps, geospatial data and location services',
+  'Image Processing': 'image/video generation and editing, OCR and computer vision',
+  'Learning/Education': 'courses, curricula, tutorials and interview prep',
+  'Library/Utility': 'general-purpose code you import into your own project',
+  'Messaging/Chat': 'chat apps, IM bots and notification platforms',
+  'Mobile Development': 'Android/iOS apps and cross-platform mobile frameworks',
+  'Monitoring/Observability': 'logging, tracing, metrics and uptime monitoring',
+  'Networking': 'proxies, tunnels, network protocols and traffic tools',
+  'Operating System': 'OS kernels, distros, desktop environments and system tooling',
+  'Package Manager': 'package managers and registries',
+  'Productivity': 'note-taking, whiteboards, task, time and knowledge management',
+  'Security': 'pentesting, vulnerability scanning, auth and privacy tools',
+  'Static Site Generator': 'static site generators and their themes',
+  'Template/Boilerplate': 'starter templates and project scaffolds',
+  'Testing': 'test frameworks, mocking and QA automation',
+  'Web Framework': 'server-side and full-stack web application frameworks',
+  'Other': 'genuinely fits nothing above',
+};
 
-  return `You are a precise software project classifier. Classify each repository into 1-3 categories from the taxonomy below, and write a one-sentence summary of what the project does.
+/**
+ * Build the system prompt: task, rules, taxonomy with definitions.
+ * Kept identical across batches so DeepSeek's KV prefix cache can reuse it.
+ */
+function buildSystemPrompt() {
+  const taxonomy = CATEGORIES.map((c) => `- ${c}: ${TAXONOMY_DEFINITIONS[c]}`).join('\n');
 
-TAXONOMY: ${taxonomy}
+  return `You are a precise software repository classifier. For each repository the user lists, choose 1-2 categories from the taxonomy and write a summary.
 
-REPOSITORIES:
-${repoList}
+RULES:
+- categories[0] is the PRIMARY category used for grouping. Put the single best fit first, then at most one more category, most specific first.
+- Use at most 2 categories; do not pad. Omit a category rather than guess.
+- Use "Other" only when no category fits, and never combine it with a category that fits.
+- Disambiguation: "Developer Tool" is a tool you run to build software; "Library/Utility" is code you import; if the terminal is the primary interface, use "CLI Tool". "Documentation" is reference docs and awesome-lists; "Learning/Education" is courses, curricula and tutorials. "Web Framework" is server-side or full-stack; "Frontend Framework" is browser-side UI.
+- Write the summary in English, under 20 words, based on the description and topics, regardless of the description's language.
+- Return exactly one result per input repository, in the same order, echoing full_name exactly.
+- Respond with a JSON object: {"results": [{"full_name": "...", "categories": ["..."], "summary": "..."}]}
 
-You must respond with a JSON object containing a "results" key, whose value is an array. Each element must have:
-- "full_name": exact repo name as given above
-- "categories": array of 1-3 categories from the taxonomy
-- "summary": one-sentence description
+Example: {"results": [{"full_name": "user/repo", "categories": ["Developer Tool", "CLI Tool"], "summary": "Terminal-first tool that formats code on save."}]}
 
-Example: {"results": [{"full_name": "user/repo", "categories": ["Developer Tool", "CLI Tool"], "summary": "A CLI tool for X"}]}`;
+TAXONOMY:
+${taxonomy}`;
+}
+
+/**
+ * Build the user message: the batch of repos to classify.
+ */
+function buildRepoList(repos) {
+  return `REPOSITORIES:
+${repos
+  .map(
+    (r, i) =>
+      `${i + 1}. Name: ${r.full_name}, Description: ${r.description || 'N/A'}, Language: ${r.language || 'N/A'}, Topics: ${r.topics.length > 0 ? r.topics.join(', ') : 'N/A'}, Fork: ${r.fork}`
+  )
+  .join('\n')}`;
 }
 
 /**
@@ -105,20 +156,27 @@ function parseResponse(text) {
 /**
  * Call the LLM API to classify a single batch of repos.
  * Retries once on parse failure.
+ *
+ * Calling convention follows the DeepSeek API docs
+ * (https://api-docs.deepseek.com/zh-cn):
+ * - system message carries the task/rules, user message carries the data
+ *   (matches the official JSON-mode example);
+ * - `thinking` must be explicitly disabled — per docs it defaults to ENABLED
+ *   when neither `thinking` nor `reasoning_effort` is provided;
+ * - `temperature` applies in non-thinking mode (range 0-2, default 1);
+ * - JSON mode: invalid output is replaced with spaces (looks empty), and
+ *   finish_reason "length" means the JSON was cut off mid-stream.
  */
 async function classifyBatch(repos, config) {
-  const prompt = buildPrompt(repos);
-
   const body = {
     model: config.llmModel,
     messages: [
-      { role: 'user', content: prompt },
+      { role: 'system', content: buildSystemPrompt() },
+      { role: 'user', content: buildRepoList(repos) },
     ],
-    temperature: 0.1,
+    temperature: 0,
     max_tokens: 4000,
-    // Disable thinking/reasoning mode for DeepSeek models (wastes tokens on simple classification)
     thinking: { type: 'disabled' },
-    // Force JSON output
     response_format: { type: 'json_object' },
   };
 
@@ -142,9 +200,16 @@ async function classifyBatch(repos, config) {
       }
 
       const data = await response.json();
-      const content = data.choices?.[0]?.message?.content;
-      if (!content) {
-        throw new Error('Empty response from LLM');
+      const choice = data.choices?.[0];
+      const content = choice?.message?.content;
+
+      if (!content || !content.trim()) {
+        // JSON mode replaces invalid output with spaces, so this can be an
+        // empty string with finish_reason "stop".
+        throw new Error(`empty response (finish_reason=${choice?.finish_reason ?? 'unknown'})`);
+      }
+      if (choice.finish_reason === 'length') {
+        throw new Error('response truncated by max_tokens (finish_reason=length); lower BATCH_SIZE');
       }
 
       const parsed = parseResponse(content);
@@ -157,15 +222,13 @@ async function classifyBatch(repos, config) {
       return results;
     } catch (err) {
       if (attempt === 0) {
-        console.warn(`  Parse error, retrying: ${err.message}`);
-        // On retry, add explicit instruction for JSON-only output
-        body.messages.push({
-          role: 'assistant',
-          content: '```json\n',
-        });
+        console.warn(`  Classification attempt failed, retrying: ${err.message}`);
+        // Ask for a corrected full response; no assistant prefill — with
+        // JSON mode the prefill must be a valid JSON prefix, a markdown
+        // fence is not.
         body.messages.push({
           role: 'user',
-          content: 'Continue. Return ONLY valid JSON, no markdown fences.',
+          content: `Your previous response could not be used (${err.message.slice(0, 200)}). Return the complete corrected JSON object now, following the schema exactly — no prose, no markdown fences.`,
         });
       } else {
         console.error(`  Failed to classify batch after retry: ${err.message}`);
@@ -219,4 +282,4 @@ export async function classifyRepos(repos, config) {
   return results;
 }
 
-export { CATEGORIES };
+export { CATEGORIES, TAXONOMY_DEFINITIONS, buildSystemPrompt, buildRepoList, normalizeCategory };
