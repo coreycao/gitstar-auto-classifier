@@ -1,7 +1,7 @@
 # [⭐ GitHub Star Classifier](https://coreycao.github.io/gitstar-auto-classifier/)
 
 > Automatically classified GitHub starred repositories using LLM.
-> Last updated: 2026-11-16 | Total: **169** repos across **19** categories
+> Last updated: 2026-11-17 | Total: **169** repos across **19** categories
 
 ## 🔧 Run It On Your Own Account
 
