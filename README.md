@@ -1,7 +1,7 @@
 # [⭐ GitHub Star Classifier](https://coreycao.github.io/gitstar-auto-classifier/)
 
 > Automatically classified GitHub starred repositories using LLM.
-> Last updated: 2026-11-17 | Total: **167** repos across **19** categories
+> Last updated: 2026-11-17 | Total: **167** repos across **21** categories
 
 ## 🔧 Run It On Your Own Account
 
@@ -21,25 +21,27 @@ This project auto-classifies **your** GitHub starred repos and publishes a searc
 
 | Category | Count |
 |---|---|
-| AI/ML | 69 |
-| Analytics | 2 |
-| CLI Tool | 4 |
-| Cloud/DevOps | 2 |
+| AI/ML | 46 |
+| Analytics | 3 |
+| CLI Tool | 3 |
+| Cloud/DevOps | 1 |
+| Content/CMS | 4 |
 | Database | 2 |
-| Developer Tool | 13 |
-| Documentation | 5 |
+| Developer Tool | 11 |
+| Documentation | 18 |
 | Editor/IDE | 1 |
-| Image Processing | 2 |
-| Learning/Education | 28 |
-| Library/Utility | 6 |
+| Embedded/IoT | 1 |
+| Image Processing | 3 |
+| Learning/Education | 38 |
+| Library/Utility | 7 |
 | Messaging/Chat | 2 |
-| Mobile Development | 14 |
-| Monitoring/Observability | 1 |
-| Other | 9 |
+| Mobile Development | 11 |
+| Other | 3 |
+| Productivity | 5 |
 | Security | 2 |
 | Static Site Generator | 1 |
-| Template/Boilerplate | 3 |
-| Web Framework | 1 |
+| Template/Boilerplate | 4 |
+| Testing | 1 |
 
 ---
 
@@ -47,263 +49,273 @@ This project auto-classifies **your** GitHub starred repos and publishes a searc
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [f/prompts.chat](https://github.com/f/prompts.chat) | An open-source platform to share, discover, and collect AI prompts for ChatGPT and other LLMs. | HTML | 163.6k |
-| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Comprehensive collection of system prompts, internal tools, and AI models for various AI coding assistants. | - | 140.0k |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | A plugin-based harness for DeepSeek AI agents, enabling extensible integration and tooling. | TypeScript | 137.1k |
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | A design vocabulary and skill set that guides coding agents to polish, critique, and audit UI work before shipping. | Rust | 99.9k |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | A tool that uses AI to generate short videos with one click. | Python | 86.5k |
-| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | A self-hosted AI workspace for various tasks. | Python | 83.3k |
-| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | An open-source OCR engine with LSTM-based machine learning for text recognition. | C++ | 74.6k |
-| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | A 12-lesson tutorial series for beginners to learn building AI agents using frameworks like AutoGen and Semantic Kernel. | Jupyter Notebook | 67.1k |
-| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | A tool for controlling and orchestrating AI coding agents like Claude Code and Codex from any computer or phone. | TypeScript | 62.1k |
-| [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) | A Q&A book covering 500 deep learning questions across various topics. | JavaScript | 57.4k |
-| [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | A CLI platform for code generation using AI, precursor to Lovable.dev. | Python | 55.2k |
-| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | An AI productivity studio with smart chat, autonomous agents, and unified access to frontier LLMs. | TypeScript | 47.2k |
-| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | Lightweight open-source AI agent for tools, chats, and workflows. | Python | 44.1k |
-| [apachecn/ailearning](https://github.com/apachecn/ailearning) | Comprehensive AI learning resources covering data analysis, machine learning, and deep learning. | Python | 42.3k |
-| [moeru-ai/airi](https://github.com/moeru-ai/airi) | Self-hosted AI companion with realtime voice chat and game-playing capabilities. | TypeScript | 41.0k |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | A unified AI model hub for aggregating and distributing LLMs with format conversion. | Go | 38.5k |
-| [wshobson/agents](https://github.com/wshobson/agents) | A multi-harness agentic plugin marketplace for AI coding assistants like Claude Code and Cursor. | Python | 36.6k |
-| [hankcs/HanLP](https://github.com/hankcs/HanLP) | A natural language processing toolkit for Chinese text including segmentation, parsing, and classification. | Python | 36.4k |
-| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | A curated collection of 500 AI agent projects across various industries. | Python | 32.3k |
-| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | A collection of leaked prompts for custom GPTs. | - | 32.0k |
-| [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) | A GPT-4 AI tutor prompt for customizable personalized learning experiences. | - | 29.6k |
-| [labring/FastGPT](https://github.com/labring/FastGPT) | A knowledge-based platform built on LLMs for data processing, RAG retrieval, and visual AI workflow orchestration. | TypeScript | 28.4k |
-| [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | An open-source RAG-based tool for chatting with your documents. | Python | 25.5k |
-| [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) | A gallery showcasing on-device ML/GenAI use cases for local model experimentation. | Kotlin | 23.7k |
-| [PicoTrex/Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images) | A curated collection of creative images generated with Nano Banana models, including a released dataset for community development. | - | 23.0k |
-| [guidance-ai/guidance](https://github.com/guidance-ai/guidance) | A guidance language for controlling large language models. | Jupyter Notebook | 21.5k |
-| [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | An all-in-one framework for retrieval-augmented generation (RAG) supporting multi-modal RAG. | Python | 21.2k |
-| [dyad-sh/dyad](https://github.com/dyad-sh/dyad) | A local, open-source AI app builder for power users, similar to v0 or Lovable. | TypeScript | 20.6k |
-| [elizaOS/eliza](https://github.com/elizaOS/eliza) | An open source agentic operating system for creating autonomous AI agents with multi-platform chat integration. | TypeScript | 18.6k |
-| [alibaba/page-agent](https://github.com/alibaba/page-agent) | A JavaScript in-page GUI agent that controls web interfaces using natural language. | TypeScript | 18.5k |
-| [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) | A quickstart project for building fullstack agents using Gemini 2.5 and LangGraph. | Jupyter Notebook | 18.2k |
-| [modelscope/FunASR](https://github.com/modelscope/FunASR) | An industrial-grade speech recognition toolkit supporting 50+ languages, speaker diarization, emotion detection, and streaming. | Python | 17.9k |
-| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | An open-source LLM knowledge platform that turns documents into a queryable RAG and autonomous agent. | Go | 16.2k |
-| [mindverse/Second-Me](https://github.com/mindverse/Second-Me) | A tool to train a personalized AI model that amplifies your own knowledge and interactions. | Python | 15.6k |
-| [TianxingChen/Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) | A comprehensive guide and tutorial for embodied AI and robotics. | - | 14.2k |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | A Python-based tool for managing and deploying AI/ML workloads, likely providing a developer-friendly interface for orchestration. | Python | 14.0k |
-| [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene) | AI-powered vision-driven UI automation tool for testing across platforms. | TypeScript | 13.7k |
-| [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | A curated collection of AI application examples including RAG, agents, and workflows. | Python | 12.8k |
-| [YouMind-OpenLab/awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) | A curated library of over 10,000 prompts for Google Gemini AI image generation with preview images and multilingual support. | TypeScript | 12.5k |
-| [bytedance/trae-agent](https://github.com/bytedance/trae-agent) | An LLM-based agent for general purpose software engineering tasks. | Python | 11.7k |
-| [chaitin/PandaWiki](https://github.com/chaitin/PandaWiki) | An AI-powered open-source knowledge base system for building intelligent documentation, FAQs, and blogs. | TypeScript | 9.8k |
-| [langchain-ai/local-deep-researcher](https://github.com/langchain-ai/local-deep-researcher) | A fully local web research and report writing assistant powered by AI. | Python | 9.2k |
-| [liaokongVFX/LangChain-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide) | A Chinese tutorial for getting started with LangChain, covering AIGC and OpenAI API. | - | 9.0k |
-| [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) | AI coworker tool that earned $15K in 11 hours using OpenClaw. | Python | 8.2k |
-| [jamez-bondos/awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images) | A curated collection of images and prompts generated by GPT-4o, showcasing AI image generation capabilities. | JavaScript | 8.1k |
-| [openai/openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) | A demo of a customer service use case implemented with the OpenAI Agents SDK. | Python | 6.4k |
-| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | Curated collection of system prompts for top AI tools, useful for AI agent builders and prompt engineers. | TypeScript | 6.0k |
-| [tw93/Waza](https://github.com/tw93/Waza) | Turns engineering habits into skills that Claude can execute. | Python | 5.7k |
-| [ghuntley/how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent) | A workshop that teaches how to build a coding agent similar to popular AI coding tools. | Go | 5.7k |
-| [volcengine/MineContext](https://github.com/volcengine/MineContext) | A proactive context-aware AI partner that integrates context engineering with ChatGPT Pulse. | Python | 5.4k |
-| [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | A 24/7 all-scenario AI agent that automates tasks for users. | TypeScript | 5.3k |
-| [nianticlabs/monodepth2](https://github.com/nianticlabs/monodepth2) | Monocular depth estimation from a single image using deep learning. | Jupyter Notebook | 4.5k |
-| [JetBrains/koog](https://github.com/JetBrains/koog) | A JVM framework for building enterprise-ready AI agents across platforms including backend, Android, iOS, and browser. | Kotlin | 4.3k |
-| [microsoft/AI-System](https://github.com/microsoft/AI-System) | Educational resources for AI system design. | Python | 4.3k |
-| [hanshuaikang/AI-Media2Doc](https://github.com/hanshuaikang/AI-Media2Doc) | Converts audio/video into various document formats like social media posts, notes, mind maps, and subtitles using AI. | Vue | 3.8k |
-| [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | A chat demo application showcasing conversational AI capabilities. | TypeScript | 3.7k |
-| [idootop/MagicMirror](https://github.com/idootop/MagicMirror) | An instant AI face swap tool for discovering a more beautiful you. | TypeScript | 2.9k |
-| [overwirehq/claude-code-telegram](https://github.com/overwirehq/claude-code-telegram) | A Telegram bot that provides remote access to Claude Code, letting developers interact with their projects from anywhere with AI assistance and session persistence. | Python | 2.8k |
-| [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) | An agent designed for mathematical modeling that automatically generates complete papers. | Python | 2.3k |
-| [leemysw/yovoice](https://github.com/leemysw/yovoice) | An open-source offline desktop studio for macOS and Windows offering TTS, voice cloning, and AI music generation. | TypeScript | 2.0k |
-| [langchain-ai/agents-from-scratch](https://github.com/langchain-ai/agents-from-scratch) | A tutorial project for building an email assistant with human-in-the-loop and memory using agents. | Jupyter Notebook | 1.8k |
-| [LodyAI/Lody](https://github.com/LodyAI/Lody) | A local-first platform for sharing and orchestrating coding agents with your team across phone and desktop. | TypeScript | 1.8k |
-| [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) | An agent skill for designing cross-platform desktop apps with native feel. | - | 1.8k |
-| [andersrex/notesollama](https://github.com/andersrex/notesollama) | Integrates Ollama local LLMs into Apple Notes for conversational AI within notes. | Swift | 711 |
-| [SeedV/generative-ai-roadmap](https://github.com/SeedV/generative-ai-roadmap) | A roadmap of generative AI use cases and applications. | - | 615 |
-| [reorx/Share-to-ChatGPT-Shortcut](https://github.com/reorx/Share-to-ChatGPT-Shortcut) | An Apple Shortcut for sharing text to ChatGPT using personalized prompts. | - | 335 |
-| [JianXiao2021/ancient_text_generation_LLM](https://github.com/JianXiao2021/ancient_text_generation_LLM) | Generates classical Chinese text from modern Chinese sentences using a fine-tuned LLM. | Python | 282 |
-| [Kotlin/Kotlin-AI-Examples](https://github.com/Kotlin/Kotlin-AI-Examples) | Collection of Kotlin examples using AI frameworks like Spring AI and LangChain4j with notebooks. | Jupyter Notebook | 264 |
-| [idootop/MigicCube](https://github.com/idootop/MigicCube) | Solves a Rubik's Cube in 20 moves using Xiaomi AI Glasses. | Python | 81 |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | Plugin-based harness framework for building AI agents. | TypeScript | 282.8k |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | Self-hostable platform to share and discover community AI prompts. | MDX | 177.7k |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | AI workflow that generates HD short videos from a topic or keyword. | Python | 144.1k |
+| [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | Self-hosted AI workspace for running and managing AI tasks. | Python | 95.7k |
+| [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | Control Claude Code, Codex and other coding agents remotely from any device. | TypeScript | 63.5k |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Makes software agent-native through a CLI hub. | Python | 58.9k |
+| [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) | Desktop AI workspace for models, agents, RAG and productivity. | TypeScript | 53.6k |
+| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | Self-hosted AI gateway with multi-provider APIs, routing and cost tracking. | Go | 52.1k |
+| [moeru-ai/airi](https://github.com/moeru-ai/airi) | Self-hosted AI companion with realtime voice chat and game playing. | TypeScript | 51.5k |
+| [HKUDS/nanobot](https://github.com/HKUDS/nanobot) | Lightweight self-hosted personal AI agent with chat and workflow automation. | Python | 50.1k |
+| [wshobson/agents](https://github.com/wshobson/agents) | Markdown-defined plugins, agents and skills for AI coding tools. | Python | 42.6k |
+| [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | LLM knowledge platform turning documents into RAG, agents and wiki. | Go | 37.6k |
+| [hankcs/HanLP](https://github.com/hankcs/HanLP) | Chinese NLP library for segmentation, tagging, parsing, and more. | Python | 36.5k |
+| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | Open-source cowork app orchestrating multiple CLI coding agents with customizable assistants. | TypeScript | 34.3k |
+| [linexjlin/GPTs](https://github.com/linexjlin/GPTs) | Collection of leaked GPT system prompts for reference and study. | - | 32.0k |
+| [labring/FastGPT](https://github.com/labring/FastGPT) | LLM knowledge-base platform with RAG retrieval and visual AI workflow orchestration. | TypeScript | 30.1k |
+| [alibaba/page-agent](https://github.com/alibaba/page-agent) | JavaScript in-page GUI agent controlling web interfaces via natural language. | TypeScript | 29.7k |
+| [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon) | Open-source RAG-based tool for chatting with your documents. | Python | 25.9k |
+| [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery) | Android gallery app showcasing on-device ML and GenAI use cases. | Kotlin | 25.3k |
+| [HKUDS/RAG-Anything](https://github.com/HKUDS/RAG-Anything) | All-in-one multimodal retrieval-augmented generation framework. | Python | 24.6k |
+| [dyad-sh/dyad](https://github.com/dyad-sh/dyad) | Local open-source AI app builder, an alternative to v0 and Lovable. | TypeScript | 22.3k |
+| [guidance-ai/guidance](https://github.com/guidance-ai/guidance) | Language for controlling and constraining large language model generation. | Jupyter Notebook | 21.8k |
+| [modelscope/FunASR](https://github.com/modelscope/FunASR) | Open-source speech recognition toolkit for training, streaming ASR, and diarization. | Python | 21.1k |
+| [elizaOS/eliza](https://github.com/elizaOS/eliza) | Open source agentic operating system framework with chat and crypto plugins. | TypeScript | 19.9k |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Python project from Andrew Ng, likely an AI agent or worker framework. | Python | 19.4k |
+| [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) | Quickstart template for building fullstack agents with Gemini and LangGraph. | Jupyter Notebook | 18.4k |
+| [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | Open agent harness with a built-in personal agent. | Python | 16.2k |
+| [mindverse/Second-Me](https://github.com/mindverse/Second-Me) | Train a personalized AI clone of yourself. | Python | 15.7k |
+| [bytedance/trae-agent](https://github.com/bytedance/trae-agent) | LLM-based agent for general-purpose software engineering tasks. | Python | 12.2k |
+| [droidrun/mobilerun](https://github.com/droidrun/mobilerun) | LLM-agnostic agent that automates mobile devices via natural language commands. | Python | 10.1k |
+| [langchain-ai/local-deep-researcher](https://github.com/langchain-ai/local-deep-researcher) | Fully local AI assistant for web research and report writing. | Python | 9.4k |
+| [HKUDS/ClawWork](https://github.com/HKUDS/ClawWork) | OpenClaw-based AI coworker agent for automated task work. | Python | 8.6k |
+| [tw93/Waza](https://github.com/tw93/Waza) | Engineering skill packs for AI coding assistants like Claude Code and Cursor. | Python | 7.6k |
+| [openai/openai-cs-agents-demo](https://github.com/openai/openai-cs-agents-demo) | Customer service demo implemented with the OpenAI Agents SDK. | Python | 6.6k |
+| [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent) | LLM agent that automates mathematical modeling and generates submission-ready papers. | TeX | 6.3k |
+| [netease-youdao/LobsterAI](https://github.com/netease-youdao/LobsterAI) | Desktop AI agent automating data analysis, docs, slides and research. | TypeScript | 6.2k |
+| [volcengine/MineContext](https://github.com/volcengine/MineContext) | Proactive context-aware AI partner combining context engineering with memory and RAG. | Python | 5.6k |
+| [JetBrains/koog](https://github.com/JetBrains/koog) | JVM framework for building predictable, fault-tolerant AI agents across platforms. | Kotlin | 4.7k |
+| [nianticlabs/monodepth2](https://github.com/nianticlabs/monodepth2) | PyTorch model for monocular depth estimation from single images. | Jupyter Notebook | 4.5k |
+| [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | Chat demo application built with TypeScript. | TypeScript | 4.4k |
+| [hanshuaikang/AI-Media2Doc](https://github.com/hanshuaikang/AI-Media2Doc) | Converts audio and video into styled documents and subtitles using AI. | Vue | 4.1k |
+| [leemysw/yovoice](https://github.com/leemysw/yovoice) | Offline local AI audio and music studio with TTS, voice cloning and songs. | TypeScript | 2.2k |
+| [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) | Agent skill guide for designing cross-platform desktop apps that feel native. | - | 2.0k |
+| [LodyAI/Lody](https://github.com/LodyAI/Lody) | Share and orchestrate coding agents with your team across phone and desktop. | TypeScript | 1.8k |
+| [andersrex/notesollama](https://github.com/andersrex/notesollama) | Apple Notes extension to chat with local LLMs via Ollama. | Swift | 708 |
+| [JianXiao2021/ancient_text_generation_LLM](https://github.com/JianXiao2021/ancient_text_generation_LLM) | LoRA fine-tuned LLM that converts modern Chinese into classical Chinese. | Python | 289 |
 
 ## Analytics
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [foru17/neko-master](https://github.com/foru17/neko-master) | A modern dashboard for network traffic visualization and analysis. | TypeScript | 1.9k |
-| [karpathy/jobs](https://github.com/karpathy/jobs) | A research tool for visually exploring Bureau of Labor Statistics occupational data. | HTML | 1.8k |
+| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard with AI news aggregation and OSINT monitoring. | TypeScript | 90.8k |
+| [foru17/neko-master](https://github.com/foru17/neko-master) | Dashboard for visualizing and analyzing network traffic. | TypeScript | 4.4k |
+| [karpathy/jobs](https://github.com/karpathy/jobs) | Research tool for visually exploring Bureau of Labor Statistics occupational data. | HTML | 2.1k |
 
 ## CLI Tool
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [tw93/Mole](https://github.com/tw93/Mole) | A terminal-based tool to clean, analyze, and monitor your Mac. | Shell | 55.7k |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | A tool that makes all software agent-native via a CLI interface. | Python | 42.8k |
-| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Converts any website into a CLI and enables browser automation using AI agents. | JavaScript | 24.2k |
-| [Marvae/douban-cli](https://github.com/Marvae/douban-cli) | A TypeScript command-line tool for querying Douban movies, TV shows, books, and Top250 lists, exporting watch/read records, and integrating with AI agents for safe rating. | TypeScript | 150 |
+| [tw93/Mole](https://github.com/tw93/Mole) | Fast CLI and native apps to clean and optimize Mac and Windows machines. | Shell | 75.4k |
+| [jackwener/OpenCLI](https://github.com/jackwener/OpenCLI) | Turns websites into CLIs usable by AI agents via logged-in browser. | JavaScript | 31.1k |
+| [Marvae/douban-cli](https://github.com/Marvae/douban-cli) | Terminal CLI for Douban movies and books with AI agent skill. | TypeScript | 235 |
 
 ## Cloud/DevOps
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [open-guides/og-aws](https://github.com/open-guides/og-aws) | A practical guide to Amazon Web Services. | Shell | 36.4k |
-| [sangatdesai/release-apk](https://github.com/sangatdesai/release-apk) | A GitHub Actions workflow to build and release Android APKs automatically. | Dockerfile | 45 |
+| [sangatdesai/release-apk](https://github.com/sangatdesai/release-apk) | GitHub Actions workflow to build and release Android APKs. | Dockerfile | 98 |
+
+## Content/CMS
+
+| Repository | Summary | Language | ⭐ |
+|---|---|---|---|
+| [chaitin/PandaWiki](https://github.com/chaitin/PandaWiki) | AI-powered open-source knowledge base for building docs, FAQs and wikis. | TypeScript | 10.5k |
+| [cooderl/wewe-rss](https://github.com/cooderl/wewe-rss) | Self-hosted service that generates RSS feeds for WeChat public accounts. | TypeScript | 9.6k |
+| [microfeed/microfeed](https://github.com/microfeed/microfeed) | Agentic self-hosted CMS on Cloudflare for podcasts, blogs and media. | TypeScript | 4.1k |
+| [shanleiguang/vRain](https://github.com/shanleiguang/vRain) | Perl tool generating vertical-layout Chinese ancient-style eBooks as PDFs. | Perl | 1.7k |
 
 ## Database
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | The most comprehensive database of Chinese poetry with over 50,000 poems and 14,000 poets. | JavaScript | 51.8k |
-| [littlebyteorg/appledb](https://github.com/littlebyteorg/appledb) | A database of Apple-related information. | Python | 551 |
+| [chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | Comprehensive JSON database of classical Chinese poetry. | JavaScript | 54.4k |
+| [littlebyteorg/appledb](https://github.com/littlebyteorg/appledb) | Python database project with no further description provided. | Python | 626 |
 
 ## Developer Tool
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Cross-platform desktop assistant for managing multiple AI coding agents. | Rust | 99.1k |
-| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec-driven development framework for AI coding assistants. | TypeScript | 54.4k |
-| [skylot/jadx](https://github.com/skylot/jadx) | A Dex to Java decompiler for Android applications. | Java | 49.0k |
-| [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | A free, local, open-source cowork app for multiple CLI AI agents with customizable assistants. | TypeScript | 28.1k |
-| [plait-board/drawnix](https://github.com/plait-board/drawnix) | An open-source whiteboard tool with mind maps, flowcharts, and freehand drawing. | TypeScript | 14.0k |
-| [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | An open agent harness with a built-in personal agent called Ohmo. | Python | 13.8k |
-| [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | A macOS dictionary and translation app with offline OCR and multiple translation services. | Swift | 13.5k |
-| [liriliri/aya](https://github.com/liriliri/aya) | An Android ADB desktop app built with Electron for managing Android devices. | TypeScript | 5.1k |
-| [KeepSafe/dexcount-gradle-plugin](https://github.com/KeepSafe/dexcount-gradle-plugin) | Gradle plugin to report method reference counts in APKs. | Java | 3.1k |
-| [android/gradle-recipes](https://github.com/android/gradle-recipes) | Ready-to-use recipes for common Android Gradle plugin customizations. | Kotlin | 2.4k |
-| [JakeWharton/diffuse](https://github.com/JakeWharton/diffuse) | Tool for diffing APKs, AABs, AARs, and JARs. | Kotlin | 2.2k |
-| [cursor-project/prompt-manager](https://github.com/cursor-project/prompt-manager) | A prompt template manager for efficient access in Cursor/VSCode. | TypeScript | 243 |
-| [marsmay/UsageBoard](https://github.com/marsmay/UsageBoard) | A macOS menu bar app for aggregating API usage quotas via plugins. | Swift | 126 |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | Cross-platform desktop assistant for managing AI coding providers like Claude Code and Codex. | Rust | 155.1k |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Design vocabulary skill that steers and audits coding agents' UI output. | Rust | 111.8k |
+| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec-driven development workflow tooling for AI coding assistants. | TypeScript | 75.1k |
+| [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform for experimenting with AI code generation. | Python | 55.0k |
+| [skylot/jadx](https://github.com/skylot/jadx) | Dex to Java decompiler for Android application analysis. | Java | 51.9k |
+| [tw93/Kami](https://github.com/tw93/Kami) | Layout rules and templates letting AI agents export PDF, PNG and PowerPoint. | HTML | 12.6k |
+| [liriliri/aya](https://github.com/liriliri/aya) | Desktop app for Android ADB debugging and device management. | TypeScript | 5.6k |
+| [KeepSafe/dexcount-gradle-plugin](https://github.com/KeepSafe/dexcount-gradle-plugin) | Gradle plugin reporting method reference counts in Android APKs. | Java | 3.1k |
+| [android/gradle-recipes](https://github.com/android/gradle-recipes) | Ready-to-use recipes for common Android Gradle build customizations. | Kotlin | 2.4k |
+| [JakeWharton/diffuse](https://github.com/JakeWharton/diffuse) | Command-line tool for diffing Android APKs, AABs, AARs, and JARs. | Kotlin | 2.2k |
+| [cursor-project/prompt-manager](https://github.com/cursor-project/prompt-manager) | Manages and quickly accesses AI prompt templates for Cursor and VSCode. | TypeScript | 245 |
 
 ## Documentation
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC) | A curated collection of recipes from a Chinese restaurant chain's food safety report, organized and edited for home cooking. | Dockerfile | 23.6k |
-| [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) | A list of commonly mispronounced English words by Chinese programmers. | JavaScript | 23.2k |
-| [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) | Guidelines for Chinese copywriting and typography. | - | 15.5k |
-| [easychen/one-person-businesses-methodology](https://github.com/easychen/one-person-businesses-methodology) | A methodology guide for one-person businesses. | - | 8.3k |
-| [AwesomeVisa/awesome-immigration](https://github.com/AwesomeVisa/awesome-immigration) | An awesome list of long-term visas and immigration resources. | - | 1.5k |
+| [public-apis/public-apis](https://github.com/public-apis/public-apis) | Curated awesome-list of free public APIs for developers. | Python | 499.7k |
+| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | Collection of leaked system prompts and models from major AI coding tools. | - | 144.7k |
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | Curated list of 500 AI agent use cases across industries with project links. | Python | 40.0k |
+| [exacity/deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese) | Chinese translation of the Deep Learning Book, a reference text on machine learning. | TeX | 38.0k |
+| [open-guides/og-aws](https://github.com/open-guides/og-aws) | Practical guide to using Amazon Web Services. | Shell | 36.5k |
+| [Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC) | Curated recipe notes and dish sourcing report for a restaurant chain. | JavaScript | 24.9k |
+| [PicoTrex/Awesome-Nano-Banana-images](https://github.com/PicoTrex/Awesome-Nano-Banana-images) | Curated collection of creative Nano Banana image generation examples and dataset. | - | 24.1k |
+| [shimohq/chinese-programmer-wrong-pronunciation](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) | Reference list of English words Chinese programmers commonly mispronounce. | JavaScript | 23.4k |
+| [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) | Guide book on how programmers can earn side income. | PHP | 18.7k |
+| [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps) | Curated collection of AI projects showcasing RAG, agents and workflows. | Python | 16.8k |
+| [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) | Guidelines for better Chinese copywriting and typography. | - | 15.8k |
+| [YouMind-OpenLab/awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) | Curated library of 10,000+ Nano Banana Pro image generation prompts in 16 languages. | TypeScript | 13.8k |
+| [judasn/Linux-Tutorial](https://github.com/judasn/Linux-Tutorial) | Tutorial book teaching Linux to Java developers, covering common server tools. | Shell | 8.7k |
+| [jamez-bondos/awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images) | Curated awesome-list of GPT-4o and gpt-image-1 generated images and prompts. | JavaScript | 8.2k |
+| [skyline75489/what-happens-when-zh_CN](https://github.com/skyline75489/what-happens-when-zh_CN) | Chinese translation of the classic guide explaining what happens when you visit a URL. | - | 8.1k |
+| [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | Curated collection of system prompts from popular AI tools for agent builders. | TypeScript | 6.3k |
+| [terrakok/kmp-awesome](https://github.com/terrakok/kmp-awesome) | Awesome list curating the best Kotlin Multiplatform libraries and tools. | - | 5.9k |
+| [AwesomeVisa/awesome-immigration](https://github.com/AwesomeVisa/awesome-immigration) | Curated awesome list of long-term visas for remote workers. | - | 1.5k |
 
 ## Editor/IDE
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [hanshuaikang/nezha](https://github.com/hanshuaikang/nezha) | A code editor for the AI agents era, running multiple Claude Code and Codex agents. | TypeScript | 1.5k |
+| [hanshuaikang/nezha](https://github.com/hanshuaikang/nezha) | Code editor for running multiple AI coding agents across projects. | TypeScript | 1.9k |
+
+## Embedded/IoT
+
+| Repository | Summary | Language | ⭐ |
+|---|---|---|---|
+| [idootop/MigicCube](https://github.com/idootop/MigicCube) | Solves a Rubik's Cube in 20 moves using Xiaomi AI glasses. | Python | 89 |
 
 ## Image Processing
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [Yalantis/uCrop](https://github.com/Yalantis/uCrop) | An image cropping library for Android with support for rotation and scaling. | Java | 12.1k |
-| [pangxiaobin/image-matting](https://github.com/pangxiaobin/image-matting) | AI-powered image matting, format conversion, compression, and ID photo generation. | Vue | 1.4k |
+| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) | Open source OCR engine for text recognition in images. | C++ | 77.6k |
+| [idootop/MagicMirror](https://github.com/idootop/MagicMirror) | Instant AI face swap application for editing photos. | TypeScript | 2.9k |
+| [pangxiaobin/image-matting](https://github.com/pangxiaobin/image-matting) | AI image matting, format conversion, compression and ID photo tool. | Vue | 1.7k |
 
 ## Learning/Education
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | A collection of tutorials for recreating technologies from scratch. | Markdown | 514.6k |
-| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | An open-source platform offering free coding curriculum and certifications in math, programming, and computer science. | TypeScript | 446.7k |
-| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | A complete computer science study plan to prepare for software engineering interviews. | - | 351.2k |
-| [ossu/computer-science](https://github.com/ossu/computer-science) | A path to a free self-taught education in Computer Science. | HTML | 204.8k |
-| [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) | A 100-day Python learning path from beginner to master. | Jupyter Notebook | 183.3k |
-| [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) | A guide to cracking LeetCode problems with explanations of algorithms and data structures. | Markdown | 133.6k |
-| [krahets/hello-algo](https://github.com/krahets/hello-algo) | An animated, interactive data structures and algorithms tutorial with multi-language code implementations. | Java | 126.7k |
-| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Explains complex systems using visuals and simple terms to help prepare for system design interviews. | - | 83.4k |
-| [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | An interactive deep learning textbook with code, targeting Chinese readers, used by over 500 universities worldwide. | Python | 78.3k |
-| [exacity/deeplearningbook-chinese](https://github.com/exacity/deeplearningbook-chinese) | Chinese translation of the Deep Learning book by Goodfellow, Bengio, and Courville. | TeX | 37.3k |
-| [pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching) | An interactive git visualization and tutorial app for mastering git branching. | JavaScript | 33.6k |
-| [huggingface/agents-course](https://github.com/huggingface/agents-course) | A course repository covering agentic AI with Hugging Face, LangChain, and LlamaIndex. | MDX | 29.3k |
-| [crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout) | A collection of Java core knowledge including basic, concurrent, and algorithm topics. | Java | 26.9k |
-| [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) | Chinese translation of TeachYourselfCS, a self-taught computer science curriculum. | - | 22.1k |
-| [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern) | Algorithm patterns and templates for practicing coding interviews. | Go | 15.5k |
-| [francistao/LearningNotes](https://github.com/francistao/LearningNotes) | Personal learning notes on Android, Java, and JVM. | - | 13.1k |
-| [amitshekhariitbhu/android-interview-questions](https://github.com/amitshekhariitbhu/android-interview-questions) | A comprehensive cheat sheet for Android interview questions covering Kotlin, coroutines, and more. | Java | 12.3k |
-| [wolverinn/Waking-Up](https://github.com/wolverinn/Waking-Up) | Comprehensive interview questions and answers for computer science fundamentals. | - | 10.3k |
-| [judasn/Linux-Tutorial](https://github.com/judasn/Linux-Tutorial) | A Linux tutorial for Java programmers covering tools like Nginx, MySQL, and Jenkins. | Shell | 8.7k |
-| [skyline75489/what-happens-when-zh_CN](https://github.com/skyline75489/what-happens-when-zh_CN) | Chinese translation of the 'What happens when' guide explaining web browser internals. | - | 8.1k |
-| [Moosphan/Android-Daily-Interview](https://github.com/Moosphan/Android-Daily-Interview) | Daily Android interview questions to help prepare for job interviews. | - | 5.6k |
-| [LLMBook-zh/LLMBook-zh.github.io](https://github.com/LLMBook-zh/LLMBook-zh.github.io) | A comprehensive book on large language models covering deep learning, NLP, and fine-tuning. | Python | 4.5k |
-| [spring2go/cs_study_plan](https://github.com/spring2go/cs_study_plan) | A hardcore computer science self-study plan focusing on software engineering and system architecture. | - | 4.4k |
-| [dunwu/javacore](https://github.com/dunwu/javacore) | A summary of Java core technologies including concurrency, IO, and JVM. | Java | 3.3k |
-| [Admol/SystemDesign](https://github.com/Admol/SystemDesign) | A guide to system design interviews based on the book 'System Design Interview: An Insider's Guide'. | - | 2.9k |
-| [simple-android-framework/android_design_patterns_analysis](https://github.com/simple-android-framework/android_design_patterns_analysis) | Analysis of Android design patterns with source code examples. | Java | 2.7k |
-| [githubhaohao/LearnFFmpeg](https://github.com/githubhaohao/LearnFFmpeg) | Android FFmpeg tutorial for audio/video development. | C++ | 1.6k |
-| [CaMnter/BasicExercises](https://github.com/CaMnter/BasicExercises) | A personal playground for practicing basic programming concepts like algorithms, data structures, and design patterns. | Java | 80 |
+| [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Curated tutorials for rebuilding popular technologies from scratch. | Markdown | 563.3k |
+| [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | Open-source curriculum and codebase for learning programming for free. | TypeScript | 459.2k |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | Complete computer science study plan for coding interview preparation. | - | 364.5k |
+| [ossu/computer-science](https://github.com/ossu/computer-science) | Curated path to a free self-taught computer science education. | HTML | 211.2k |
+| [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) | 100-day Python tutorial taking learners from beginner to advanced. | Jupyter Notebook | 187.9k |
+| [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) | Algorithm and LeetCode interview-prep guide explaining how and why. | Markdown | 136.1k |
+| [krahets/hello-algo](https://github.com/krahets/hello-algo) | Illustrated data structures and algorithms tutorial with multi-language code. | Python | 132.4k |
+| [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101) | Visual guides explaining complex systems for system design interview prep. | - | 91.3k |
+| [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh) | Chinese deep learning textbook with runnable notebooks used in universities. | Python | 82.6k |
+| [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 18-lesson course teaching how to build AI agents. | Jupyter Notebook | 79.9k |
+| [scutan90/DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) | Q&A book covering deep learning, ML and computer vision fundamentals. | JavaScript | 57.7k |
+| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | Offline-first knowledge and education server with local AI. | TypeScript | 43.8k |
+| [apachecn/ailearning](https://github.com/apachecn/ailearning) | Tutorials and practice for data analysis and machine learning. | Python | 42.6k |
+| [huggingface/agents-course](https://github.com/huggingface/agents-course) | Hugging Face course teaching AI agent building with frameworks like LangChain and smolagents. | MDX | 35.1k |
+| [pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching) | Interactive git visualization and tutorial for mastering branching. | JavaScript | 34.2k |
+| [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) | GPT-4 prompt for customizable personalized AI tutoring experiences. | - | 29.5k |
+| [crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout) | Java core learning notes covering basics, concurrency, and algorithms. | Java | 26.8k |
+| [izackwu/TeachYourselfCS-CN](https://github.com/izackwu/TeachYourselfCS-CN) | Chinese translation of the TeachYourselfCS self-study computer science curriculum. | - | 22.2k |
+| [TianxingChen/Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) | Tutorial guide to embodied AI and robotics. | - | 17.0k |
+| [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern) | Algorithm practice patterns and LeetCode study guide in Go. | Go | 15.5k |
+| [francistao/LearningNotes](https://github.com/francistao/LearningNotes) | Personal study notes on Android, Java and JVM concepts. | - | 13.1k |
+| [amitshekhariitbhu/android-interview-questions](https://github.com/amitshekhariitbhu/android-interview-questions) | Cheat sheet of Android interview questions and answers for prep. | Java | 12.4k |
+| [wolverinn/Waking-Up](https://github.com/wolverinn/Waking-Up) | Computer science interview question summaries with follow-ups and answers. | - | 10.3k |
+| [liaokongVFX/LangChain-Chinese-Getting-Started-Guide](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide) | Chinese-language beginner tutorial for building with LangChain. | - | 9.1k |
+| [easychen/one-person-businesses-methodology](https://github.com/easychen/one-person-businesses-methodology) | Methodology guide for running a one-person business. | - | 8.4k |
+| [ghuntley/how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent) | Workshop teaching how to build your own AI coding agent. | Go | 5.9k |
+| [Moosphan/Android-Daily-Interview](https://github.com/Moosphan/Android-Daily-Interview) | Daily Android interview questions for study and interview preparation. | - | 5.6k |
+| [LLMBook-zh/LLMBook-zh.github.io](https://github.com/LLMBook-zh/LLMBook-zh.github.io) | Chinese book on large language models by Zhao Xin and coauthors. | Python | 4.6k |
+| [spring2go/cs_study_plan](https://github.com/spring2go/cs_study_plan) | Hardcore self-study plan for computer science, software engineering and system architecture. | - | 4.4k |
+| [microsoft/AI-System](https://github.com/microsoft/AI-System) | Educational resource collection on AI systems and infrastructure. | Python | 4.4k |
+| [dunwu/javacore](https://github.com/dunwu/javacore) | Experience-based guide to core Java technologies and internals. | Java | 3.3k |
+| [Admol/SystemDesign](https://github.com/Admol/SystemDesign) | Chinese translation of the System Design Interview guide for interview prep. | - | 3.1k |
+| [simple-android-framework/android_design_patterns_analysis](https://github.com/simple-android-framework/android_design_patterns_analysis) | Analysis of design patterns found in Android source code. | Java | 2.7k |
+| [langchain-ai/agents-from-scratch](https://github.com/langchain-ai/agents-from-scratch) | Tutorial building an email assistant agent with memory and human-in-the-loop. | Jupyter Notebook | 2.5k |
+| [githubhaohao/LearnFFmpeg](https://github.com/githubhaohao/LearnFFmpeg) | Tutorial series on Android FFmpeg audio and video development. | C++ | 1.6k |
+| [SeedV/generative-ai-roadmap](https://github.com/SeedV/generative-ai-roadmap) | Roadmap of generative AI use cases and applications. | - | 618 |
+| [Kotlin/Kotlin-AI-Examples](https://github.com/Kotlin/Kotlin-AI-Examples) | Kotlin examples and notebooks for AI frameworks like Spring AI and LangChain4j. | Jupyter Notebook | 272 |
+| [CaMnter/BasicExercises](https://github.com/CaMnter/BasicExercises) | Personal Java practice playground for algorithms and data structures. | Java | 78 |
 
 ## Library/Utility
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [terrakok/kmp-awesome](https://github.com/terrakok/kmp-awesome) | Curated list of Kotlin Multiplatform libraries, tools, and resources. | - | 5.8k |
-| [shanleiguang/vRain](https://github.com/shanleiguang/vRain) | A tool for generating traditional Chinese ancient-style eBooks in vertical layout. | Perl | 1.6k |
-| [michaelbull/kotlin-result](https://github.com/michaelbull/kotlin-result) | A multiplatform Result monad for Kotlin to model success or failure operations functionally. | Kotlin | 1.3k |
-| [square/workflow-kotlin](https://github.com/square/workflow-kotlin) | A Kotlin library for building composable state machines and UI driven by those state machines. | Kotlin | 1.1k |
-| [JakeWharton/picnic](https://github.com/JakeWharton/picnic) | A Kotlin DSL and Java/Kotlin builder API for constructing HTML-like tables rendered to text. | Kotlin | 974 |
-| [guokaigdg/naive-icons](https://github.com/guokaigdg/naive-icons) | A TypeScript library of hand-drawn SVG icons in a naive folk art style for use in React and web projects. | TypeScript | 283 |
+| [jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) | Python API and CLI to fetch YouTube transcripts and subtitles without an API key. | Python | 8.6k |
+| [michaelbull/kotlin-result](https://github.com/michaelbull/kotlin-result) | Multiplatform Kotlin Result monad for success or failure operations. | Kotlin | 1.3k |
+| [mobile-dev-inc/dadb](https://github.com/mobile-dev-inc/dadb) | Kotlin/Java library connecting directly to Android devices without adb. | Kotlin | 1.2k |
+| [square/workflow-kotlin](https://github.com/square/workflow-kotlin) | Kotlin and Swift library for composable state machines and UI. | Kotlin | 1.1k |
+| [JakeWharton/picnic](https://github.com/JakeWharton/picnic) | Kotlin DSL and builder API for rendering HTML-like tables as text. | Kotlin | 976 |
+| [guokaigdg/naive-icons](https://github.com/guokaigdg/naive-icons) | Hand-drawn naive folk art style SVG icon library for React. | TypeScript | 301 |
+| [alexstyl/compose-tinder-card](https://github.com/alexstyl/compose-tinder-card) | Jetpack Compose modifier enabling Tinder-like swipe card gestures. | Kotlin | 188 |
 
 ## Messaging/Chat
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [cooderl/wewe-rss](https://github.com/cooderl/wewe-rss) | An elegant WeChat public account subscription service with RSS generation via WeChat Reading, supporting private deployment. | TypeScript | 9.5k |
-| [fastclaw-ai/weclaw](https://github.com/fastclaw-ai/weclaw) | Connects to AI agents via WeChat using ClawBot. | Go | 1.5k |
+| [overwirehq/claude-code-telegram](https://github.com/overwirehq/claude-code-telegram) | Telegram bot giving remote access to Claude Code sessions. | Python | 2.8k |
+| [fastclaw-ai/weclaw](https://github.com/fastclaw-ai/weclaw) | Connects AI agents to WeChat via ClawBot. | Go | 1.7k |
 
 ## Mobile Development
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [android/compose-samples](https://github.com/android/compose-samples) | Official Jetpack Compose samples for Android development. | Kotlin | 23.2k |
-| [kivy/python-for-android](https://github.com/kivy/python-for-android) | A tool to package Python applications into Android APKs. | Python | 8.9k |
-| [droidrun/mobilerun](https://github.com/droidrun/mobilerun) | An LLM-agnostic mobile agent that automates mobile devices using natural language commands. | Python | 8.5k |
-| [Tencent/Shadow](https://github.com/Tencent/Shadow) | A zero-reflection, fully dynamic Android plugin framework. | Java | 7.8k |
-| [igorwojda/android-showcase](https://github.com/igorwojda/android-showcase) | Android app demonstrating best practices with modern architecture and tools. | Kotlin | 6.8k |
-| [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace) | Kotlin Multiplatform sample app showing people in space with clients for iOS, Android, Wear, Desktop, and Web. | Kotlin | 3.3k |
-| [android/androidify](https://github.com/android/androidify) | Sample Android app demonstrating Jetpack Compose and Firebase integration. | Kotlin | 1.9k |
-| [dengyin2000/dynamic_widget](https://github.com/dengyin2000/dynamic_widget) | A Backend-Driven UI toolkit for Flutter that builds dynamic UI from JSON. | Dart | 1.7k |
-| [hushenghao/AndroidEasterEggs](https://github.com/hushenghao/AndroidEasterEggs) | A collection of Android Easter eggs with dynamic color and Material You support. | Kotlin | 1.2k |
-| [mobile-dev-inc/dadb](https://github.com/mobile-dev-inc/dadb) | A Kotlin/Java library to connect directly to an Android device without ADB binary or server. | Kotlin | 1.2k |
-| [fethij/Rijksmuseum](https://github.com/fethij/Rijksmuseum) | A Kotlin Multiplatform app exploring the Rijksmuseum collection with Compose UI across Android, iOS, Desktop, and Web. | Kotlin | 433 |
-| [joreilly/StarWars](https://github.com/joreilly/StarWars) | Minimal GraphQL-based Kotlin Multiplatform sample using Star Wars API with Compose and SwiftUI. | Kotlin | 240 |
-| [alexstyl/compose-tinder-card](https://github.com/alexstyl/compose-tinder-card) | A Jetpack Compose modifier for implementing Tinder-like card swipe gestures. | Kotlin | 190 |
-| [vladimirlogachov/MoviesPot](https://github.com/vladimirlogachov/MoviesPot) | A Kotlin Multiplatform movie explorer app with Compose UI, Jetpack Navigation, and Material3 design. | Kotlin | 177 |
-
-## Monitoring/Observability
-
-| Repository | Summary | Language | ⭐ |
-|---|---|---|---|
-| [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard with AI-powered news and geopolitical monitoring. | TypeScript | 56.3k |
+| [android/compose-samples](https://github.com/android/compose-samples) | Official Jetpack Compose sample apps for Android development. | Kotlin | 23.6k |
+| [Yalantis/uCrop](https://github.com/Yalantis/uCrop) | Android library for cropping, rotating and scaling images. | Java | 12.1k |
+| [kivy/python-for-android](https://github.com/kivy/python-for-android) | Toolchain that packages Python applications into Android APKs. | Python | 8.9k |
+| [Tencent/Shadow](https://github.com/Tencent/Shadow) | Zero-reflection fully dynamic Android plugin framework. | Java | 7.8k |
+| [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace) | Kotlin Multiplatform sample with Compose, SwiftUI clients and a Ktor backend. | Kotlin | 3.4k |
+| [android/androidify](https://github.com/android/androidify) | Android sample app showcasing Jetpack Compose and Gemini integration. | Kotlin | 2.0k |
+| [dengyin2000/dynamic_widget](https://github.com/dengyin2000/dynamic_widget) | Backend-driven JSON UI toolkit for building dynamic Flutter widgets. | Dart | 1.7k |
+| [hushenghao/AndroidEasterEggs](https://github.com/hushenghao/AndroidEasterEggs) | Collection of Android Easter egg implementations built with Jetpack Compose. | Kotlin | 1.3k |
+| [fethij/Rijksmuseum](https://github.com/fethij/Rijksmuseum) | Kotlin Multiplatform sample app showcasing Rijksmuseum art across Android, iOS, desktop and web. | Kotlin | 438 |
+| [joreilly/StarWars](https://github.com/joreilly/StarWars) | Minimal GraphQL Kotlin Multiplatform sample using Compose and SwiftUI. | Kotlin | 244 |
+| [vladimirlogachov/MoviesPot](https://github.com/vladimirlogachov/MoviesPot) | Kotlin Compose Multiplatform movie discovery app for Android and iOS. | Kotlin | 180 |
 
 ## Other
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [public-apis/public-apis](https://github.com/public-apis/public-apis) | Collective list of free APIs for development and learning. | Python | 441.0k |
-| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | A self-contained offline survival computer with critical tools, knowledge, and AI for use anywhere. | TypeScript | 30.6k |
-| [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) | A guide for programmers on how to earn extra money, primarily for a Chinese audience. | PHP | 18.6k |
-| [tw93/Kami](https://github.com/tw93/Kami) | A project that emphasizes presenting good content on paper, likely a template or tool for creating documents or presentations. | HTML | 10.9k |
-| [KrishKrosh/TrackWeight](https://github.com/KrishKrosh/TrackWeight) | An app that uses the Mac trackpad as a weighing scale. | Swift | 9.0k |
-| [jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) | Python API to fetch YouTube video transcripts/subtitles without API key or headless browser. | Python | 7.7k |
-| [microfeed/microfeed](https://github.com/microfeed/microfeed) | Lightweight CMS self-hosted on Cloudflare for podcasts, blogs, and more. | JavaScript | 4.0k |
-| [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | A one-command-install transparent animated desktop pet for DSH with multi-instance support, configurable size and position, and a built-in DIY asset pipeline for generating custom pets via AI video. | TypeScript | 2.4k |
-| [IsaacGemal/wikitok](https://github.com/IsaacGemal/wikitok) | A project with no description, likely a web or mobile app related to Wikipedia and TikTok. | TypeScript | 1.3k |
+| [KrishKrosh/TrackWeight](https://github.com/KrishKrosh/TrackWeight) | Mac app that uses the trackpad as a weighing scale. | Swift | 9.2k |
+| [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | Transparent animated desktop pet with AI-generated custom assets. | TypeScript | 6.4k |
+| [IsaacGemal/wikitok](https://github.com/IsaacGemal/wikitok) | TypeScript project with no description or topics provided. | TypeScript | 1.3k |
+
+## Productivity
+
+| Repository | Summary | Language | ⭐ |
+|---|---|---|---|
+| [tisfeng/Easydict](https://github.com/tisfeng/Easydict) | macOS dictionary and translator app with OCR and multiple translation engines. | Swift | 15.3k |
+| [plait-board/drawnix](https://github.com/plait-board/drawnix) | Open-source all-in-one whiteboard with mind maps and flowcharts. | TypeScript | 15.1k |
+| [glink25/Cent](https://github.com/glink25/Cent) | Free open-source collaborative accounting web app with PWA support. | TypeScript | 1.3k |
+| [reorx/Share-to-ChatGPT-Shortcut](https://github.com/reorx/Share-to-ChatGPT-Shortcut) | Apple Shortcut for sharing text to ChatGPT with personalized prompts. | - | 335 |
+| [marsmay/UsageBoard](https://github.com/marsmay/UsageBoard) | macOS menu bar app aggregating API usage quotas via plugin scripts. | Swift | 140 |
 
 ## Security
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [Tencent/secguide](https://github.com/Tencent/secguide) | A code security guide for developers. | - | 13.5k |
-| [tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth) | A minimal authentication and authorization server supporting OIDC, SSO, and 2FA. | Go | 7.5k |
+| [Tencent/secguide](https://github.com/Tencent/secguide) | Developer-oriented code security guidelines and best practices. | - | 13.4k |
+| [tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth) | Tiny OpenID-certified authentication and authorization server with SSO and 2FA. | Go | 8.5k |
 
 ## Static Site Generator
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod) | Fast, clean, responsive Hugo theme for blogs and portfolios. | HTML | 13.7k |
+| [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod) | Fast, clean, responsive Hugo theme for blogs and portfolios. | HTML | 14.0k |
 
 ## Template/Boilerplate
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [cortinico/kotlin-android-template](https://github.com/cortinico/kotlin-android-template) | A Kotlin Android template with GitHub Actions, ktlint, Detekt, and Gradle Kotlin DSL. | Kotlin | 1.9k |
-| [TangSY/edge-next-starter](https://github.com/TangSY/edge-next-starter) | A full-stack starter template for Next.js with Cloudflare Edge Runtime, D1, R2, KV, Analytics, and CI/CD. | TypeScript | 470 |
-| [FlareStarter/flarestarter](https://github.com/FlareStarter/flarestarter) | A full-stack, edge-native SaaS starter template built with TanStack Start and Cloudflare Workers. | TypeScript | 264 |
+| [igorwojda/android-showcase](https://github.com/igorwojda/android-showcase) | Android app showcasing best practices with Kotlin and Clean Architecture. | Kotlin | 6.8k |
+| [cortinico/kotlin-android-template](https://github.com/cortinico/kotlin-android-template) | Android Kotlin starter template with CI, linting and Gradle setup. | Kotlin | 1.9k |
+| [TangSY/edge-next-starter](https://github.com/TangSY/edge-next-starter) | Out-of-the-box Next.js and Cloudflare full-stack starter with edge runtime and CI/CD. | TypeScript | 475 |
+| [FlareStarter/flarestarter](https://github.com/FlareStarter/flarestarter) | Full-stack edge-native SaaS starter using TanStack Start and Cloudflare Workers. | TypeScript | 466 |
 
-## Web Framework
+## Testing
 
 | Repository | Summary | Language | ⭐ |
 |---|---|---|---|
-| [glink25/Cent](https://github.com/glink25/Cent) | A free, open-source collaborative accounting web app with PWA support. | TypeScript | 1.1k |
+| [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene) | Natural-language E2E testing and GUI agent automation for browser and mobile interfaces. | TypeScript | 15.6k |
 
 ---
 
