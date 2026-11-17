@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-17T12:40:55.371Z",
+  "last_run": "2026-11-17T12:44:06.581Z",
   "total_classified": 167,
   "repos": {
     "Arindam200/awesome-ai-apps": {
@@ -7,7 +7,7 @@
         "Documentation",
         "AI/ML"
       ],
-      "summary": "Curated collection of AI projects showcasing RAG, agents and workflows.",
+      "summary": "Curated collection of AI projects showcasing RAG, agents, and workflows.",
       "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
       "language": "Python",
       "topics": [
@@ -23,7 +23,7 @@
       "starred_at": "2026-05-30T07:29:29Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "ashishpatel26/500-AI-Agents-Projects": {
       "categories": [
@@ -43,12 +43,12 @@
       "starred_at": "2026-05-30T07:29:24Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "karpathy/jobs": {
       "categories": [
         "Analytics",
-        "Other"
+        "Developer Tool"
       ],
       "summary": "Research tool for visually exploring Bureau of Labor Statistics occupational data.",
       "description": "A research tool for visually exploring Bureau of Labor Statistics Occupational Outlook Handbook data. This is not a report, a paper, or a serious economic publication — it is a development tool for exploring BLS data visually.",
@@ -60,14 +60,14 @@
       "starred_at": "2026-05-30T07:28:45Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "tw93/Waza": {
       "categories": [
-        "AI/ML",
-        "Developer Tool"
+        "Developer Tool",
+        "AI/ML"
       ],
-      "summary": "Engineering skill packs for AI coding assistants like Claude Code and Cursor.",
+      "summary": "Engineering habit skills packaged for AI coding assistants like Claude Code and Cursor.",
       "description": "🥷 Engineering habits you already know, turned into skills AI assistants like Claude Code, Codex and Cursor can run.",
       "language": "Python",
       "topics": [
@@ -88,14 +88,14 @@
       "starred_at": "2026-05-30T07:26:56Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "yetone/native-feel-skill": {
       "categories": [
-        "AI/ML",
-        "Documentation"
+        "Documentation",
+        "Developer Tool"
       ],
-      "summary": "Agent skill guide for designing cross-platform desktop apps that feel native.",
+      "summary": "Agent skill guide for designing cross-platform desktop apps with native feel.",
       "description": "An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.",
       "language": null,
       "topics": [],
@@ -105,7 +105,7 @@
       "starred_at": "2026-05-15T05:22:50Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "marsmay/UsageBoard": {
       "categories": [
@@ -122,14 +122,14 @@
       "starred_at": "2026-05-09T01:36:30Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "QuantumNous/new-api": {
       "categories": [
         "AI/ML",
         "Cloud/DevOps"
       ],
-      "summary": "Self-hosted AI gateway with multi-provider APIs, routing and cost tracking.",
+      "summary": "Self-hosted LLM gateway with multi-provider APIs, routing, and cost tracking.",
       "description": "Open-source AI gateway. Self-hosted LLM gateway with OpenAI-, Claude- and Gemini-compatible APIs, model routing, access control, usage tracking and cost accounting.",
       "language": "Go",
       "topics": [
@@ -151,7 +151,7 @@
       "starred_at": "2026-05-01T11:29:59Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "hanshuaikang/nezha": {
       "categories": [
@@ -176,7 +176,7 @@
       "starred_at": "2026-04-24T07:08:02Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "foru17/neko-master": {
       "categories": [
@@ -200,7 +200,7 @@
       "starred_at": "2026-04-13T18:09:12Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "HKUDS/RAG-Anything": {
       "categories": [
@@ -219,12 +219,12 @@
       "starred_at": "2026-04-07T08:11:56Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "HKUDS/CLI-Anything": {
       "categories": [
-        "AI/ML",
-        "CLI Tool"
+        "CLI Tool",
+        "AI/ML"
       ],
       "summary": "Makes software agent-native through a CLI hub.",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
@@ -232,11 +232,11 @@
       "topics": [],
       "html_url": "https://github.com/HKUDS/CLI-Anything",
       "homepage": "https://clianything.cc/",
-      "stargazers_count": 58947,
+      "stargazers_count": 58949,
       "starred_at": "2026-04-07T08:11:39Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "jackwener/OpenCLI": {
       "categories": [
@@ -261,7 +261,7 @@
       "starred_at": "2026-04-03T11:01:54Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "HKUDS/OpenHarness": {
       "categories": [
@@ -277,7 +277,7 @@
       "starred_at": "2026-04-03T02:58:31Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "netease-youdao/LobsterAI": {
       "categories": [
@@ -312,14 +312,13 @@
       "starred_at": "2026-03-29T03:44:21Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Crosstalk-Solutions/project-nomad": {
       "categories": [
-        "Learning/Education",
-        "Other"
+        "Learning/Education"
       ],
-      "summary": "Offline-first knowledge and education server with local AI.",
+      "summary": "Offline-first knowledge and education server with books, courses and local AI.",
       "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
       "language": "TypeScript",
       "topics": [],
@@ -329,7 +328,7 @@
       "starred_at": "2026-03-28T05:13:16Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "fastclaw-ai/weclaw": {
       "categories": [
@@ -353,7 +352,7 @@
       "starred_at": "2026-03-24T06:55:05Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "iOfficeAI/AionUi": {
       "categories": [
@@ -391,7 +390,7 @@
       "starred_at": "2026-03-21T02:56:33Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "alibaba/page-agent": {
       "categories": [
@@ -417,7 +416,7 @@
       "starred_at": "2026-03-13T13:08:38Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "tw93/Mole": {
       "categories": [
@@ -451,11 +450,11 @@
       ],
       "html_url": "https://github.com/tw93/Mole",
       "homepage": "https://mole.fit",
-      "stargazers_count": 75364,
+      "stargazers_count": 75365,
       "starred_at": "2026-03-13T13:05:04Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Fission-AI/OpenSpec": {
       "categories": [
@@ -479,16 +478,15 @@
       ],
       "html_url": "https://github.com/Fission-AI/OpenSpec",
       "homepage": "https://openspec.dev/",
-      "stargazers_count": 75061,
+      "stargazers_count": 75062,
       "starred_at": "2026-03-13T02:22:11Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "moeru-ai/airi": {
       "categories": [
-        "AI/ML",
-        "Other"
+        "AI/ML"
       ],
       "summary": "Self-hosted AI companion with realtime voice chat and game playing.",
       "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
@@ -512,7 +510,7 @@
       "starred_at": "2026-03-10T08:56:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "koala73/worldmonitor": {
       "categories": [
@@ -543,7 +541,7 @@
       "starred_at": "2026-03-10T03:34:39Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "HKUDS/nanobot": {
       "categories": [
@@ -581,7 +579,7 @@
       "starred_at": "2026-03-04T23:56:56Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "HKUDS/ClawWork": {
       "categories": [
@@ -597,14 +595,14 @@
       "starred_at": "2026-03-04T07:12:30Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "microfeed/microfeed": {
       "categories": [
         "Content/CMS",
         "Cloud/DevOps"
       ],
-      "summary": "Agentic self-hosted CMS on Cloudflare for podcasts, blogs and media.",
+      "summary": "Agentic self-hosted CMS on Cloudflare for podcasts, blogs, and media.",
       "description": "an agentic cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.",
       "language": "TypeScript",
       "topics": [
@@ -627,14 +625,14 @@
       "starred_at": "2026-01-10T04:42:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "android/androidify": {
       "categories": [
         "Mobile Development",
         "AI/ML"
       ],
-      "summary": "Android sample app showcasing Jetpack Compose and Gemini integration.",
+      "summary": "Sample Android app showcasing Jetpack Compose and Gemini integration.",
       "description": "Sample app for Androidify",
       "language": "Kotlin",
       "topics": [
@@ -651,7 +649,7 @@
       "starred_at": "2026-01-08T03:04:19Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "farion1231/cc-switch": {
       "categories": [
@@ -688,7 +686,7 @@
       "starred_at": "2026-01-07T12:28:24Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "adityatelange/hugo-PaperMod": {
       "categories": [
@@ -721,14 +719,14 @@
       "starred_at": "2025-12-30T01:22:17Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "TangSY/edge-next-starter": {
       "categories": [
         "Template/Boilerplate",
         "Web Framework"
       ],
-      "summary": "Out-of-the-box Next.js and Cloudflare full-stack starter with edge runtime and CI/CD.",
+      "summary": "Out-of-the-box Next.js and Cloudflare full-stack starter with D1, R2, KV and CI/CD.",
       "description": "An out‑of‑the‑box Next.js + Cloudflare full‑stack starter integrating Edge Runtime, D1 database, R2 storage, KV cache, Analytics Engine hooks, and a complete CI/CD pipeline.一个开箱即用的 Next.js + Cloudflare 全栈项目模板，集成 Edge Runtime、D1 数据库、R2 存储和完整的 CI/CD 流程。",
       "language": "TypeScript",
       "topics": [],
@@ -738,7 +736,7 @@
       "starred_at": "2025-12-27T08:50:30Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "idootop/MigicCube": {
       "categories": [
@@ -755,7 +753,7 @@
       "starred_at": "2025-12-13T08:30:07Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
       "categories": [
@@ -789,13 +787,13 @@
       "starred_at": "2025-11-30T00:54:02Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "modelscope/FunASR": {
       "categories": [
         "AI/ML"
       ],
-      "summary": "Open-source speech recognition toolkit for training, streaming ASR, and diarization.",
+      "summary": "Open-source speech recognition toolkit for training, streaming ASR, VAD and diarization.",
       "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
       "language": "Python",
       "topics": [
@@ -822,11 +820,11 @@
       ],
       "html_url": "https://github.com/modelscope/FunASR",
       "homepage": "www.funasr.com",
-      "stargazers_count": 21057,
+      "stargazers_count": 21058,
       "starred_at": "2025-11-29T02:59:45Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "volcengine/MineContext": {
       "categories": [
@@ -858,7 +856,7 @@
       "starred_at": "2025-11-18T07:04:30Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "reorx/Share-to-ChatGPT-Shortcut": {
       "categories": [
@@ -875,7 +873,7 @@
       "starred_at": "2025-11-11T07:32:47Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "glink25/Cent": {
       "categories": [
@@ -894,12 +892,12 @@
       "starred_at": "2025-10-24T09:46:45Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "PicoTrex/Awesome-Nano-Banana-images": {
       "categories": [
         "Documentation",
-        "Image Processing"
+        "AI/ML"
       ],
       "summary": "Curated collection of creative Nano Banana image generation examples and dataset.",
       "description": "A curated collection of fun and creative examples generated with Nano Banana & Nano Banana Pro🍌, Gemini-2.5-flash-image based model. We also release Nano-consistent-150K openly to support the community's development of image generation and unified models(click to website to see our blog)",
@@ -915,13 +913,13 @@
       "starred_at": "2025-09-29T11:20:05Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Gar-b-age/CookLikeHOC": {
       "categories": [
         "Documentation"
       ],
-      "summary": "Curated recipe notes and dish sourcing report for a restaurant chain.",
+      "summary": "Community-organized recipe reference based on a restaurant's dish sourcing report.",
       "description": "🥢像老乡鸡🐔那样做饭。已添加2026年发布的《老乡鸡菜品溯源报告 2.0中新出现的菜品。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLikeHOC.",
       "language": "JavaScript",
       "topics": [],
@@ -931,7 +929,7 @@
       "starred_at": "2025-09-21T01:30:12Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "ghuntley/how-to-build-a-coding-agent": {
       "categories": [
@@ -954,14 +952,13 @@
       "starred_at": "2025-08-26T14:22:17Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "plait-board/drawnix": {
       "categories": [
-        "Productivity",
-        "Frontend Framework"
+        "Productivity"
       ],
-      "summary": "Open-source all-in-one whiteboard with mind maps and flowcharts.",
+      "summary": "Open-source all-in-one whiteboard with mind maps, flowcharts and freehand drawing.",
       "description": "开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.",
       "language": "TypeScript",
       "topics": [
@@ -980,13 +977,13 @@
       "starred_at": "2025-08-25T10:45:56Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "tinyauthapp/tinyauth": {
       "categories": [
         "Security"
       ],
-      "summary": "Tiny OpenID-certified authentication and authorization server with SSO and 2FA.",
+      "summary": "Tiny self-hosted OpenID authentication and authorization server with SSO and 2FA.",
       "description": "The tiniest OpenID Certified™ authorization and authentication server you have ever seen.",
       "language": "Go",
       "topics": [
@@ -1009,13 +1006,13 @@
       "starred_at": "2025-08-11T08:03:16Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Tencent/WeKnora": {
       "categories": [
         "AI/ML"
       ],
-      "summary": "LLM knowledge platform turning documents into RAG, agents and wiki.",
+      "summary": "LLM knowledge platform turning documents into RAG, reasoning agents and a wiki.",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "language": "Go",
       "topics": [
@@ -1042,18 +1039,18 @@
       ],
       "html_url": "https://github.com/Tencent/WeKnora",
       "homepage": "https://weknora.weixin.qq.com",
-      "stargazers_count": 37642,
+      "stargazers_count": 37641,
       "starred_at": "2025-08-10T03:59:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "dyad-sh/dyad": {
       "categories": [
         "AI/ML",
         "Developer Tool"
       ],
-      "summary": "Local open-source AI app builder, an alternative to v0 and Lovable.",
+      "summary": "Local open-source AI app builder for generating full-stack applications.",
       "description": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!",
       "language": "TypeScript",
       "topics": [
@@ -1083,14 +1080,14 @@
       "starred_at": "2025-08-04T11:18:48Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "dengyin2000/dynamic_widget": {
       "categories": [
         "Mobile Development",
         "Library/Utility"
       ],
-      "summary": "Backend-driven JSON UI toolkit for building dynamic Flutter widgets.",
+      "summary": "Backend-driven UI toolkit that builds dynamic Flutter UIs from JSON.",
       "description": "A Backend-Driven UI toolkit, build your dynamic UI with json, and the json format is very similar with flutter widget code.",
       "language": "Dart",
       "topics": [
@@ -1105,14 +1102,14 @@
       "starred_at": "2025-08-03T13:44:20Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "cortinico/kotlin-android-template": {
       "categories": [
         "Template/Boilerplate",
         "Mobile Development"
       ],
-      "summary": "Android Kotlin starter template with CI, linting and Gradle setup.",
+      "summary": "Android Kotlin starter template with CI, linting and Gradle Kotlin DSL.",
       "description": "Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = ❤️",
       "language": "Kotlin",
       "topics": [
@@ -1142,14 +1139,14 @@
       "starred_at": "2025-08-03T12:13:10Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "wshobson/agents": {
       "categories": [
         "AI/ML",
         "Developer Tool"
       ],
-      "summary": "Markdown-defined plugins, agents and skills for AI coding tools.",
+      "summary": "Markdown-defined plugins, agents and skills for multiple AI coding tools.",
       "description": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals.",
       "language": "Python",
       "topics": [
@@ -1180,13 +1177,13 @@
       "starred_at": "2025-08-01T01:47:48Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "KrishKrosh/TrackWeight": {
       "categories": [
         "Other"
       ],
-      "summary": "Mac app that uses the trackpad as a weighing scale.",
+      "summary": "macOS app that uses the trackpad as a weighing scale.",
       "description": "Use your Mac trackpad as a weighing scale",
       "language": "Swift",
       "topics": [],
@@ -1196,14 +1193,14 @@
       "starred_at": "2025-07-26T09:31:48Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "shanleiguang/vRain": {
       "categories": [
         "Content/CMS",
         "Image Processing"
       ],
-      "summary": "Perl tool generating vertical-layout Chinese ancient-style eBooks as PDFs.",
+      "summary": "Perl tool that generates vertical-layout Chinese ancient-style eBooks as PDFs.",
       "description": "中文古籍刻本風格直排電子書製作工具 Chinese Ancient eBooks Generator",
       "language": "Perl",
       "topics": [
@@ -1223,7 +1220,7 @@
       "starred_at": "2025-07-26T09:27:27Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "cursor-project/prompt-manager": {
       "categories": [
@@ -1240,13 +1237,14 @@
       "starred_at": "2025-07-26T09:26:37Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "littlebyteorg/appledb": {
       "categories": [
-        "Database"
+        "Database",
+        "Library/Utility"
       ],
-      "summary": "Python database project with no further description provided.",
+      "summary": "Python database library, likely for Apple platform data access.",
       "description": "",
       "language": "Python",
       "topics": [],
@@ -1256,14 +1254,14 @@
       "starred_at": "2025-07-13T09:09:11Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "hanshuaikang/AI-Media2Doc": {
       "categories": [
         "AI/ML",
         "Content/CMS"
       ],
-      "summary": "Converts audio and video into styled documents and subtitles using AI.",
+      "summary": "Converts audio and video into styled documents, notes and subtitles using AI.",
       "description": "一键将音视频转化为小红书/公众号/知识笔记/思维导图/视频字幕等各种风格的文档。",
       "language": "Vue",
       "topics": [
@@ -1279,11 +1277,11 @@
       ],
       "html_url": "https://github.com/hanshuaikang/AI-Media2Doc",
       "homepage": null,
-      "stargazers_count": 4095,
+      "stargazers_count": 4096,
       "starred_at": "2025-07-10T13:39:03Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "JetBrains/koog": {
       "categories": [
@@ -1321,14 +1319,14 @@
       "starred_at": "2025-07-10T02:16:03Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "elizaOS/eliza": {
       "categories": [
         "AI/ML",
         "Messaging/Chat"
       ],
-      "summary": "Open source agentic operating system framework with chat and crypto plugins.",
+      "summary": "Open source agentic operating system framework with chat and plugin integrations.",
       "description": "Open source agentic operating system",
       "language": "TypeScript",
       "topics": [
@@ -1354,11 +1352,12 @@
       "starred_at": "2025-07-09T13:22:32Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "vladimirlogachov/MoviesPot": {
       "categories": [
-        "Mobile Development"
+        "Mobile Development",
+        "Frontend Framework"
       ],
       "summary": "Kotlin Compose Multiplatform movie discovery app for Android and iOS.",
       "description": "Movie Explorer: Kotlin and Compose multiplatform project for discovering movies with ease. Features Jetpack Navigation, Paging library integration, adaptive icons and a Material3-based UI that supports dynamic theme.",
@@ -1378,7 +1377,7 @@
       "starred_at": "2025-07-07T03:52:58Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "bytedance/trae-agent": {
       "categories": [
@@ -1399,7 +1398,7 @@
       "starred_at": "2025-07-07T02:50:30Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "langchain-ai/agents-from-scratch": {
       "categories": [
@@ -1419,13 +1418,14 @@
       "starred_at": "2025-07-06T10:05:02Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "openai/openai-cs-agents-demo": {
       "categories": [
-        "AI/ML"
+        "AI/ML",
+        "Template/Boilerplate"
       ],
-      "summary": "Customer service demo implemented with the OpenAI Agents SDK.",
+      "summary": "Demo customer service use case built with the OpenAI Agents SDK.",
       "description": "Demo of a customer service use case implemented with the OpenAI Agents SDK",
       "language": "Python",
       "topics": [],
@@ -1435,14 +1435,14 @@
       "starred_at": "2025-06-24T01:37:04Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "chaitin/PandaWiki": {
       "categories": [
         "Content/CMS",
         "AI/ML"
       ],
-      "summary": "AI-powered open-source knowledge base for building docs, FAQs and wikis.",
+      "summary": "AI-powered open-source knowledge base for building docs, FAQs and blogs with LLM Q&A.",
       "description": "PandaWiki 是一款 AI 大模型驱动的开源知识库搭建系统，帮助你快速构建智能化的 产品文档、技术文档、FAQ、博客系统，借助大模型的力量为你提供 AI 创作、AI 问答、AI 搜索等能力。",
       "language": "TypeScript",
       "topics": [
@@ -1462,7 +1462,7 @@
       "starred_at": "2025-06-13T08:24:51Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "jamez-bondos/awesome-gpt4o-images": {
       "categories": [
@@ -1495,14 +1495,14 @@
       "starred_at": "2025-06-12T07:34:33Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "google-gemini/gemini-fullstack-langgraph-quickstart": {
       "categories": [
         "AI/ML",
         "Template/Boilerplate"
       ],
-      "summary": "Quickstart template for building fullstack agents with Gemini and LangGraph.",
+      "summary": "Quickstart template for building fullstack agents with Gemini 2.5 and LangGraph.",
       "description": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
       "language": "Jupyter Notebook",
       "topics": [
@@ -1515,14 +1515,14 @@
       "starred_at": "2025-06-10T06:13:24Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "google-ai-edge/gallery": {
       "categories": [
         "AI/ML",
         "Mobile Development"
       ],
-      "summary": "Android gallery app showcasing on-device ML and GenAI use cases.",
+      "summary": "Android gallery app showcasing on-device ML and GenAI model use cases.",
       "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
       "language": "Kotlin",
       "topics": [],
@@ -1532,14 +1532,14 @@
       "starred_at": "2025-05-31T03:30:15Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "alexstyl/compose-tinder-card": {
       "categories": [
         "Library/Utility",
         "Mobile Development"
       ],
-      "summary": "Jetpack Compose modifier enabling Tinder-like swipe card gestures.",
+      "summary": "Jetpack Compose modifier enabling Tinder-like swipe card gestures on Android.",
       "description": "A Jetpack Compose Modifier that enables Tinder-like card gestures.",
       "language": "Kotlin",
       "topics": [
@@ -1555,7 +1555,7 @@
       "starred_at": "2025-05-29T05:28:51Z",
       "fork": false,
       "archived": true,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "labring/FastGPT": {
       "categories": [
@@ -1583,7 +1583,7 @@
       "starred_at": "2025-05-26T00:54:07Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "hushenghao/AndroidEasterEggs": {
       "categories": [
@@ -1610,7 +1610,7 @@
       "starred_at": "2025-05-23T07:22:50Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "kivy/python-for-android": {
       "categories": [
@@ -1633,7 +1633,7 @@
       "starred_at": "2025-05-22T16:45:15Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "jihe520/MathModelAgent": {
       "categories": [
@@ -1650,18 +1650,18 @@
       ],
       "html_url": "https://github.com/jihe520/MathModelAgent",
       "homepage": "https://mathmodel.top/home",
-      "stargazers_count": 6347,
+      "stargazers_count": 6348,
       "starred_at": "2025-05-16T10:36:28Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "droidrun/mobilerun": {
       "categories": [
         "AI/ML",
         "Mobile Development"
       ],
-      "summary": "LLM-agnostic agent that automates mobile devices via natural language commands.",
+      "summary": "LLM-agnostic mobile agent automating Android devices via natural language commands.",
       "description": "Automate your mobile devices with natural language commands - an LLM agnostic mobile Agent 🤖",
       "language": "Python",
       "topics": [
@@ -1673,18 +1673,18 @@
       ],
       "html_url": "https://github.com/droidrun/mobilerun",
       "homepage": "https://mobilerun.ai/framework",
-      "stargazers_count": 10060,
+      "stargazers_count": 10059,
       "starred_at": "2025-05-16T10:35:43Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "huggingface/agents-course": {
       "categories": [
         "Learning/Education",
         "AI/ML"
       ],
-      "summary": "Hugging Face course teaching AI agent building with frameworks like LangChain and smolagents.",
+      "summary": "Hugging Face course teaching AI agents with LangChain, LlamaIndex and smolagents.",
       "description": "This repository contains the Hugging Face Agents Course. ",
       "language": "MDX",
       "topics": [
@@ -1698,11 +1698,11 @@
       ],
       "html_url": "https://github.com/huggingface/agents-course",
       "homepage": null,
-      "stargazers_count": 35084,
+      "stargazers_count": 35085,
       "starred_at": "2025-05-15T01:07:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "harry0703/MoneyPrinterTurbo": {
       "categories": [
@@ -1730,11 +1730,11 @@
       ],
       "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "homepage": null,
-      "stargazers_count": 144136,
+      "stargazers_count": 144137,
       "starred_at": "2025-05-11T07:24:16Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "fethij/Rijksmuseum": {
       "categories": [
@@ -1768,14 +1768,14 @@
       "starred_at": "2025-04-30T03:25:00Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "web-infra-dev/midscene": {
       "categories": [
         "Testing",
         "AI/ML"
       ],
-      "summary": "Natural-language E2E testing and GUI agent automation for browser and mobile interfaces.",
+      "summary": "Natural-language E2E testing and GUI agent automation for browser and phone interfaces.",
       "description": "See interfaces like a human. E2E testing in natural language.",
       "language": "TypeScript",
       "topics": [
@@ -1794,7 +1794,7 @@
       "starred_at": "2025-04-25T09:16:14Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "dontriskit/awesome-ai-system-prompts": {
       "categories": [
@@ -1811,14 +1811,14 @@
       "starred_at": "2025-04-22T15:05:45Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "x1xhlol/system-prompts-and-models-of-ai-tools": {
       "categories": [
         "Documentation",
         "AI/ML"
       ],
-      "summary": "Collection of leaked system prompts and models from major AI coding tools.",
+      "summary": "Collection of leaked system prompts, internal tools and models from AI coding tools.",
       "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
       "language": null,
       "topics": [
@@ -1849,14 +1849,14 @@
       "starred_at": "2025-04-21T04:53:21Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "terrakok/kmp-awesome": {
       "categories": [
         "Documentation",
         "Mobile Development"
       ],
-      "summary": "Awesome list curating the best Kotlin Multiplatform libraries and tools.",
+      "summary": "Awesome list curating Kotlin Multiplatform libraries, tools and resources.",
       "description": "An awesome list that curates the best Kotlin Multiplatform libraries, tools and more. ",
       "language": null,
       "topics": [
@@ -1879,14 +1879,14 @@
       "starred_at": "2025-04-19T07:57:15Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "joreilly/PeopleInSpace": {
       "categories": [
         "Mobile Development",
-        "Frontend Framework"
+        "Template/Boilerplate"
       ],
-      "summary": "Kotlin Multiplatform sample with Compose, SwiftUI clients and a Ktor backend.",
+      "summary": "Kotlin Multiplatform sample with Compose, SwiftUI clients and Ktor backend.",
       "description": "Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear, Compose for Desktop, and Compose for Web clients along with Ktor backend.",
       "language": "Kotlin",
       "topics": [
@@ -1916,7 +1916,7 @@
       "starred_at": "2025-04-15T06:26:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Kotlin/Kotlin-AI-Examples": {
       "categories": [
@@ -1942,12 +1942,12 @@
       "starred_at": "2025-04-14T15:09:53Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "joreilly/StarWars": {
       "categories": [
         "Mobile Development",
-        "Frontend Framework"
+        "Template/Boilerplate"
       ],
       "summary": "Minimal GraphQL Kotlin Multiplatform sample using Compose and SwiftUI.",
       "description": "Minimal GraphQL based Jetpack Compose, Wear Compose and SwiftUI Kotlin Multiplatform sample (using StarWars endpoint - https://graphql.org/swapi-graphql)",
@@ -1974,7 +1974,7 @@
       "starred_at": "2025-04-07T01:14:08Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "jdepoix/youtube-transcript-api": {
       "categories": [
@@ -2009,13 +2009,13 @@
       "starred_at": "2025-04-06T15:02:44Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "public-apis/public-apis": {
       "categories": [
         "Documentation"
       ],
-      "summary": "Curated awesome-list of free public APIs for developers.",
+      "summary": "Curated collective list of free public APIs for developers.",
       "description": "A collective list of free APIs",
       "language": "Python",
       "topics": [
@@ -2039,14 +2039,14 @@
       "starred_at": "2025-03-30T05:10:58Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "microsoft/ai-agents-for-beginners": {
       "categories": [
         "Learning/Education",
         "AI/ML"
       ],
-      "summary": "18-lesson course teaching how to build AI agents.",
+      "summary": "18-lesson course teaching beginners how to build AI agents.",
       "description": "18 Lessons to Get Started Building AI Agents",
       "language": "Jupyter Notebook",
       "topics": [
@@ -2064,11 +2064,11 @@
       ],
       "html_url": "https://github.com/microsoft/ai-agents-for-beginners",
       "homepage": "https://aka.ms/ai-agents-beginners",
-      "stargazers_count": 79887,
+      "stargazers_count": 79888,
       "starred_at": "2025-03-27T01:20:25Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "sangatdesai/release-apk": {
       "categories": [
@@ -2085,7 +2085,7 @@
       "starred_at": "2025-03-25T07:50:37Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "f/prompts.chat": {
       "categories": [
@@ -2117,11 +2117,11 @@
       ],
       "html_url": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
-      "stargazers_count": 177724,
+      "stargazers_count": 177723,
       "starred_at": "2025-03-25T05:56:13Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "mindverse/Second-Me": {
       "categories": [
@@ -2137,14 +2137,14 @@
       "starred_at": "2025-03-24T10:03:26Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "square/workflow-kotlin": {
       "categories": [
         "Library/Utility",
         "Mobile Development"
       ],
-      "summary": "Kotlin and Swift library for composable state machines and UI.",
+      "summary": "Kotlin and Swift library for composable state machines driving UIs.",
       "description": "A Swift and Kotlin library for making composable state machines, and UIs driven by those state machines.",
       "language": "Kotlin",
       "topics": [
@@ -2161,7 +2161,7 @@
       "starred_at": "2025-03-22T14:17:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "langchain-ai/local-deep-researcher": {
       "categories": [
@@ -2177,7 +2177,7 @@
       "starred_at": "2025-03-18T05:33:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "TianxingChen/Embodied-AI-Guide": {
       "categories": [
@@ -2202,13 +2202,13 @@
       "starred_at": "2025-03-18T05:31:08Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "michaelbull/kotlin-result": {
       "categories": [
         "Library/Utility"
       ],
-      "summary": "Multiplatform Kotlin Result monad for success or failure operations.",
+      "summary": "Multiplatform Kotlin Result monad for modeling success or failure.",
       "description": "A multiplatform Result monad for modelling success or failure operations.",
       "language": "Kotlin",
       "topics": [
@@ -2233,14 +2233,14 @@
       "starred_at": "2025-03-17T09:27:31Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "linexjlin/GPTs": {
       "categories": [
         "AI/ML",
         "Documentation"
       ],
-      "summary": "Collection of leaked GPT system prompts for reference and study.",
+      "summary": "Collection of leaked GPT prompts shared as reference material.",
       "description": "leaked prompts of GPTs",
       "language": null,
       "topics": [],
@@ -2250,14 +2250,14 @@
       "starred_at": "2025-03-17T09:19:29Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "CherryHQ/cherry-studio": {
       "categories": [
         "AI/ML",
         "Productivity"
       ],
-      "summary": "Desktop AI workspace for models, agents, RAG and productivity.",
+      "summary": "AI workspace desktop app for models, agents, and productivity.",
       "description": "Your AI workspace for models, agents, and productivity.",
       "language": "TypeScript",
       "topics": [
@@ -2277,11 +2277,11 @@
       ],
       "html_url": "https://github.com/CherryHQ/cherry-studio",
       "homepage": "https://cherryai.com",
-      "stargazers_count": 53596,
+      "stargazers_count": 53595,
       "starred_at": "2025-03-14T06:07:44Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "d2l-ai/d2l-zh": {
       "categories": [
@@ -2307,7 +2307,7 @@
       "starred_at": "2025-03-13T08:07:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "krahets/hello-algo": {
       "categories": [
@@ -2336,7 +2336,7 @@
       "starred_at": "2025-03-13T07:13:32Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "LLMBook-zh/LLMBook-zh.github.io": {
       "categories": [
@@ -2364,7 +2364,7 @@
       "starred_at": "2025-03-12T09:07:24Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "andersrex/notesollama": {
       "categories": [
@@ -2381,14 +2381,14 @@
       "starred_at": "2025-03-08T05:20:31Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Admol/SystemDesign": {
       "categories": [
         "Learning/Education",
         "Documentation"
       ],
-      "summary": "Chinese translation of the System Design Interview guide for interview prep.",
+      "summary": "Chinese translation of a system design interview guide.",
       "description": "系统设计面试：内幕指南（System Design Interview: An Insider’s Guide）",
       "language": null,
       "topics": [],
@@ -2398,7 +2398,7 @@
       "starred_at": "2025-03-07T02:45:49Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "IsaacGemal/wikitok": {
       "categories": [
@@ -2414,14 +2414,14 @@
       "starred_at": "2025-02-19T05:44:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "liriliri/aya": {
       "categories": [
         "Developer Tool",
         "Mobile Development"
       ],
-      "summary": "Desktop app for Android ADB debugging and device management.",
+      "summary": "Desktop app for Android ADB device management and debugging.",
       "description": "Android ADB desktop app",
       "language": "TypeScript",
       "topics": [
@@ -2436,14 +2436,14 @@
       "starred_at": "2025-02-09T10:19:20Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "idootop/MagicMirror": {
       "categories": [
         "Image Processing",
         "AI/ML"
       ],
-      "summary": "Instant AI face swap application for editing photos.",
+      "summary": "Instant AI face swap tool for generating edited portraits.",
       "description": "🪞 Instant AI Face Swap 一键 AI 换脸，发现更美的你",
       "language": "TypeScript",
       "topics": [],
@@ -2453,14 +2453,14 @@
       "starred_at": "2024-11-29T08:37:06Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "cooderl/wewe-rss": {
       "categories": [
         "Content/CMS",
         "Web Framework"
       ],
-      "summary": "Self-hosted service that generates RSS feeds for WeChat public accounts.",
+      "summary": "Self-hosted service generating RSS feeds for WeChat public accounts.",
       "description": "🤗更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成（基于微信读书）",
       "language": "TypeScript",
       "topics": [
@@ -2480,7 +2480,7 @@
       "starred_at": "2024-11-19T10:06:36Z",
       "fork": false,
       "archived": true,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "ByteByteGoHq/system-design-101": {
       "categories": [
@@ -2508,7 +2508,7 @@
       "starred_at": "2024-11-18T08:33:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Cinnamon/kotaemon": {
       "categories": [
@@ -2529,13 +2529,13 @@
       "starred_at": "2024-11-16T08:03:49Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "JianXiao2021/ancient_text_generation_LLM": {
       "categories": [
         "AI/ML"
       ],
-      "summary": "LoRA fine-tuned LLM that converts modern Chinese into classical Chinese.",
+      "summary": "LoRA fine-tuned LLM that generates classical Chinese from modern sentences.",
       "description": "输入现代汉语句子，生成古汉语风格的句子。基于荀子基座大模型，采用“文言文（古文）- 现代文平行语料”中的部分数据进行LoRA微调训练而得。",
       "language": "Python",
       "topics": [],
@@ -2545,7 +2545,7 @@
       "starred_at": "2024-11-16T08:03:28Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "pangxiaobin/image-matting": {
       "categories": [
@@ -2561,14 +2561,14 @@
       "starred_at": "2024-11-13T14:26:43Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "tisfeng/Easydict": {
       "categories": [
         "Productivity",
         "Image Processing"
       ],
-      "summary": "macOS dictionary and translator app with OCR and multiple translation engines.",
+      "summary": "Elegant macOS dictionary and translator app with OCR and multiple engines.",
       "description": "一个简洁优雅的词典翻译 macOS App。开箱即用，支持离线 OCR 识别，支持有道词典，🍎 苹果系统词典，🍎 苹果系统翻译，OpenAI，Gemini，DeepL，Google，Bing，腾讯，百度，阿里，小牛，彩云和火山翻译。A concise and elegant Dictionary and Translator macOS App for looking up words and translating text. ",
       "language": "Swift",
       "topics": [
@@ -2594,13 +2594,13 @@
       "starred_at": "2024-02-03T00:48:27Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "AwesomeVisa/awesome-immigration": {
       "categories": [
         "Documentation"
       ],
-      "summary": "Curated awesome list of long-term visas for remote workers.",
+      "summary": "Curated awesome list of long-term visas and immigration resources.",
       "description": "An Awesome list of long-term visas",
       "language": null,
       "topics": [
@@ -2616,7 +2616,7 @@
       "starred_at": "2023-07-19T08:44:04Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "easychen/one-person-businesses-methodology": {
       "categories": [
@@ -2632,12 +2632,12 @@
       "starred_at": "2023-07-13T15:23:32Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "AntonOsika/gpt-engineer": {
       "categories": [
         "Developer Tool",
-        "CLI Tool"
+        "AI/ML"
       ],
       "summary": "CLI platform for experimenting with AI code generation.",
       "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
@@ -2660,12 +2660,12 @@
       "starred_at": "2023-06-23T04:08:58Z",
       "fork": false,
       "archived": true,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "SeedV/generative-ai-roadmap": {
       "categories": [
         "Learning/Education",
-        "Documentation"
+        "AI/ML"
       ],
       "summary": "Roadmap of generative AI use cases and applications.",
       "description": "The roadmap of generative AI: use cases and applications | 生成式AI的应用路线图",
@@ -2677,14 +2677,14 @@
       "starred_at": "2023-06-14T14:54:10Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "JushBJJ/Mr.-Ranedeer-AI-Tutor": {
       "categories": [
         "Learning/Education",
         "AI/ML"
       ],
-      "summary": "GPT-4 prompt for customizable personalized AI tutoring experiences.",
+      "summary": "GPT-4 prompt for customizable personalized AI tutoring and learning.",
       "description": "A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.",
       "language": null,
       "topics": [
@@ -2699,7 +2699,7 @@
       "starred_at": "2023-06-12T14:00:33Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "guidance-ai/guidance": {
       "categories": [
@@ -2716,14 +2716,14 @@
       "starred_at": "2023-06-01T09:45:40Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "liaokongVFX/LangChain-Chinese-Getting-Started-Guide": {
       "categories": [
         "Learning/Education",
         "AI/ML"
       ],
-      "summary": "Chinese-language beginner tutorial for building with LangChain.",
+      "summary": "Chinese-language beginner tutorial for building apps with LangChain.",
       "description": "LangChain 的中文入门教程",
       "language": null,
       "topics": [
@@ -2739,14 +2739,14 @@
       "starred_at": "2023-05-08T09:24:23Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "open-guides/og-aws": {
       "categories": [
         "Documentation",
         "Cloud/DevOps"
       ],
-      "summary": "Practical guide to using Amazon Web Services.",
+      "summary": "Practical open guide to using Amazon Web Services.",
       "description": "📙 Amazon Web Services — a practical guide",
       "language": "Shell",
       "topics": [],
@@ -2756,14 +2756,13 @@
       "starred_at": "2023-05-08T09:22:55Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "labuladong/fucking-algorithm": {
       "categories": [
-        "Learning/Education",
-        "Documentation"
+        "Learning/Education"
       ],
-      "summary": "Algorithm and LeetCode interview-prep guide explaining how and why.",
+      "summary": "LeetCode algorithm explanations covering techniques and reasoning for interviews.",
       "description": "Crack LeetCode, not only how, but also why. ",
       "language": "Markdown",
       "topics": [
@@ -2782,14 +2781,14 @@
       "starred_at": "2023-03-17T03:45:02Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "android/compose-samples": {
       "categories": [
         "Mobile Development",
-        "Template/Boilerplate"
+        "Learning/Education"
       ],
-      "summary": "Official Jetpack Compose sample apps for Android development.",
+      "summary": "Official sample apps demonstrating Android Jetpack Compose UI.",
       "description": "Official Jetpack Compose samples.",
       "language": "Kotlin",
       "topics": [
@@ -2803,7 +2802,7 @@
       "starred_at": "2023-02-10T04:12:20Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "JakeWharton/picnic": {
       "categories": [
@@ -2819,7 +2818,7 @@
       "starred_at": "2022-02-26T08:34:50Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "mobile-dev-inc/dadb": {
       "categories": [
@@ -2836,14 +2835,14 @@
       "starred_at": "2021-12-09T03:27:15Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "githubhaohao/LearnFFmpeg": {
       "categories": [
         "Learning/Education",
-        "Mobile Development"
+        "Image Processing"
       ],
-      "summary": "Tutorial series on Android FFmpeg audio and video development.",
+      "summary": "Android FFmpeg tutorial for audio and video development.",
       "description": "Android FFmpeg 音视频开发教程",
       "language": "C++",
       "topics": [
@@ -2862,7 +2861,7 @@
       "starred_at": "2021-12-07T04:13:58Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "microsoft/AI-System": {
       "categories": [
@@ -2879,7 +2878,7 @@
       "starred_at": "2021-12-02T06:16:46Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "izackwu/TeachYourselfCS-CN": {
       "categories": [
@@ -2901,7 +2900,7 @@
       "starred_at": "2021-11-16T03:18:18Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "ossu/computer-science": {
       "categories": [
@@ -2923,7 +2922,7 @@
       "starred_at": "2021-11-16T03:18:13Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "spring2go/cs_study_plan": {
       "categories": [
@@ -2946,13 +2945,13 @@
       "starred_at": "2021-11-15T04:22:56Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "jackfrued/Python-100-Days": {
       "categories": [
         "Learning/Education"
       ],
-      "summary": "100-day Python tutorial taking learners from beginner to advanced.",
+      "summary": "100-day Python tutorial taking beginners from novice to master.",
       "description": "Python - 100天从新手到大师",
       "language": "Jupyter Notebook",
       "topics": [],
@@ -2962,7 +2961,7 @@
       "starred_at": "2021-11-02T06:43:53Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Tencent/secguide": {
       "categories": [
@@ -2982,13 +2981,13 @@
       "starred_at": "2021-10-15T09:01:14Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "wolverinn/Waking-Up": {
       "categories": [
         "Learning/Education"
       ],
-      "summary": "Computer science interview question summaries with follow-ups and answers.",
+      "summary": "Computer science fundamentals interview questions with follow-ups and answers.",
       "description": "计算机基础（计算机网络/操作系统/数据库/Git...）面试问题全面总结，包含详细的follow-up question以及答案；全部采用【问题+追问+答案】的形式，即拿即用，直击互联网大厂面试；可用于模拟面试、面试前复习、短期内快速备战面试...",
       "language": null,
       "topics": [
@@ -3007,7 +3006,7 @@
       "starred_at": "2021-09-23T09:33:12Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "skylot/jadx": {
       "categories": [
@@ -3028,14 +3027,14 @@
       "starred_at": "2021-09-10T09:24:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "dunwu/javacore": {
       "categories": [
         "Learning/Education",
         "Documentation"
       ],
-      "summary": "Experience-based guide to core Java technologies and internals.",
+      "summary": "Experience-based summary of core Java technology concepts.",
       "description": "☕ JavaCore 是对 Java 核心技术的经验总结。",
       "language": "Java",
       "topics": [
@@ -3054,7 +3053,7 @@
       "starred_at": "2021-08-13T08:52:42Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "jwasham/coding-interview-university": {
       "categories": [
@@ -3083,14 +3082,14 @@
       "starred_at": "2021-05-10T08:48:20Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Tencent/Shadow": {
       "categories": [
         "Mobile Development",
         "Library/Utility"
       ],
-      "summary": "Zero-reflection fully dynamic Android plugin framework.",
+      "summary": "Zero-reflection dynamic Android plugin framework.",
       "description": "零反射全动态Android插件框架",
       "language": "Java",
       "topics": [
@@ -3102,7 +3101,7 @@
       "starred_at": "2021-03-18T08:16:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Moosphan/Android-Daily-Interview": {
       "categories": [
@@ -3123,7 +3122,7 @@
       "starred_at": "2021-03-11T09:03:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "easychen/howto-make-more-money": {
       "categories": [
@@ -3139,7 +3138,7 @@
       "starred_at": "2020-12-11T03:27:21Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "nianticlabs/monodepth2": {
       "categories": [
@@ -3164,7 +3163,7 @@
       "starred_at": "2020-09-01T02:03:59Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "android/gradle-recipes": {
       "categories": [
@@ -3180,13 +3179,13 @@
       "starred_at": "2020-07-13T02:41:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "greyireland/algorithm-pattern": {
       "categories": [
         "Learning/Education"
       ],
-      "summary": "Algorithm practice patterns and LeetCode study guide in Go.",
+      "summary": "Algorithm pattern guide for LeetCode practice and interview prep.",
       "description": "Algorithm Patterns — the most scientific way to practice, the fastest path to an offer. You deserve it~ ",
       "language": "Go",
       "topics": [
@@ -3202,7 +3201,7 @@
       "starred_at": "2020-07-07T23:53:00Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "codecrafters-io/build-your-own-x": {
       "categories": [
@@ -3222,18 +3221,18 @@
       ],
       "html_url": "https://github.com/codecrafters-io/build-your-own-x",
       "homepage": "https://codecrafters.io",
-      "stargazers_count": 563305,
+      "stargazers_count": 563309,
       "starred_at": "2020-06-20T05:17:21Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "apachecn/ailearning": {
       "categories": [
         "Learning/Education",
         "AI/ML"
       ],
-      "summary": "Tutorials and practice for data analysis and machine learning.",
+      "summary": "Chinese tutorials covering data analysis, machine learning and deep learning.",
       "description": "AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2",
       "language": "Python",
       "topics": [
@@ -3264,14 +3263,14 @@
       "starred_at": "2020-02-24T14:31:25Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "igorwojda/android-showcase": {
       "categories": [
         "Template/Boilerplate",
         "Mobile Development"
       ],
-      "summary": "Android app showcasing best practices with Kotlin and Clean Architecture.",
+      "summary": "Android app showcasing best practices with Kotlin, MVVM and clean architecture.",
       "description": "💎 Android application following best practices:  Kotlin, Coroutines, JetPack, Clean Architecture, Feature Modules, Tests, MVVM, DI, Static Analysis...",
       "language": "Kotlin",
       "topics": [
@@ -3292,7 +3291,7 @@
       "starred_at": "2019-08-26T01:33:00Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "scutan90/DeepLearning-500-questions": {
       "categories": [
@@ -3309,7 +3308,7 @@
       "starred_at": "2019-03-20T03:15:53Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "KeepSafe/dexcount-gradle-plugin": {
       "categories": [
@@ -3329,14 +3328,14 @@
       "starred_at": "2018-10-10T08:06:14Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "JakeWharton/diffuse": {
       "categories": [
         "Developer Tool",
         "CLI Tool"
       ],
-      "summary": "Command-line tool for diffing Android APKs, AABs, AARs, and JARs.",
+      "summary": "Terminal tool for diffing Android APKs, AABs, AARs, and JARs.",
       "description": "Diffuse is a tool for diffing APKs, AABs, AARs, and JARs",
       "language": "Kotlin",
       "topics": [],
@@ -3346,7 +3345,7 @@
       "starred_at": "2018-10-09T07:45:01Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "sparanoid/chinese-copywriting-guidelines": {
       "categories": [
@@ -3372,7 +3371,7 @@
       "starred_at": "2018-08-27T10:29:58Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "crossoverJie/JCSprout": {
       "categories": [
@@ -3395,7 +3394,7 @@
       "starred_at": "2018-06-21T06:32:45Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "CaMnter/BasicExercises": {
       "categories": [
@@ -3422,13 +3421,13 @@
       "starred_at": "2018-04-12T03:07:55Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "amitshekhariitbhu/android-interview-questions": {
       "categories": [
         "Learning/Education"
       ],
-      "summary": "Cheat sheet of Android interview questions and answers for prep.",
+      "summary": "Cheat sheet of Android interview questions and answers.",
       "description": "Your Cheat Sheet For Android Interview - Android Interview Questions and Answers",
       "language": "Java",
       "topics": [
@@ -3456,7 +3455,7 @@
       "starred_at": "2018-03-27T10:06:03Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "chinese-poetry/chinese-poetry": {
       "categories": [
@@ -3479,7 +3478,7 @@
       "starred_at": "2018-02-04T02:28:07Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "pcottle/learnGitBranching": {
       "categories": [
@@ -3495,7 +3494,7 @@
       "starred_at": "2017-12-25T01:57:35Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "tesseract-ocr/tesseract": {
       "categories": [
@@ -3519,13 +3518,13 @@
       "starred_at": "2017-11-08T01:38:13Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "hankcs/HanLP": {
       "categories": [
         "AI/ML"
       ],
-      "summary": "Chinese NLP library for segmentation, tagging, parsing, and more.",
+      "summary": "Chinese NLP library for segmentation, tagging, and parsing.",
       "description": "中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理",
       "language": "Python",
       "topics": [
@@ -3544,13 +3543,13 @@
       "starred_at": "2017-11-06T01:23:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "freeCodeCamp/freeCodeCamp": {
       "categories": [
         "Learning/Education"
       ],
-      "summary": "Open-source curriculum and codebase for learning programming for free.",
+      "summary": "Open-source curriculum and platform for learning programming for free.",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
       "language": "TypeScript",
       "topics": [
@@ -3572,11 +3571,11 @@
       ],
       "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "homepage": "https://contribute.freecodecamp.org",
-      "stargazers_count": 459244,
+      "stargazers_count": 459245,
       "starred_at": "2017-04-06T06:40:09Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "exacity/deeplearningbook-chinese": {
       "categories": [
@@ -3593,7 +3592,7 @@
       "starred_at": "2017-03-20T09:44:37Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "shimohq/chinese-programmer-wrong-pronunciation": {
       "categories": [
@@ -3614,7 +3613,7 @@
       "starred_at": "2017-03-10T08:16:39Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "skyline75489/what-happens-when-zh_CN": {
       "categories": [
@@ -3631,14 +3630,14 @@
       "starred_at": "2017-03-06T11:05:57Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "judasn/Linux-Tutorial": {
       "categories": [
         "Documentation",
         "Learning/Education"
       ],
-      "summary": "Tutorial book teaching Linux to Java developers, covering common server tools.",
+      "summary": "Tutorial book teaching Linux fundamentals to Java developers.",
       "description": "《Java 程序员眼中的 Linux》",
       "language": "Shell",
       "topics": [
@@ -3660,14 +3659,14 @@
       "starred_at": "2017-01-13T04:44:01Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "francistao/LearningNotes": {
       "categories": [
         "Learning/Education",
         "Documentation"
       ],
-      "summary": "Personal study notes on Android, Java and JVM concepts.",
+      "summary": "Personal study notes covering Android, Java and JVM concepts.",
       "description": "Enjoy Learning.",
       "language": null,
       "topics": [
@@ -3681,14 +3680,14 @@
       "starred_at": "2016-11-16T08:48:14Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "simple-android-framework/android_design_patterns_analysis": {
       "categories": [
         "Learning/Education",
         "Mobile Development"
       ],
-      "summary": "Analysis of design patterns found in Android source code.",
+      "summary": "Analysis of design patterns found in Android framework source code.",
       "description": "Android源码设计模式分析项目",
       "language": "Java",
       "topics": [],
@@ -3698,7 +3697,7 @@
       "starred_at": "2016-03-14T02:21:58Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Yalantis/uCrop": {
       "categories": [
@@ -3724,14 +3723,14 @@
       "starred_at": "2016-01-24T13:23:23Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "FlareStarter/flarestarter": {
       "categories": [
         "Template/Boilerplate",
         "Web Framework"
       ],
-      "summary": "Full-stack edge-native SaaS starter using TanStack Start and Cloudflare Workers.",
+      "summary": "Full-stack edge-native SaaS starter template built with TanStack Start and Cloudflare Workers.",
       "description": "A full-stack, edge-native SaaS starter built with TanStack Start + Cloudflare Workers  | 基于 TanStack Start + Cloudflare Workers 构建的全栈、边缘原生 SaaS 起步模板 ",
       "language": "TypeScript",
       "topics": [
@@ -3754,14 +3753,14 @@
       "starred_at": "2026-07-18T10:27:45Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "odysseus-dev/odysseus": {
       "categories": [
         "AI/ML",
         "Productivity"
       ],
-      "summary": "Self-hosted AI workspace for running and managing AI tasks.",
+      "summary": "Self-hosted AI workspace for running and managing AI-powered tasks.",
       "description": "Self-hosted AI workspace. ",
       "language": "Python",
       "topics": [],
@@ -3771,7 +3770,7 @@
       "starred_at": "2026-06-02T05:15:52Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "andrewyng/openworker": {
       "categories": [
@@ -3787,7 +3786,7 @@
       "starred_at": "2026-08-06T12:01:46Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "deepseek-ai/deepseek-harness": {
       "categories": [
@@ -3805,11 +3804,11 @@
       ],
       "html_url": "https://github.com/deepseek-ai/deepseek-harness",
       "homepage": "https://deepseek.com/harness",
-      "stargazers_count": 282764,
+      "stargazers_count": 282765,
       "starred_at": "2026-08-13T15:13:59Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "tw93/Kami": {
       "categories": [
@@ -3835,14 +3834,14 @@
       "starred_at": "2026-08-17T10:29:36Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "overwirehq/claude-code-telegram": {
       "categories": [
         "Messaging/Chat",
         "AI/ML"
       ],
-      "summary": "Telegram bot giving remote access to Claude Code sessions.",
+      "summary": "Telegram bot giving remote AI-assisted access to Claude Code projects.",
       "description": "A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.",
       "language": "Python",
       "topics": [],
@@ -3852,7 +3851,7 @@
       "starred_at": "2026-03-24T11:16:44Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "PC2005-cloud/dsh-pet": {
       "categories": [
@@ -3873,14 +3872,14 @@
       "starred_at": "2026-10-19T02:44:37Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "Marvae/douban-cli": {
       "categories": [
         "CLI Tool",
         "AI/ML"
       ],
-      "summary": "Terminal CLI for Douban movies and books with AI agent skill.",
+      "summary": "Terminal CLI for Douban movies and books with AI agent skill and backup export.",
       "description": "豆瓣命令行工具 + AI Agent Skill：查电影、剧集、图书和 Top250，导出备份豆瓣观影/读书记录，让 AI 放心地标记评分 | Douban CLI for movies, books & your ratings",
       "language": "TypeScript",
       "topics": [
@@ -3911,7 +3910,7 @@
       "starred_at": "2026-10-25T14:42:40Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "pbakaus/impeccable": {
       "categories": [
@@ -3934,7 +3933,7 @@
       "starred_at": "2026-10-29T08:03:49Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "guokaigdg/naive-icons": {
       "categories": [
@@ -3955,7 +3954,7 @@
       "starred_at": "2026-10-29T06:37:38Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "leemysw/yovoice": {
       "categories": [
@@ -3989,7 +3988,7 @@
       "starred_at": "2026-10-29T06:36:27Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "LodyAI/Lody": {
       "categories": [
@@ -4016,7 +4015,7 @@
       "starred_at": "2026-11-16T09:54:05Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "deepseek-ai/chat-demo": {
       "categories": [
@@ -4029,11 +4028,11 @@
       "topics": [],
       "html_url": "https://github.com/deepseek-ai/chat-demo",
       "homepage": "https://deepseek-ai.github.io/chat-demo/",
-      "stargazers_count": 4401,
+      "stargazers_count": 4402,
       "starred_at": "2026-11-16T01:37:11Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     },
     "pingdotgg/t3code": {
       "categories": [
@@ -4055,11 +4054,11 @@
       ],
       "html_url": "https://github.com/pingdotgg/t3code",
       "homepage": "https://t3.codes",
-      "stargazers_count": 63546,
+      "stargazers_count": 63552,
       "starred_at": "2026-11-14T09:35:18Z",
       "fork": false,
       "archived": false,
-      "classified_at": "2026-11-17T12:40:55.371Z"
+      "classified_at": "2026-11-17T12:44:06.581Z"
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
