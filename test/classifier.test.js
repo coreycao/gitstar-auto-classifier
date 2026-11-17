@@ -5,6 +5,7 @@ import {
   TAXONOMY_DEFINITIONS,
   buildSystemPrompt,
   buildRepoList,
+  cleanCategories,
   normalizeCategory,
 } from '../src/classifier.js';
 
@@ -59,4 +60,12 @@ test('normalizeCategory resolves exact, case and substring variants', () => {
   assert.equal(normalizeCategory('  ai/ml  '), 'AI/ML');
   assert.equal(normalizeCategory('developer tools'), 'Developer Tool');
   assert.equal(normalizeCategory('completely unknown nonsense'), 'Other');
+});
+
+test('cleanCategories enforces the Other-stands-alone rule', () => {
+  assert.deepEqual(cleanCategories(['Analytics', 'Other']), ['Analytics']);
+  assert.deepEqual(cleanCategories(['AI/ML', 'other']), ['AI/ML']);
+  assert.deepEqual(cleanCategories(['Other']), ['Other']); // standalone Other stays
+  assert.deepEqual(cleanCategories(undefined), ['Other']); // missing -> fallback
+  assert.deepEqual(cleanCategories(['Productivity', 'Web Framework']), ['Productivity', 'Web Framework']);
 });

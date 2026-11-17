@@ -241,6 +241,19 @@ async function classifyBatch(repos, config) {
 }
 
 /**
+ * Normalize raw LLM categories to taxonomy entries and enforce the
+ * "Other stands alone" rule: models occasionally add "Other" as a
+ * filler second tag even with a fitting category present (seen in 3/167
+ * repos); drop it in code rather than trust the prompt on it.
+ * @param {string[]|undefined} raw - categories from the LLM response
+ * @returns {string[]}
+ */
+export function cleanCategories(raw) {
+  const categories = (raw || ['Other']).map(normalizeCategory);
+  return categories.length > 1 ? categories.filter((c) => c !== 'Other') : categories;
+}
+
+/**
  * Classify a list of repos in batches.
  * @param {Array} repos - repos to classify
  * @param {object} config - configuration with llmApiKey, llmBaseUrl, llmModel, batchSize
@@ -264,7 +277,7 @@ export async function classifyRepos(repos, config) {
       );
       if (!repo) continue;
 
-      const categories = (result.categories || ['Other']).map(normalizeCategory);
+      const categories = cleanCategories(result.categories);
 
       results.push({
         ...repo,
