@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-17T12:44:06.581Z",
+  "last_run": "2026-11-17T12:46:40.569Z",
   "total_classified": 167,
   "repos": {
     "Arindam200/awesome-ai-apps": {
@@ -4062,5 +4062,5 @@
     }
   },
   "repo_url": "https://github.com/coreycao/gitstar-auto-classifier",
-  "llm_model": "deepseek-v4-flash"
+  "llm_model": "deepseek-flash"
 }
